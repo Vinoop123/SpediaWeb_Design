@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Spedia - Mid school</title>
+    <meta name=description content="">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/circle.css">
+    <link rel="stylesheet" type="text/css" href="css/custome.css">
+    <link rel="stylesheet" type="text/css" href="css/custome-new.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+</head>
+
+<body>
+    
+    <header class="main-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3 col-7 dropdown">
+                    <a href="javaScript:void(0)" role="button" id="dropdownUser"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="profile-view">
+                        <div class="profile-point">
+                            <img src="images/profile.png">    نقطة <strong>468</strong>  
+                        </div>
+                    </div>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownUser">
+                        <div class="dropdown-item">
+                            <div class="d-flex py-2">
+                                <div class="avatar avatar-md avatar-indicators avatar-online">
+                                    <img src="images/profile.png">
+                                </div>
+                                <div class="mr-3 text-right">
+                                    <h5 class="mb-0">Jacob Richards</h5>
+                                    <p class="mb-0">Grade 12</p>
+                                </div>
+    
+                            </div>
+                            
+                        </div>
+                        <div class="dropdown-divider"></div>
+                            <ul class="profile-dropdown">
+                                <li>
+                                    <a class="dropdown-item" href="profile.html"><i class="far fa-user"></i> Profile</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javaScript:void(0)"><i class="far fa-bell"></i> Notification</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javaScript:void(0)"><i class="far fa-star"></i> Subscription</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javaScript:void(0)"><i class="fas fa-cog"></i> Settings</a>
+                                </li>
+                                
+                            
+                            </ul>
+                        <div class="dropdown-divider"></div>
+                        <ul class="profile-dropdown">
+                        <li>
+                            <a class="dropdown-item" href="javaScript:void(0)"><i class="fas fa-power-off"></i> Logout</a>
+                        </li>
+                    
+                    </ul>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-4 col text-center">
+                    <a href="index.html"> <img src="images/logo.png"> </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-5">
+                    <div id="menu-wrapper"></div>
+                    <a href="/Subscription/Cart" id="a_cartIcon">
+                        <div class="cart-view">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+	</header>
+    
+    <section class="course-video">
+    <div class="container">
+    <div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="video">
+        <video width="100%" controls id="video" src="images/mov_bbb.mp4">
+    </video>
+    <img src="images/video-image.jpg" class="video-image">
+    <div class="video-play-btn"><i class="fa fa-play"></i></div>
+        <div class="vidNext">
+            <i id="forward" class="fas fa-redo forward"></i>
+            <i id="backward" class="fas fa-redo backward"></i>
+            <i class="fas fa-forward"></i>
+            <i class="fas fa-forward fa-rotate-180"></i>
+        </div>
+        </div>
+    </div> 
+    <div class="col-md-8">
+        <div class="video-comment">
+            <div class="video-rating">
+                <fieldset class="rating-video">
+                    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                </fieldset>
+            </div>
+            <div class="video-comment-field">
+                <input type="text" placeholder="ساعدنا في تطوير محتواك ( أضف تعليق )">
+            </div>
+            <div class="video-comment-sendBtn">
+                <i class="fas fa-paper-plane fa-rotate-270"></i>
+            </div>
+        </div>
+        <div class="video-title">
+        <h2>Biogeography & Diversity</h2>
+        </div>    
+    </div>    
+    </div>    
+    </div>
+    </section>
+    
+    <section class="pad-bot80">
+    <div class="container">
+    <div class="row justify-content-center">   
+    <div class="col-lg-8 col-md-12 video-details">
+    <div class="video-icons">
+    <div class="icons-video disabled">
+        <div class="icons-video-img"><img src="images/icons/question.png"></div>
+        <h6>Question papper</h6>
+    </div>    
+    <div class="icons-video">
+        <div class="icons-video-img"><img src="images/icons/note.png"></div>
+        <h6>Note</h6>
+    </div>  
+    <div class="icons-video">
+        <div class="icons-video-img"><img src="images/icons/bookmark.png"></div>
+        <h6>Bookmark</h6>
+    </div> 
+    <div class="icons-video disabled">
+        <div class="icons-video-img"><img src="images/icons/quiz.png"></div>
+        <h6>Quiz</h6>
+    </div>     
+    </div> 
+    <div class="introduction-video">    
+    <h2>Introduction to Ecology</h2>
+    <h6>4 Chapter Available </h6> 
+    </div>   
+    </div>
+    <div class="col-lg-8 col-md-12 video-list">
+    <div class="video-play-list">
+    <ul>
+    <a href="javaScript:void(0)" class="subscribe-pop_open"><li class="played">
+    <div class="video-number">
+    <h4>01</h4>    
+    </div>    
+    <h5>The Scope of Ecology</h5>
+    <p><span>Completed</span> 10:35 minutes</p> 
+    <div class="completed-icon"><i class="fas fa-check"></i></div>    
+    </li></a>
+    <a href="javaScript:void(0)"><li class="active">
+    <div class="video-number">
+    <h4>02</h4>    
+    </div>    
+    <h5>Biogeography & Diversity</h5>
+    <p> 19:26 minutes</p> 
+    <div class="c100 p50 small center green">
+        <span>50%</span>
+        <div class="slice">
+            <div class="bar"></div>
+            <div class="fill"></div>
+        </div>
+    </div>   
+    </li></a>  
+    <a href="javaScript:void(0)"><li>
+    <div class="video-number">
+    <h4>03</h4>    
+    </div>    
+    <h5>Population Extinction Risk</h5>
+    <p> 38:25 minutes</p> 
+    <div class="play-icon"><img src="images/icons/lock_black.svg"></div>   
+    </li></a> 
+    <a href="javaScript:void(0)"><li>
+    <div class="video-number">
+    <h4>04</h4>    
+    </div>    
+    <h5>Lesson Summary</h5>
+    <p> 38:25 minutes</p> 
+    <div class="play-icon"><img src="images/icons/lock_black.svg"></div>   
+    </li></a>   
+    <a href="javaScript:void(0)"><li>
+    <div class="video-number">
+    <h4>05</h4>    
+    </div>    
+    <h5>Lesson Summary</h5>
+    <p> 45:00 minutes</p> 
+    <div class="play-icon"><img src="images/icons/lock_black.svg"></div>   
+    </li></a> 
+    <a href="javaScript:void(0)"><li>
+    <div class="video-number">
+    <h4>06</h4>    
+    </div>    
+    <h5>Final Lesson Summary</h5>
+    <p> 30:00 minutes</p> 
+    <div class="play-icon"><img src="images/icons/lock_black.svg"></div>   
+    </li></a>     
+    </ul>    
+    </div>    
+    </div>     
+    </div>    
+    </div>
+    </section>
+    
+    
+
+    
+    <footer>
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-2 col-md-3 col-6 footer-links">
+    <h5>Information</h5> 
+    <ul>
+    <a href="javaScript:void(0)"><li>Privacy Policy</li></a>    
+    <a href="javaScript:void(0)"><li>Terms &amp; Condition</li></a>    
+    <a href="javaScript:void(0)"><li>FAQ</li></a>    
+    </ul>    
+    </div> 
+    <div class="col-lg-2 col-md-3 col-6 footer-links footer-textlft">
+    <h5>Quick Links</h5> 
+    <ul>
+    <a href="javaScript:void(0)"><li>About Us</li></a>    
+    <a href="javaScript:void(0)"><li>Contact</li></a>    
+    <a href="javaScript:void(0)"><li>Careers</li></a>    
+    <a href="javaScript:void(0)"><li>Help</li></a>    
+    </ul>    
+    </div>     
+    <div class="col-lg-8 col-md-6 footer-contact">
+    <img src="images/logo.png">    
+    <p>Lorem ipsum dolor ami short description about spedia, you can put in this footer to give more information.</p>
+        <h6>Copyright © 2020 <a href="index.html">Spedia</a>. All Rights Reserved</h6>    
+    </div>   
+    </div>    
+    </div>
+    </footer>
+
+    <aside class="sidebar sidebar-closed">
+        <button class="dropdown-btn">Ask Spedia
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-minus"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="ask-spedia.html">
+                <li>Ask Spedia</li>
+            </a>
+            <a href="ask-spedia-topic.html">
+                <li>Ask Spedia Questions</li>
+            </a>
+            <a href="ask-spedia-subscribe.html">
+                <li>Ask Spedia Subscribe</li>
+            </a>
+            <a href="ask-spedia-reply.html">
+                <li>Ask Spedia Reply</li>
+            </a>
+        </div>
+        <a href="bookmark.html">
+            <li>Bookmark</li>
+        </a>
+        <a href="contact-us.html">
+            <li>Contact Us</li>
+        </a>
+        <button class="dropdown-btn">Courses
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-minus"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="courses.html">
+                <li>Courses</li>
+            </a>
+            <a href="course-list.html">
+                <li>Course List</li>
+            </a>
+            <a href="course-video.html">
+                <li>Course Video</li>
+            </a>
+            <a href="subject-video.html">
+                <li>Subject Video</li>
+            </a>
+            <a href="training-course.html">
+                <li>Training Course</li>
+            </a>
+            <a href="university-courses.html">
+                <li>University Course</li>
+            </a>
+            <a href="university.html">
+                <li>University</li>
+            </a>
+        </div>
+        <button class="dropdown-btn">Login
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-minus"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="create-account.html">
+                <li>Create Account</li>
+            </a>
+            <a href="guest-login.html">
+                <li>Guest Login</li>
+            </a>
+            <a href="login.html">
+                <li> Login</li>
+            </a>
+            <a href="verification-code.html">
+                <li> Verification</li>
+            </a>
+            <a href="welcome.html">
+                <li> Welcome</li>
+            </a>
+        </div>
+        <button class="dropdown-btn">Empty
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-minus"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="empty-cart.html">
+                <li> Cart</li>
+            </a>
+            <a href="empty-live-class.html">
+                <li> Live Class</li>
+            </a>
+            <a href="empty-request-private.html">
+                <li> Request Private</li>
+            </a>
+            <a href="empty-video.html">
+                <li>Video</li>
+            </a>
+            <a href="error.html">
+                <li>Error</li>
+            </a>
+            <a href="success.html">
+                <li>Success</li>
+            </a>
+        </div>
+        <a href="home-work.html">
+            <li>Home Work</li>
+        </a>
+        <a href="leaderboard.html">
+            <li>Leaderboard</li>
+        </a>
+        <a href="live-class.html">
+            <li>Live Class</li>
+        </a>
+        <a href="my-cart.html">
+            <li>My Cart</li>
+        </a>
+        <button class="dropdown-btn">Profile
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-minus"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="parent-info.html">
+                <li>Parent Info</li>
+            </a>
+            <a href="parent-profile.html">
+                <li>Parent Profile</li>
+            </a>
+            <a href="profile.html">
+                <li>Profile</li>
+            </a>
+            <a href="student-info.html">
+                <li>Student info</li>
+            </a>
+            <a href="student-profile.html">
+                <li>Student Profile</li>
+            </a>
+        </div>
+        <a href="previous-test.html">
+            <li>Prevoius Test</li>
+        </a>
+        <button class="dropdown-btn">Quiz
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-minus"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="quiz-library.html">
+                <li>Quiz Library</li>
+            </a>
+            <a href="quiz-score_test.html">
+                <li>Quiz Score Test</li>
+            </a>
+            <a href="quiz-score.html">
+                <li>Quiz Score</li>
+            </a>
+            <a href="quiz-validation.html">
+                <li>Quiz Validation</li>
+            </a>
+            <a href="quiz.html">
+                <li>Quiz</li>
+            </a>
+        </div>
+        <a href="reference-code.html">
+            <li>Reference Code</li>
+        </a>
+        <a href="request-private.html">
+            <li>Request Private</li>
+        </a>
+        <a href="reserve-liveclass.html">
+            <li>Reserve Live Class</li>
+        </a>
+        <a href="skill-analysis.html">
+            <li>Skill Analysis</li>
+        </a>
+        <a href="statistics.html">
+            <li>Statistics</li>
+        </a>
+        <a href="timeline.html">
+            <li>Timeline</li>
+        </a>
+    </aside>
+
+    
+    <section id="subscribe-pop" class="subscribe-popup">
+        <div class="col-md-12">
+        <img src="images/icons/mail-icon.png">
+        <h5>Subscribe Our Newsletter</h5>
+        <input type="text" placeholder="Enter Your Email here">
+        </div>
+        <div class="col-md-12">
+        <button class="subscribe-pop_close">Subscribe</button>
+        </div>     
+        <a href="javaScript:void(0)" class="subscribe-pop-close subscribe-pop_close"><i class="fas fa-times"></i></a>   
+        </section>
+
+        <section id="point-pop" class="reward-pop js-container">
+            <div class="col-md-12 text-center">
+                <img src="images/reward.png">
+                <h5>Congratulation</h5>
+                <p>You earned points <span>20</span></p>
+                <button>Total Points = 576</button>
+            </div>
+            <i class="fas fa-times-circle point-pop_close"></i>
+        </section>
+    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap4.min.js"></script>
+    <script type="text/javascript" src="js/menu-hamburger.min.js"></script>
+    <script type="text/javascript" src="js/scrolltoTop.min.js"></script>
+    <script type="text/javascript" src="js/jquery.popupoverlay.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    
+    <script type="text/javascript">
+    var newCustomer = (sessionStorage.getItem('demoPop') === 'true') ? false : true;
+    $('#point-pop').popup({autoopen: newCustomer, pagecontainer: '.container',transition: 'all 0.3s', scrolllock:true, blur:false});
+     sessionStorage.setItem('demoPop', 'true');
+    $('#subscribe-pop').popup({focusdelay: 400,  scrolllock: true,  transition: 'all 0.3s' });
+        $('video').parent().click(function () {
+          if($(this).children("video").get(0).paused){        
+              $(this).children("video").get(0).play();   
+              $(this).children(".video-play-btn").fadeOut();
+              $(this).children(".video-image").fadeOut();
+              }   
+          else{ 
+          }
+        });
+        
+        var video = document.getElementById('video');
+            var intervalRewind;
+            $(video).on('play',function(){
+                video.playbackRate = 1.0;
+                clearInterval(intervalRewind);
+            });
+            $(video).on('pause',function(){
+                video.playbackRate = 1.0;
+                clearInterval(intervalRewind);
+            });
+            $("#forward").click(function() { // button function for 4x fast speed forward
+                video.playbackRate = 3.0;
+            });
+            $("#backward").click(function() { // button function for rewind
+               intervalRewind = setInterval(function(){
+                   video.playbackRate = 1.0;
+                   if(video.currentTime == 0){
+                       clearInterval(intervalRewind);
+                       video.pause();
+                   }
+                   else{
+                       video.currentTime += -.1;
+                   }
+                            },3);
+        });
+
+        const Confettiful = function(el) {
+  this.el = el;
+  this.containerEl = null;
+  
+  this.confettiFrequency = 3;
+  this.confettiColors = ['#EF2964', '#00C09D', '#2D87B0', '#48485E','#EFFF1D'];
+  this.confettiAnimations = ['slow', 'medium', 'fast'];
+  
+  this._setupElements();
+  this._renderConfetti();
+};
+
+Confettiful.prototype._setupElements = function() {
+  const containerEl = document.createElement('div');
+  const elPosition = this.el.style.position;
+  
+  if (elPosition !== 'relative' || elPosition !== 'absolute') {
+    this.el.style.position = 'relative';
+  }
+  
+  containerEl.classList.add('confetti-container');
+  
+  this.el.appendChild(containerEl);
+  
+  this.containerEl = containerEl;
+};
+
+Confettiful.prototype._renderConfetti = function() {
+  this.confettiInterval = setInterval(() => {
+    const confettiEl = document.createElement('div');
+    const confettiSize = (Math.floor(Math.random() * 3) + 7) + 'px';
+    const confettiBackground = this.confettiColors[Math.floor(Math.random() * this.confettiColors.length)];
+    const confettiLeft = (Math.floor(Math.random() * this.el.offsetWidth)) + 'px';
+    const confettiAnimation = this.confettiAnimations[Math.floor(Math.random() * this.confettiAnimations.length)];
+    
+    confettiEl.classList.add('confetti', 'confetti--animation-' + confettiAnimation);
+    confettiEl.style.left = confettiLeft;
+    confettiEl.style.width = confettiSize;
+    confettiEl.style.height = confettiSize;
+    confettiEl.style.backgroundColor = confettiBackground;
+    
+    confettiEl.removeTimeout = setTimeout(function() {
+      confettiEl.parentNode.removeChild(confettiEl);
+    }, 3000);
+    
+    this.containerEl.appendChild(confettiEl);
+  }, 25);
+};
+
+window.confettiful = new Confettiful(document.querySelector('.js-container'));
+    
+    </script>
+    
+
+</body></html>

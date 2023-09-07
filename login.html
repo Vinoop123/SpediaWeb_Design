@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Spedia - Mid school</title>
+    <meta name=description content="">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/intlTelInput.css">
+    <link rel="stylesheet" type="text/css" href="css/custome.css">
+
+
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3 col">
+                    <div class="sign-buttton">
+                        <a href="create-account.html"><button class="register-btn">Register</button></a>
+                        <a href="login.html"><button>Log In</button></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col text-center login-smartmind">
+                    <a href="index.html"> <img src="images/logo.png"> </a>
+                    <div class="smart-mind"><a href="javaScript:void(0)"><img src="images/smartmind-logo.png"></a></div>
+                </div>
+                <div class="col-md-3 col">
+                    <div id="menu-wrapper"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner logIn">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-md-7">
+                    <h1>Login to Your Account</h1>
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation"><a href="#email" aria-controls="email" role="tab" data-toggle="tab" aria-expanded="false">Email</a></li>
+                        <li role="presentation" class="active"><a href="#phoneNumbur" aria-controls="phoneNumbur" role="tab" data-toggle="tab" aria-expanded="true">Phone</a></li>
+                    </ul>
+                    <div class="tab-content" id="accordion">
+                        <div role="tabpanel" class="tab-pane active" id="phoneNumbur">
+                            <form>
+                                <div class="form-group">
+                                    <label>Phone Number</label>
+                                    <div class="form-item">
+                                        <input id="phone" name="phone" type="tel">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="password" id="password-field" placeholder="" value="jacobrich@gmail.com">
+                                    <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                                </div>
+                                <a href="index.html"><button>Login</button> </a>
+                                <a href="create-account.html"><button type="button" class="login-guest">Register</button> </a>
+                                <h6 class="text-center"><a href="javaScript:void(0)">Forgot Password?</a></h6>
+
+                                <!-- <h5><a href="javaScript:void(0)" class="guestLogin_open">Guest Login</a></h5> -->
+                            </form>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="email">
+                            <form>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="email" placeholder="jacobrich@gmail.com">
+                                </div>
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="password" id="password-field" placeholder="" value="jacobrich@gmail.com">
+                                    <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                                </div>
+                                <a href="index.html"><button>Login</button> </a>
+                                <a href="create-account.html"><button type="button" class="login-guest">Register</button> </a>
+                                <h6 class="text-center"><a href="javaScript:void(0)">Forgot Password?</a></h6>
+
+                                <!-- <h5><a href="javaScript:void(0)" class="guestLogin_open">Guest Login</a></h5> -->
+                            </form>
+                            <div class="login-with">
+                            <h5>Login with</h5>
+                                <a href="javaScript:void(0)"> <label><img src="images/icons/facebook.png"> Facebook</label></a>
+                                <a href="javaScript:void(0)"> <label><img src="images/icons/google.png"> Google</label></a>
+                                <a href="javaScript:void(0)"> <label><img src="images/icons/apple.png"> Apple</label></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="account-register">
+                        Don't have an account? <a href="create-account.html">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-lg-2 col-md-3 col-6 footer-links">
+                    <h5>Information</h5>
+                    <ul>
+                        <a href="javaScript:void(0)">
+                            <li>Privacy Policy</li>
+                        </a>
+                        <a href="javaScript:void(0)">
+                            <li>Terms &amp; Condition</li>
+                        </a>
+                        <a href="javaScript:void(0)">
+                            <li>FAQ</li>
+                        </a>
+                    </ul>
+                </div> -->
+                <div class="col-lg-4 col-md-6 col-12 footer-links footer-textlft">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <a href="javaScript:void(0)">
+                            <li>Contact</li>
+                        </a>
+                        <a href="javaScript:void(0)">
+                            <li>Terms &amp; Condition</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-lg-8 col-md-6 footer-contact">
+                    <img src="images/logo.png">
+                    <p>Lorem ipsum dolor ami short description about spedia, you can put in this footer to give more information.</p>
+                    <h6>Copyright © 2020 <a href="index.html">Spedia</a>. All Rights Reserved</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <aside class="sidebar sidebar-closed">
+        <button class="dropdown-btn">Ask Spedia
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-minus"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="ask-spedia.html">
+                <li>Ask Spedia</li>
+            </a>
+            <a href="ask-spedia-topic.html">
+                <li>Ask Spedia Questions</li>
+            </a>
+            <a href="ask-spedia-subscribe.html">
+                <li>Ask Spedia Subscribe</li>
+            </a>
+            <a href="ask-spedia-reply.html">
+                <li>Ask Spedia Reply</li>
+            </a>
+        </div>
+        <a href="bookmark.html">
+            <li>Bookmark</li>
+        </a>
+        <a href="contact-us.html">
+            <li>Contact Us</li>
+        </a>
+        <button class="dropdown-btn">Courses
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-minus"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="courses.html">
+                <li>Courses</li>
+            </a>
+            <a href="course-list.html">
+                <li>Course List</li>
+            </a>
+            <a href="course-video.html">
+                <li>Course Video</li>
+            </a>
+            <a href="subject-video.html">
+                <li>Subject Video</li>
+            </a>
+            <a href="training-course.html">
+                <li>Training Course</li>
+            </a>
+            <a href="university-courses.html">
+                <li>University Course</li>
+            </a>
+            <a href="university.html">
+                <li>University</li>
+            </a>
+        </div>
+        <button class="dropdown-btn">Login
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-minus"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="create-account.html">
+                <li>Create Account</li>
+            </a>
+            <a href="guest-login.html">
+                <li>Guest Login</li>
+            </a>
+            <a href="login.html">
+                <li> Login</li>
+            </a>
+            <a href="verification-code.html">
+                <li> Verification</li>
+            </a>
+            <a href="welcome.html">
+                <li> Welcome</li>
+            </a>
+        </div>
+        <button class="dropdown-btn">Empty
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-minus"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="empty-cart.html">
+                <li> Cart</li>
+            </a>
+            <a href="empty-live-class.html">
+                <li> Live Class</li>
+            </a>
+            <a href="empty-request-private.html">
+                <li> Request Private</li>
+            </a>
+            <a href="empty-video.html">
+                <li>Video</li>
+            </a>
+            <a href="error.html">
+                <li>Error</li>
+            </a>
+            <a href="success.html">
+                <li>Success</li>
+            </a>
+        </div>
+        <a href="home-work.html">
+            <li>Home Work</li>
+        </a>
+        <a href="leaderboard.html">
+            <li>Leaderboard</li>
+        </a>
+        <a href="live-class.html">
+            <li>Live Class</li>
+        </a>
+        <a href="my-cart.html">
+            <li>My Cart</li>
+        </a>
+        <button class="dropdown-btn">Profile
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-minus"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="parent-info.html">
+                <li>Parent Info</li>
+            </a>
+            <a href="parent-profile.html">
+                <li>Parent Profile</li>
+            </a>
+            <a href="profile.html">
+                <li>Profile</li>
+            </a>
+            <a href="student-info.html">
+                <li>Student info</li>
+            </a>
+            <a href="student-profile.html">
+                <li>Student Profile</li>
+            </a>
+        </div>
+        <a href="previous-test.html">
+            <li>Prevoius Test</li>
+        </a>
+        <button class="dropdown-btn">Quiz
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-minus"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="quiz-library.html">
+                <li>Quiz Library</li>
+            </a>
+            <a href="quiz-score_test.html">
+                <li>Quiz Score Test</li>
+            </a>
+            <a href="quiz-score.html">
+                <li>Quiz Score</li>
+            </a>
+            <a href="quiz-validation.html">
+                <li>Quiz Validation</li>
+            </a>
+            <a href="quiz.html">
+                <li>Quiz</li>
+            </a>
+        </div>
+        <a href="reference-code.html">
+            <li>Reference Code</li>
+        </a>
+        <a href="request-private.html">
+            <li>Request Private</li>
+        </a>
+        <a href="reserve-liveclass.html">
+            <li>Reserve Live Class</li>
+        </a>
+        <a href="skill-analysis.html">
+            <li>Skill Analysis</li>
+        </a>
+        <a href="statistics.html">
+            <li>Statistics</li>
+        </a>
+        <a href="timeline.html">
+            <li>Timeline</li>
+        </a>
+    </aside>
+
+
+    <div id="guestLogin" class="guest-login-pop">
+        <img src="images/icons/sentiment_neutral_24px_outlined.svg">
+        <h4>You are Unsubscribed</h4>
+        <p>We cannot dispatch your order. because you're not subscribed. sorry for the inconvenience. if you want to subscribe please click the below button. </p>
+        <a href="create-account.html"><button>Please Subscribe</button></a>
+        <a href="javaScript:void(0)" class="guestLogin_close"><i class="fas fa-times"></i></a>
+    </div>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/menu-hamburger.min.js"></script>
+    <script type="text/javascript" src="js/scrolltoTop.min.js"></script>
+    <script type="text/javascript" src="js/jquery.popupoverlay.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/intlTelInput.js"></script>
+
+    <script type="text/javascript">
+        $('#guestLogin').popup({
+            focusdelay: 400,
+            scrolllock: true,
+            transition: 'all 0.3s'
+        });
+
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input, {
+            separateDialCode: true,
+            utilsScript: "js/utils.js",
+        });
+    </script>
+
+</body></html>

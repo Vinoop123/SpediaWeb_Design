@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Spedia - Easy to Learn </title>
+    <meta name=description content="">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custome.css">
+    <link rel="stylesheet" type="text/css" href="css/custome-new.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3 col dropdown">
+                    <a href="javaScript:void(0)" role="button" id="dropdownUser"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="profile-view">
+                            <h4><img src="images/profile.png"> <span>Hi, Jacob</span> </h4>
+                        </div>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownUser">
+                        <div class="dropdown-item">
+                            <div class="d-flex py-2">
+                                <div class="avatar avatar-md avatar-indicators avatar-online">
+                                    <img src="images/profile.png">
+                                </div>
+                                <div class="mr-3 text-right">
+                                    <h5 class="mb-0">Jacob Richards</h5>
+                                    <p class="mb-0">jacobrichards@gmail.com</p>
+                                </div>
+    
+                            </div>
+                            
+                        </div>
+                        <div class="dropdown-divider"></div>
+                            <ul class="profile-dropdown">
+                                <li>
+                                    <a class="dropdown-item" href="profile.html"><i class="far fa-user"></i> Profile</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javaScript:void(0)"><i class="far fa-star"></i> Subscription</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javaScript:void(0)"><i class="fas fa-cog"></i> Settings</a>
+                                </li>
+                                
+                            
+                            </ul>
+                        <div class="dropdown-divider"></div>
+                        <ul class="profile-dropdown">
+                        <li>
+                            <a class="dropdown-item" href="javaScript:void(0)"><i class="fas fa-power-off"></i> Logout</a>
+                        </li>
+                    
+                    </ul>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6 col text-center">
+                    <a href="index.html"> <img src="images/logo.png"> </a>
+                </div>
+                <div class="col-md-3 col">
+                    <a href="my-cart.html">
+                        <div class="cart-view">
+                            <i class="fas fa-shopping-bag"></i><sup>3</sup>
+                        </div>
+                    </a>
+                    <div id="menu-wrapper"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+<section class="inner-heading">
+    <div class="inner-overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>حصة خاصة</h1>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#activeClass" aria-controls="activeClass" role="tab" data-toggle="tab">حجز حصة</a></li>
+                    <li role="presentation"><a href="#reserved" aria-controls="reserved" role="tab" data-toggle="tab">المتاح</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <div class="tab-content" id="accordion">
+        <div role="tabpanel" class="tab-pane active" id="activeClass">
+            <section class="banner logIn register">
+                <div class="container">
+                <div class="row justify-content-center">
+                   <div class="col-lg-8 col-md-10 reserve-class">
+                    <form action="">
+                        <div class="row">
+                    <div class="col-md-6">   
+                        <div class="form-group">
+                        <label>Subject</label>
+                        <input type="text" placeholder="Subject" class="form-control" required>    
+                                </div> 
+                    </div> 
+                        <div class="col-md-6">   
+                        <div class="form-group">
+                        <label>Date</label>
+                        <input type="date" placeholder="Date" class="form-control unstyled" required>
+                                        <i class="far fa-calendar-alt"></i>
+                    </div> 
+                    </div>
+                             <div class="col-md-6">   
+                        <div class="form-group">
+                        <label>Time</label>
+                        <select class="form-control">
+                            <option>1 </option>
+                            <option>2 </option>
+                            <option>5</option>
+                            <option>10</option>
+                            </select> 
+                                </div> 
+                    </div> 
+                             <div class="col-md-6">   
+                        <div class="form-group">
+                        <label>No of Hours</label>
+                        <select class="form-control">
+                            <option>1 hour / 10 KD</option>
+                            <option>2 hour / 20 KD</option>
+                            <option>5 hour / 50 KD</option>
+                            <option>10 hour / 80 KD</option>
+                            </select> 
+                                </div> 
+                    </div> 
+                          <!--  <div class="col-md-6">   
+                        <div class="form-group">
+                        <label>Type</label>
+                        <select>
+                            <option>VIP <span>(For One Student)</span></option>
+                            <option>VIP (For Two Student)</option>
+                            <option>VIP (For Three Student)</option>
+                            </select> 
+                                </div> 
+                    </div>-->
+                            
+                            <div class="col-md-6">   
+                        <div class="form-group">
+                        <label>Add Attachment</label>
+                        <input type="file" class="form-control" placeholder="Choose Time" required>    
+                                </div> 
+                    </div> 
+                            
+                              <div class="col-md-12">   
+                        <div class="form-group">
+                        <label>Describe your need</label>
+                        <textarea rows="4" class="form-control" placeholder="Eg: I need to understand biology chapter 1 to 3"></textarea>  
+                                </div> 
+                    </div> 
+                             <div class="col-md-12">
+                       <div class="row booked-reserveClass align-items-center">
+                           <!-- <div class="col"><a href="course-list.html"> <p>Reserved Live Class Subject 01</p></a>
+                           <h6> 10:30 Am | 30 June 2020</h6>
+                           </div> -->
+                           <div class="col"> <h5>$75.00</h5></div>
+                           </div>
+                       </div>
+                            <div class="col-md-12">  
+                            <div class="form-group register-terms">
+                    <p>By clicking register, you agree to our <br><a href="javaScript:void(0)">Terms and Conditions</a></p>
+                    <label class="terms-register">
+                      <input type="checkbox">
+                      <span class="termsCheck"></span>
+                    </label>
+                </div>    
+                            </div>
+                            <div class="col-md-12">  
+                    <a href="checkout.html"><button type="submit">Pay Now</button> </a>   
+                            </div>
+                        </div>
+                </form> 
+                    </div>
+                    </div>
+                </div>    
+                </section>
+</div>
+
+<div role="tabpanel" class="tab-pane" id="reserved">
+    <section>
+        <div class="col-md-12 text-center empty-cart">
+            <img src="images/icons/sentiment_neutral_24px_outlined.svg">
+            <p>احجز حصتك الخاصة مع أمهر المعلمين من خلال التطبيق</p>
+                <a href="privateclass-request.html"><button>طلب حصة خاصة</button></a>    
+            </div>
+    </section>
+    </div>
+</div>
+</div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="images/logo.png">
+                </div>
+                <div class="col-md-12">
+                <a href="javaScript:void(0)"><p>Terms & Conditions</p></a>
+                <a href="javaScript:void(0)"><p>Contact Us</p></a>
+            </div>
+            <div class="col-md-12">
+                <h6>© 2021 Spedia</h6>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<aside class="sidebar sidebar-closed">
+    <button class="dropdown-btn">Ask Spedia
+        <i class="fas fa-plus"></i>
+        <i class="fas fa-minus"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="ask-spedia.html">
+            <li>Ask Spedia</li>
+        </a>
+        <a href="ask-spedia-topic.html">
+            <li>Ask Spedia Questions</li>
+        </a>
+        <a href="ask-spedia-subscribe.html">
+            <li>Ask Spedia Subscribe</li>
+        </a>
+        <a href="ask-spedia-reply.html">
+            <li>Ask Spedia Reply</li>
+        </a>
+    </div>
+    <a href="bookmark.html">
+        <li>Bookmark</li>
+    </a>
+    <a href="contact-us.html">
+        <li>Contact Us</li>
+    </a>
+    <button class="dropdown-btn">Courses
+        <i class="fas fa-plus"></i>
+        <i class="fas fa-minus"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="courses.html">
+            <li>Courses</li>
+        </a>
+        <a href="course-list.html">
+            <li>Course List</li>
+        </a>
+        <a href="course-video.html">
+            <li>Course Video</li>
+        </a>
+        <a href="subject-video.html">
+            <li>Subject Video</li>
+        </a>
+        <a href="training-course.html">
+            <li>Training Course</li>
+        </a>
+        <a href="university-courses.html">
+            <li>University Course</li>
+        </a>
+        <a href="university.html">
+            <li>University</li>
+        </a>
+    </div>
+    <button class="dropdown-btn">Login
+        <i class="fas fa-plus"></i>
+        <i class="fas fa-minus"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="create-account.html">
+            <li>Create Account</li>
+        </a>
+        <a href="guest-login.html">
+            <li>Guest Login</li>
+        </a>
+        <a href="login.html">
+            <li> Login</li>
+        </a>
+        <a href="verification-code.html">
+            <li> Verification</li>
+        </a>
+        <a href="welcome.html">
+            <li> Welcome</li>
+        </a>
+    </div>
+    <button class="dropdown-btn">Empty
+        <i class="fas fa-plus"></i>
+        <i class="fas fa-minus"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="empty-cart.html">
+            <li> Cart</li>
+        </a>
+        <a href="empty-live-class.html">
+            <li> Live Class</li>
+        </a>
+        <a href="empty-request-private.html">
+            <li> Request Private</li>
+        </a>
+        <a href="empty-video.html">
+            <li>Video</li>
+        </a>
+        <a href="error.html">
+            <li>Error</li>
+        </a>
+        <a href="success.html">
+            <li>Success</li>
+        </a>
+    </div>
+    <a href="home-work.html">
+        <li>Home Work</li>
+    </a>
+    <a href="leaderboard.html">
+        <li>Leaderboard</li>
+    </a>
+    <a href="live-class.html">
+        <li>Live Class</li>
+    </a>
+    <a href="my-cart.html">
+        <li>My Cart</li>
+    </a>
+    <button class="dropdown-btn">Profile
+        <i class="fas fa-plus"></i>
+        <i class="fas fa-minus"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="parent-info.html">
+            <li>Parent Info</li>
+        </a>
+        <a href="parent-profile.html">
+            <li>Parent Profile</li>
+        </a>
+        <a href="profile.html">
+            <li>Profile</li>
+        </a>
+        <a href="student-info.html">
+            <li>Student info</li>
+        </a>
+        <a href="student-profile.html">
+            <li>Student Profile</li>
+        </a>
+    </div>
+    <a href="previous-test.html">
+        <li>Prevoius Test</li>
+    </a>
+    <button class="dropdown-btn">Quiz
+        <i class="fas fa-plus"></i>
+        <i class="fas fa-minus"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="quiz-library.html">
+            <li>Quiz Library</li>
+        </a>
+        <a href="quiz-score_test.html">
+            <li>Quiz Score Test</li>
+        </a>
+        <a href="quiz-score.html">
+            <li>Quiz Score</li>
+        </a>
+        <a href="quiz-validation.html">
+            <li>Quiz Validation</li>
+        </a>
+        <a href="quiz.html">
+            <li>Quiz</li>
+        </a>
+    </div>
+    <a href="reference-code.html">
+        <li>Reference Code</li>
+    </a>
+    <a href="request-private.html">
+        <li>Request Private</li>
+    </a>
+    <a href="reserve-liveclass.html">
+        <li>Reserve Live Class</li>
+    </a>
+    <a href="skill-analysis.html">
+        <li>Skill Analysis</li>
+    </a>
+    <a href="statistics.html">
+        <li>Statistics</li>
+    </a>
+    <a href="timeline.html">
+        <li>Timeline</li>
+    </a>
+  </aside>
+
+  <div id="sampleVideo-popup" class="sampleVideo-pop">
+    <div class="video-pop">
+     <video controls width="100%" id="video">
+         <source src="images/mov_bbb.mp4" type="video/mp4">
+     </video>
+    </div>
+     <a href="javaScript:void(0)" class="sampleVideo-popup_close close"><i class="fas fa-times"></i></a>
+ </div>
+  
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/scrolltoTop.min.js"></script>
+  <script type="text/javascript" src="js/menu-hamburger.min.js"></script>
+  <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="js/select2.min.js"></script>
+  <script type="text/javascript" src="js/jquery.popupoverlay.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+
+
+  <script type="text/javascript">
+      $('.card-link').click(function(e){
+            $(this).parent().toggleClass('inactive');
+        });
+
+    
+        $('#sampleVideo-popup').popup({
+        transition: 'all 0.3s',
+        scrolllock:true
+    });
+    $('video').parent().click(function () {
+          if($(this).children("video").get(0).paused){        
+              $(this).children("video").get(0).play();   
+              $(this).children(".video-play-btn").fadeOut();
+              $(this).children(".video-image").fadeOut();
+              }   
+          else{ 
+          }
+        });
+        
+        var video = document.getElementById('video');
+            var intervalRewind;
+            $(video).on('play',function(){
+                video.playbackRate = 1.0;
+                clearInterval(intervalRewind);
+            });
+            $(video).on('pause',function(){
+                video.playbackRate = 1.0;
+                clearInterval(intervalRewind);
+            });
+            $("#forward").click(function() { // button function for 4x fast speed forward
+                video.playbackRate = 3.0;
+            });
+            $("#backward").click(function() { // button function for rewind
+               intervalRewind = setInterval(function(){
+                   video.playbackRate = 1.0;
+                   if(video.currentTime == 0){
+                       clearInterval(intervalRewind);
+                       video.pause();
+                   }
+                   else{
+                       video.currentTime += -.1;
+                   }
+                            },3);
+        });
+
+  </script>
+
+</body></html>

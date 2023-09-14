@@ -192,6 +192,12 @@
     .topic-box-attach{left: 10px; top: inherit; bottom: -8px; font-size: 20px;}
     .removed-lesson-title .col-5, .removed-lesson-title .col-2{padding: 0px 6px !important;}
     .removed-lessons{padding: 30px 0px;}
+    .removed-lessons table td{font-size: 12px;}
+    .removed-lessons ul li{padding-right: 18px;}
+    .removed-lessons table th, .removed-lessons table td{padding: 10px 8px;}
+    .removed-lessons table p{font-size: 12px;}
+    .inner-heading{padding: 20px 0px;}
+
 
 }
 

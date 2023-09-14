@@ -443,4 +443,6 @@ font-weight: 900;}
 .removed-lessons table th, .removed-lessons table td{padding: 10px 16px; border: 1px solid #ddd;}
 .removed-lessons table th{background: rgba(13, 178, 178, 0.2);}
 .removed-lessons table p{margin: 0px;}
-
+.removed-lessons .coming-soon{width: 100%; max-width: 450px; background: #f5f5f5; border-radius: 20px; padding: 20px; display: inline-block;}
+.removed-lessons .coming-soon h1{font-size: 48px; font-weight: 700; color: #1B5966;}
+.removed-lessons .coming-soon img{max-width: 200px;}

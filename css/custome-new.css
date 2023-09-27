@@ -439,9 +439,9 @@ animation-iteration-count: infinite;animation-timing-function: linear;}
 .removed-lessons ul li{position: relative; list-style: none;  padding-right: 25px;}
 .removed-lessons ul li::before{position: absolute; content: "\f1ce"; right: 0px; color: red; font-family: "Font Awesome 5 Free";
 font-weight: 900;}
-.removed-lessons table{width: 100%; max-width: 700px; border: 1px solid #ddd; margin-top: 20px; border-collapse: collapse;}
+.removed-lessons table{width: 100%; border: 1px solid #ddd; margin-top: 20px; border-collapse: collapse;}
 .removed-lessons table th, .removed-lessons table td{padding: 10px 16px; border: 1px solid #ddd;}
-.removed-lessons table th{background: rgba(13, 178, 178, 0.2);}
+.removed-lessons table th{background: #0C9C9C; color: #fff; text-align: center;}
 .removed-lessons table p{margin: 0px;}
 .removed-lessons .coming-soon{width: 100%; max-width: 450px; background: #f5f5f5; border-radius: 20px; padding: 20px; display: inline-block;}
 .removed-lessons .coming-soon h1{font-size: 48px; font-weight: 700; color: #1B5966;}

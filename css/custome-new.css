@@ -453,7 +453,7 @@ font-weight: 900;}
 .removed-search-img{position: absolute; max-width: 230px; left: 13%; bottom: 14%;}
 .bg-f5f5{background: #f5f5f5;}
 .removed-lessons table  td:last-child{text-align: center;}
-
+.ps-rel{position: relative; z-index: 1;}
 
 
 

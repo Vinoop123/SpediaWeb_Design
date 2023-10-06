@@ -446,7 +446,7 @@ font-weight: 900;}
 .removed-lessons .coming-soon{width: 100%; max-width: 450px; background: #f5f5f5; border-radius: 20px; padding: 20px; display: inline-block;}
 .removed-lessons .coming-soon h1{font-size: 48px; font-weight: 700; color: #1B5966;}
 .removed-lessons .coming-soon img{max-width: 200px;}
-.removed-lesson-nodata img{max-width: 350px; margin-bottom: 30px; width: 100%;}
+.removed-lesson-nodata img{max-width: 400px; margin-bottom: 30px; width: 100%;}
 .removed-lesson-nodata h5{line-height: 32px;}
 .removed-lesson-title h1 img{filter: invert(12%) sepia(93%) saturate(5281%) hue-rotate(0deg) brightness(103%) contrast(118%);
     -webkit-filter: invert(12%) sepia(93%) saturate(5281%) hue-rotate(0deg) brightness(103%) contrast(118%); max-width: 30px;}
@@ -454,9 +454,11 @@ font-weight: 900;}
 .bg-f5f5{background: #f5f5f5;}
 .removed-lessons table  td:last-child{text-align: center;}
 .ps-rel{position: relative; z-index: 1;}
-
-
-
+.topbar-icons{margin: 0px; padding: 0px; list-style: none; margin-top: 6px;}
+.topbar-icons li{position: relative; display: inline; padding: 0px 5px;}
+.topbar-icons li img{max-height: 26px;}
+.topbar-icons li sup{width: 16px;height: 16px;background: #0DB2B2;border-radius: 50%;display: inline-block;font-size: 12px;text-align: center;color: #fff;
+font-weight: 700;top: -5px; left:0px; line-height: 17px; position: absolute;}
 
 
 

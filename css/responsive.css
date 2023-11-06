@@ -133,6 +133,7 @@
     .mb-fixed{display: block;}
     .request-private{padding-top: 20px;}
     .my-courses-home{padding-top: 20px; padding-bottom: 0px;}
+    .my-course-btn{display: none;}
 
     
 }

@@ -419,7 +419,7 @@ footer ul li:hover{color:#0DB2B2;}
 .owl-dots .owl-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block;background: #e3e3e3;margin: 0 3px;}
 .owl-dots .owl-dot.active {background-color: #0DB2B2;}
 .owl-dots .owl-dot:focus {outline: none;}
-.cart-view{position: absolute; top: 8px;/*left: 15%;*/ left: 24%; font-size: 20px; direction: ltr;}
+.cart-view{position: absolute; top: 8px;/*left: 15%;*/ left: 24%; font-size: 20px; direction: ltr; color: #0DB2B2;}
 .cart-view:hover{color:#0DB2B2;}
 .cart-view sup{width: 16px;height: 16px;background: #0DB2B2;border-radius: 50%;display: inline-block;font-size: 12px;text-align: center;color: #fff;font-weight: 700;top: -10px; right: 10px; line-height: 17px;}
 .checkout h4{font-size: 18px; color: rgba(26, 26, 26, 0.35); line-height: 25px; text-align: right; margin-bottom: 20px;}

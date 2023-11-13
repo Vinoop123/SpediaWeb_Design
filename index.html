@@ -467,6 +467,14 @@
 </aside>
 
 
+<section id="LiveClassNotfication" class="liveClassnotification">
+    <img src="images/intro-live.png">
+    <h3> دورة اللغة الانجليزية </h3>
+    <h5> الفصل 1 </h5>
+    <p> بدأ فصلك المباشر الآن. يرجى الانضمام </p>
+    <a href="javascript:void(0)"> <button> نضم الان </button> </a>
+    <a href="javascript:void(0)" class="LiveClassNotfication_close"> <i class="fas fa-times"></i> </a>
+</section>
 
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -477,5 +485,19 @@
 <script type="text/javascript" src="js/select2.min.js"></script>
 <script type="text/javascript" src="js/jquery.popupoverlay.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
+
+<script>
+    $(document).ready(function() {
+            var newCustomer = (sessionStorage.getItem('demoPop') === 'true') ? false : true;
+            $('#LiveClassNotfication').popup({
+                autoopen: newCustomer,
+                pagecontainer: '.container',
+                transition: 'all 0.3s',
+                scrolllock:true, blur: false
+            });
+            sessionStorage.setItem('demoPop', 'true');
+        });
+</script>
+
 
 </body></html>

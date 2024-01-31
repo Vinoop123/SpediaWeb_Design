@@ -5,7 +5,7 @@ var header = document.getElementsByClassName("main-header")[0];
 var menu = MenuHamburger.initialize({
   rootElement: rootElement,
   size: 40,
-  iconColor: "#000",
+  iconColor: "#0DB2B2",
   lineWidth: 2,
 });
 menu.on("open", function () {

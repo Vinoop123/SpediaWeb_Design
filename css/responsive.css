@@ -137,6 +137,8 @@
     .topic-box-img{display: none;}
     .topic-box{padding: 10px; margin-bottom: 10px;}
     .mb-30{margin-bottom: 10px;}
+    .live-course-box-img .subscribed-icon, .prerecorded-box-img .subscribed-icon{ left: 5px; top: 5px;}
+    .live-course-box-img .subscribed-icon img, .prerecorded-box-img .subscribed-icon img{width: 28px; height: 28px;} 
     
 }
 

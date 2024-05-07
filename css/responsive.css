@@ -42,7 +42,7 @@
     .ad-banner-overlay p{font-size: 12px; margin-bottom: 8px;}
     .bt-secondary{font-size: 14px;}
     .sidebar{padding-bottom: 80px;}
-    .request-private h1, .request-private-box button{margin-right: 100px;}
+    .request-private h1, .request-private-box button{margin-right: 40px;}
     .quiz-number{width: 30px; height: 30px; line-height: 28px; font-size: 12px;}
     .rs-none{display: none;}
     .ds-none{display: inline-block;}
@@ -125,13 +125,13 @@
     .notification-box h6{font-size: 10px;}
     .notification-box h4{font-size: 12px;}
     .notification-box p{font-size: 10px; line-height: 18px;}
-    .request-private-box button{margin-right:10px; min-width: 110px; padding: 5px; font-size: 13px;}
+    .request-private-box button{margin-right:10px; min-width: 110px; padding: 5px; font-size: 13px; height: 33px;}
     .request-private-box img{height: 100px;}
     .pvt-icon2, .pvt-icon{width: 100px;}
     .quiz-radio{margin-bottom: 10px;}
     .ques-img, .ques-que{width: 100%;}
     .mb-fixed{display: block;}
-    .request-private{padding-top: 20px;}
+    .request-private{padding-top: 10px;}
     .my-courses-home{padding-top: 20px; padding-bottom: 0px;}
     .my-course-btn{display: none;}
     .topic-box-img{display: none;}
@@ -139,6 +139,15 @@
     .mb-30{margin-bottom: 10px;}
     .live-course-box-img .subscribed-icon, .prerecorded-box-img .subscribed-icon{ left: 5px; top: 5px;}
     .live-course-box-img .subscribed-icon img, .prerecorded-box-img .subscribed-icon img{width: 28px; height: 28px;} 
+    .story-popup{max-width: 100%;}
+    .story-pop-content .owl-nav .owl-prev{left: 0px;}
+    .story-pop-content .owl-nav .owl-next{right: 0px;}
+    .story-pop-content .owl-nav .owl-prev, .story-pop-content .owl-nav .owl-next{width: 35px; height: 35px; line-height: 35px; top: 50%;}
+    .story-close{width: 35px; height: 35px; line-height: 35px; font-size: 16px; top: -35px;}
+    .stories li{width: 90px;}
+    .stories-img{width: 60px; height: 60px; border: 2px solid #ddd;}
+    .my-courses-home h3{margin-bottom: 15px;}
+    .prerecorded-box, .prerecorded-box-img, .prerecorded-box-img img{border-radius: 5px;}
     
 }
 
@@ -152,7 +161,7 @@
     .prerecorded-box-content{padding: 4px;}
     .prerecorded-box-content h5{font-size: 13px;}
     .prerecorded-box-content p img{max-width: 18px;}
-    .prerecorded-box-img img{height: 110px;}
+    .prerecorded-box-img img{height: 90px;}
     .prerecorded .col-6{padding: 0px 5px;}
     .owl-nav .owl-next{right: 0px;} .owl-nav .owl-prev{left: 0px;}
     .live-class-details .bt-primary{width: 100%;}

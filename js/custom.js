@@ -253,6 +253,20 @@ $('.skillsubject-carousel').owlCarousel({
   }
 });
 
+$('.story-carousel').owlCarousel({
+  loop: true,
+  margin:0,
+  nav: true,
+  navText: [
+      "<i class='fas fa-angle-left'></i>",
+      "<i class='fas fa-angle-right'></i>"
+  ],
+  dots: false,
+  autoplay: false,
+  rtl:true,
+  items:1
+});
+
 $(document) .ready(function(){
   var li =  $(".owl-item li ");
   $(".owl-item li").click(function(){

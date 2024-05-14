@@ -282,7 +282,18 @@ $(document) .ready(function(){
 // });
 
 
-
+$(document).ready(function(){
+  // Function to show the element with class 'open'
+  $(".story-open").click(function(){
+    $('body').addClass('story-flow')
+    $("#story-view").fadeIn();
+    // Hide the element after 30 seconds
+    setTimeout(function(){
+      // $("#story-view").fadeOut();
+      // $('body').removeClass('story-flow');
+    }, 30000); // 30 seconds in milliseconds
+  });
+});
 
 
 

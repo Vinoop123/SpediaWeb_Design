@@ -316,16 +316,16 @@ border-radius: 30px;}
 .video-play-list .c100.small{font-size: 40px; margin: 0px; position: absolute; left: 0px; top: 10px;}
 .video-play-list .c100 > span{font-size: 12px; line-height: 40px;}
 .notification{padding: 40px 0px 60px;}
-.notification button{position: absolute; left: 0px; top: 4px; padding: 6px 14px; border-radius: 6px; border: 1px solid #ddd;
-font-weight: 700; background: #f5f5f5; color: rgba(0, 0, 0, 0.5);}
+.notification button{position: absolute; left: 0px; top: 0px; padding: 6px 14px; border-radius: 6px; border: none; background: none;}
 .notification button.markread{background: none; right:0px; left: auto;}
 .notification button:focus{background: #0DB2B2; border-color: #0DB2B2; color: #fff;}
-.notification-box{background: #FAFAFA; border-radius: 8px; padding: 15px 20px; text-align: right; margin-bottom: 15px; opacity: 0.5;}
-.notification-box h6{color: #979797; font-size: 12px; margin-bottom: 10px;}
+.notification button:focus img{filter: invert(1) brightness(100);}
+.notification-box{border-radius: 6px; padding: 15px 20px; text-align: right; margin-bottom: 15px; opacity: 0.8; border: 1px solid #ddd;}
+.notification-box h6{color: #1a1a1a; font-size: 14px; margin-top: 10px; margin-bottom: 0px;}
 .notification-box h4{color: #1A1A1A; font-size: 16px; font-weight: 700; margin-bottom: 10px;}
 .notification-box p{color: #1A1A1A; font-size: 14px; margin: 0px;}
 .notification-box i{position: absolute; left: 15px; top: 15px; border: 1px solid #ddd; padding:2px 4px; color: rgba(0, 0, 0, 0.5);}
-.notification-box.not-read{opacity: 1; background: #EDEDED;}
+.notification-box.not-read{opacity: 1; background: rgba(13, 178, 178, 0.10); border-color: #0DB2B2;}
 .pvt-icon2{position: absolute; left: 0px; top: 0px;}
 .pvt-icon1{position: absolute; right: 0px; top: 0px;}
 .request-private-box button{margin-right: 60px; border: none; background: linear-gradient(to bottom, #0DB2B2, #224F58); border-radius: 5px; height: 50px;
@@ -487,8 +487,9 @@ top: -48px; left: 0px; cursor: pointer;}
 .story-pop-content .owl-nav .owl-prev{left: -55px;}
 .story-pop-content .owl-nav .owl-next{right: -55px;}
 #story-pop_background{opacity: 0.80 !important;}
-
-
-
-
-
+.story-view{position: fixed; left: 0; top: 0; bottom: 0; right: 0; background: #000; z-index: 444444; height: 100vh; display: none;}
+.story-flow{overflow: hidden;}
+.story-content{width: 100%; max-width: 500px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.story-dp{color: #fff; text-align: right;}
+.story-dp p{margin: 0px;}
+.notification-day{ text-align: right; margin-bottom: 20px;}

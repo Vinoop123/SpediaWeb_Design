@@ -253,19 +253,6 @@ $('.skillsubject-carousel').owlCarousel({
   }
 });
 
-$('.story-carousel').owlCarousel({
-  loop: true,
-  margin:0,
-  nav: true,
-  navText: [
-      "<i class='fas fa-angle-left'></i>",
-      "<i class='fas fa-angle-right'></i>"
-  ],
-  dots: false,
-  autoplay: false,
-  rtl:true,
-  items:1
-});
 
 $(document) .ready(function(){
   var li =  $(".owl-item li ");
@@ -285,14 +272,79 @@ $(document) .ready(function(){
 $(document).ready(function(){
   // Function to show the element with class 'open'
   $(".story-open").click(function(){
-    $('body').addClass('story-flow')
-    $("#story-view").fadeIn();
+    // $('body').addClass('story-flow')
+    // $("#story-view").fadeIn();
+    $('.story-carousel').owlCarousel({
+      loop: false,
+      margin:0,
+      nav: false,
+      navText: [
+          "<i class='fas fa-angle-left'></i>",
+          "<i class='fas fa-angle-right'></i>"
+      ],
+      dots: true,
+      autoplay: true,
+      rtl:true,
+      items:1,
+      autoplayHoverPause:true,
+      autoplayTimeout:5000,
+      afterMove: moved,
+    });
+    
+    function moved() {
+      var owl = $(".story-carousel").data('story-carousel');
+      console.log(owl.currentItem)
+      console.log(owl.itemsAmount)
+      if (owl.currentItem + 1 === owl.itemsAmount) {
+          alert('THE END');
+      }
+  }
+    
+    $('.story-carousel').on('translate.owl.carousel', function (e) {
+      $('.owl-item .item video').each(function () {
+        // pause playing video - after sliding
+        $(this).get(0).pause();
+      });
+    });
+    
+    $('.story-carousel').on('translated.owl.carousel', function (e) {
+      // check: does the slide have a video?
+      if ($('.owl-item.active').find('video').length !== 0) {
+        // play video in active slide
+        $('.owl-item.active .item video').get(0).play();
+      }
+    });
+
+    
     // Hide the element after 30 seconds
     setTimeout(function(){
       // $("#story-view").fadeOut();
       // $('body').removeClass('story-flow');
     }, 30000); // 30 seconds in milliseconds
   });
+  $(".story-close-icon").click(function(){
+     $("#story-view").fadeOut();
+      $('body').removeClass('story-flow');
+  });
+});
+
+let isOver = 0;
+
+$(".story-carousel").on('changed.owl.carousel', function(e) {
+  var current = e.item.index + 1;
+  total = e.item.count;
+  if (current === total) {
+    isOver = 1;
+  }
+});
+
+$('.story-carousel .owl-next').click(function() {
+  if (isOver === 1) {
+    isOver = isOver + 1
+  } else if (isOver === 2) {
+    $("#story-view").fadeOut();
+    $('body').removeClass('story-flow');
+  }
 });
 
 

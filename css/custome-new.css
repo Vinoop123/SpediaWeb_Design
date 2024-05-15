@@ -511,7 +511,7 @@ cursor: pointer; font-size: 20px;}
 .story-carousel .owl-dots .owl-dot.active{  background-image: -webkit-linear-gradient(left,  rgba(255,255,255,.5) 0%, rgba(255,255,255,.5) 50%,
  rgba(88, 89, 104,.5) 50.001%, rgba(88, 89, 104,.5) 100%);background-repeat: no-repeat;background-size: 200%;
 background-color: #0DB2B2; background-position: 100% 50%; animation-timing-function: linear; animation-delay: .2s; animation-duration: 5s; animation-name: Loader;}
-.story-carousel:hover .owl-dots .owl-dot.active{animation-play-state: paused;}
+/* .story-carousel:hover .owl-dots .owl-dot.active{animation-play-state: paused;} */
 .story-carousel .owl-dots.disabled{display: flex; opacity: 1; cursor: pointer!important;}
 
 
@@ -525,6 +525,6 @@ background-color: #0DB2B2; background-position: 100% 50%; animation-timing-funct
 
 
 @-webkit-keyframes Loader {
-    0%   { background-position: 100% 0; }
-    100% { background-position: 0 0; }
+    0%   { background-position: 0 0; }
+    100% { background-position: 100% 0; }
   }

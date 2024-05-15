@@ -151,7 +151,8 @@
     .quiz-subject p{font-size: 16px;}
     .quiz-list{margin-bottom: 10px; min-height: 80px; padding-right: 80px;}
     .myquiz-icon{width: 60px; height: 60px;}
-    
+    .story-content{max-width: 96%;}
+    .story-carousel video, .story-carousel img{height: 300px;}
 }
 
 /* Large Mobile :480px. */

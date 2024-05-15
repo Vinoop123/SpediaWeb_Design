@@ -509,25 +509,15 @@
 </aside>
 
 
-<section id="LiveClassNotfication" class="liveClassnotification">
+<section id="liveClassNotfication" class="liveClassnotification">
     <img src="images/intro-live.png">
     <h3> دورة اللغة الانجليزية </h3>
     <h5> الفصل 1 </h5>
     <p> بدأ فصلك المباشر الآن. يرجى الانضمام </p>
     <a href="javascript:void(0)"> <button> نضم الان </button> </a>
-    <a href="javascript:void(0)" class="LiveClassNotfication_close"> <i class="fas fa-times"></i> </a>
+    <a href="javascript:void(0)" class="liveClassNotfication_close"> <i class="fas fa-times"></i> </a>
 </section>
 
-<section id="story-pop" class="story-popup">
-   <div class="story-pop-content">
-        <div class="owl-carousel story-carousel">
-            <div class="item"> <img src="images/Artboard14.jpg"> </div>
-            <div class="item"> <img src="images/Artboard13.jpg"> </div>
-            <div class="item"> <video src="images/mov_bbb.mp4" controls></video> </div>
-        </div>
-   </div>
-   <i class="fas fa-times story-close story-pop_close"></i>
-</section>
 
 <section id="story-view" class="story-view">
     <div class="story-content">
@@ -540,6 +530,7 @@
         <div class="item"> <img src="images/Artboard13.jpg"> </div>
         <div class="item"> <video src="images/mov_bbb.mp4"></video> </div>
         <div class="item"> <img src="images/liveclass/liveclass-4.jpg"> </div>
+        <div class="item"> <img src="images/liveclass/liveclass-3.jpg"> </div>
     </div>
          </div>
 
@@ -562,14 +553,13 @@
 <script>
     $(document).ready(function() {
             var newCustomer = (sessionStorage.getItem('demoPop') === 'true') ? false : true;
-            $('#LiveClassNotfication').popup({
+            $('#liveClassNotfication').popup({
                 autoopen: newCustomer,
                 pagecontainer: '.container',
                 transition: 'all 0.3s',
                 scrolllock:true, blur: false
             });
             sessionStorage.setItem('demoPop', 'true');
-            $('#story-pop').popup({  pagecontainer: '.container',  transition: 'all 0.3s',  scrolllock:true, blur: false });
         });
 </script>
 

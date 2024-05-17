@@ -808,9 +808,9 @@ conic-gradient(#0DB2B2 0, #0DB2B2 18.3%, #75C091 0, #75C091 43.8%, #0DB2B2 0, #0
 .mb-30{margin-bottom: 30px;}
 .ask-spedia input:focus, .ask-spedia textarea:focus{box-shadow: none !important; outline: none !important;background:rgba(26, 26, 26, 0.05); }
 .ask-spedia .form-group{margin-bottom: 30px;}
-.ask-spedia select{border-radius: 10px; width: 100%;padding: 11.5px 20px;border: none;font-size: 16px;line-height: 22px;letter-spacing: 0.32px;color: #1A1A1A;resize: none;     background: url(../images/icons/expand_more-24px.svg) #f4f4f4 no-repeat center left;}
+.ask-spedia select{border-radius: 6px; width: 100%;padding: 6.5px 20px;border: none;font-size: 16px;line-height: 22px;letter-spacing: 0.32px;color: #1A1A1A;resize: none; background: #f3f3f3;}
 .ask-spedia textarea{height: auto; resize: none;}
-.ask-spedia button{min-width: 160px; text-transform: uppercase;  background: linear-gradient(180deg, rgba(13, 178, 178, 0.5), #0C9C9C); border: none; color:#fff; padding: 8px 16px; font-size: 15px; height: 45px; border-radius: 30px; font-weight: 700;}
+.ask-spedia button{min-width: 160px; text-transform: uppercase;  background: #0DB2B2; border: none; color:#fff; padding: 8px 16px; font-size: 15px; height: 45px; border-radius: 4px; font-weight: 700; margin-top: 10px;}
 .ask-spedia button:hover{background: linear-gradient(180deg, #0C9C9C, rgba(13, 178, 178, 0.5));}
 .ask-search-box{position: relative; width: 100%; max-width: 400px; margin: 0 auto; margin-top: 20px;}
 .ask-search-box input{border: 1px solid #E5E5EA; border-radius:30px; padding: 8px 16px; background:none; font-size: 14px;}
@@ -818,7 +818,7 @@ conic-gradient(#0DB2B2 0, #0DB2B2 18.3%, #75C091 0, #75C091 43.8%, #0DB2B2 0, #0
 .ask-search-box i{position: absolute; left: 20px; color:rgba(26, 26, 26, 0.5); top: 35%;}
 .ask-search-box i:hover{ color:rgba(26, 26, 26, 1);}
 .topic-box{border: 1px solid #E5E5EA; padding: 15px; border-radius: 6px; text-align: right; margin: 0px; position: relative; margin-bottom: 15px; min-height: 123px;
-background: #fafafa; color: rgba(0, 0, 0, 0.5); display: block;}
+color: rgba(0, 0, 0, 0.5); display: block;}
 .topic-box-img{width: 50px; height:50px; border-radius:50%; overflow: hidden; display: block; line-height: 50px; color:#fff; font-size: 24px; font-weight: 700;}
 .topic-box-img img{width: 50px; height:50px;}
 .topic-box h5{font-weight: 700; margin-bottom: 8px; font-size: 18px; max-width: 600px;}

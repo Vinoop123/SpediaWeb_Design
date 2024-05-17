@@ -44,19 +44,22 @@
    <div class="container">
    <div class="row justify-content-center align-items-center">
         <div class="col-md-12 text-center mb-30">
-         <h1>Ask Spedia</h1>
-         <p>If you have any questions or ask for help, please contact us and we will reply soon</p>
+         <h1> اسأل معلم </h1>
+         <p> اذا في سؤال يقرقع بقلبك اسألنا أي وقت وبنجاوبك بأسرع وقت </p>
         </div>
        
        <div class="col-md-12 col-lg-9">
-       <a href="javaScript:void(0)"><div class="row topic-box">
+       <a href="javaScript:void(0)"><div class="row topic-box topic-more">
             <div class="topic-box-time"> July 3 2023 17:06 </div>   
-            <p>Vivamus mattis turpis ac risus lacinia, quis euismod ex lobortis. Vivamus ac cursus est. Vivamus condimentum nisi eget massa sagittis consectetur.</p> 
-            <div class="topic-box-attach"> <i class="fas fa-image"></i></div>
+            <p> هذه الأفكار المغلوطة حول استنكار  
+                أن كل هذه الأفكار المغلوطة حول استنكار النشوة وتمجيد الألم نشأت بالفعل، لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار 
+                هذه الأفكار المغلوطة حول استنكار  
+                أن كل هذه الأفكار المغلوطة حول استنكار النشوة وتمجيد الألم نشأت بالفعل، لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار </p> 
+            <div class="topic-box-subject"> <img src="images/prerecorded/maths.jpg">  </div>   
            </div></a>
            <a href="javaScript:void(0)"><div class="row topic-box">
             <div class="topic-box-time"> July 3 2023 17:06 </div>   
-            <p>Vivamus mattis turpis ac risus lacinia, quis euismod ex lobortis. Vivamus ac cursus est. Vivamus condimentum nisi eget massa sagittis consectetur.</p> 
+            <p> Teacher Messaged</p> 
             <audio controls="" controlslist="nodownload noplaybackrate">
                 <source src="images/Vaseegara Music.mp3" type="audio/mpeg">
               Your browser does not support the audio element.
@@ -67,6 +70,7 @@
             <h5> <i class="fas fa-reply"></i> Teacher Replied </h5>
             <p> هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم
                 نشأت بالفعل، </p> 
+            <div class="topic-box-attach"> <img src="images/icons/icon_pdf.png">  </div>   
            </div></a>
            <a href="javaScript:void(0)"><div class="row topic-box topic-box-question">
              <div class="topic-box-time"> July 3 2023 17:06 </div>  
@@ -102,8 +106,19 @@
         <label>Type your question</label> 
         <textarea rows="7" placeholder="Your question" class="form-control"></textarea>    
         </div> 
-        <button type="submit">Reply</button>    
         </div>   
+        <div class="col-md-12 audio-record">
+            <i class="fa fa-microphone"  id="startButton"></i>
+            <i class="fa fa-stop Rec" id="stopButton"></i>
+            <audio id="audioPlayer" controls="" controlslist="nodownload noplaybackrate">
+                <source src="images/Vaseegara Music.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+            <input type="file" name="VoiceFile" id="voiceFileInput" hidden="">
+        </div>
+        <div class="col-md-12 text-right">
+            <button type="submit"> Reply </button>  
+        </div>
         </div>
        </div>
        
@@ -348,7 +363,20 @@
             $("#course-list1").hide();
         });
     });
-    </script>
+        
+    $(document).ready(function(){
+    $("#startButton").click(function(){
+        $("#stopButton").show().css({"display":"inline-block"});;
+        $("#startButton").hide();
+    });
+    $("#stopButton").click(function(){
+        $("#startButton").show();
+        $("#stopButton").hide();
+    });
+    });
+
+</script>
+
 
 
 </body></html>

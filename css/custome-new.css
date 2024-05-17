@@ -513,10 +513,11 @@ cursor: pointer; font-size: 20px;}
 background-color: #0DB2B2; background-position: 100% 50%; animation-timing-function: linear; animation-delay: .2s; animation-duration: 5s; animation-name: Loader;}
 /* .story-carousel:hover .owl-dots .owl-dot.active{animation-play-state: paused;} */
 .story-carousel .owl-dots.disabled{display: flex; opacity: 1; cursor: pointer!important;}
-
-
-
-
+.empty-notification{min-height: 80vh; position: relative; padding: 30px 0px;}
+.empty-notification-content{ position: absolute; width: 100%; max-width: 450px; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
+.empty-notification-content img, .empty-notification-content h1{margin-bottom: 20px;}
+.readMore{color: #0DB2B2; font-weight: 700;}
+.topic-more p{display: block;}
 
 
 

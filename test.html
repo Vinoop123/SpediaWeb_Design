@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Calendar Picker</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.calendar {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.calendar-header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.calendar-body {
+    padding: 10px;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.day {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.day.disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}
+
+.day.active {
+    background-color: #007BFF;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <div class="calendar">
+        <div class="calendar-header">
+            <span class="month"></span>
+            <span class="year"></span>
+        </div>
+        <div class="calendar-body">
+            <div class="days"></div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    const calendarBody = document.querySelector('.days');
+    const monthElement = document.querySelector('.month');
+    const yearElement = document.querySelector('.year');
+
+    const today = new Date();
+    const currentMonth = today.getMonth();
+    const currentYear = today.getFullYear();
+    const currentDate = today.getDate();
+
+    const months = [
+        'January', 'February', 'March', 'April', 'May', 'June',
+        'July', 'August', 'September', 'October', 'November', 'December'
+    ];
+
+    monthElement.textContent = months[currentMonth];
+    yearElement.textContent = currentYear;
+
+    function getDaysInMonth(month, year) {
+        return new Date(year, month + 1, 0).getDate();
+    }
+
+    function generateCalendar(month, year) {
+        calendarBody.innerHTML = '';
+        const daysInMonth = getDaysInMonth(month, year);
+        for (let i = 1; i <= daysInMonth; i++) {
+            const dayElement = document.createElement('div');
+            dayElement.classList.add('day');
+            dayElement.textContent = i;
+
+            const currentDateObj = new Date(year, month, i);
+            if (currentDateObj < today) {
+                dayElement.classList.add('disabled');
+            } else if (i === currentDate && month === currentMonth && year === currentYear) {
+                dayElement.classList.add('active');
+            }
+
+            calendarBody.appendChild(dayElement);
+        }
+    }
+
+    generateCalendar(currentMonth, currentYear);
+});
+
+    </script>
+</body>
+</html>

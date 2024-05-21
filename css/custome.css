@@ -84,7 +84,7 @@ footer ul li:hover{color:#0DB2B2;}
 .signin-rs{display: none;}
 .logIn form{text-align: right; color:#1a1a1a; padding-bottom:0px;}
 .logIn form label, .welcome label{font-size: 14px; line-height: 25px; letter-spacing: 0.32px; font-weight: normal; opacity: 0.35; display: block;}
-.logIn form input, select.form-control, .welcome input{background: #f4f4f4;border-radius: 10px; width: 100%; padding: 14px 20px; border:1px solid #f4f4f4; font-size: 16px; line-height: 22px; letter-spacing: 0.32px; color: #1A1A1A; text-align: right; display: block; height: 52px;}
+.logIn form input, select.form-control, .welcome input{background: #f4f4f4;border-radius: 6px; width: 100%; padding: 8px 16px; border:1px solid #f4f4f4; font-size: 16px; line-height: 22px; letter-spacing: 0.32px; color: #1A1A1A; text-align: right; display: block; height: 52px;}
 .logIn form input:hover, select.form-control:hover, .welcome input:hover, .logIn form input:focus, select.form-control:focus, .welcome input:focus{background: #f4f4f4;}
 .toggle-password{position: absolute; left: 15px; bottom: 18px; color: #d3d3d3;}
 .logIn form .form-group, .welcome .form-group{position: relative; margin-bottom: 25px; text-align: right;}
@@ -110,17 +110,15 @@ footer ul li:hover{color:#0DB2B2;}
 .signin-radio input:checked ~ .checkmark h6, .signin-radio:hover input ~ .checkmark h6 {color: #75C091; font-weight: 700;}
 .mr-bt20{margin-bottom: 20px;}
 .register-terms{position: relative; padding-right: 50px;}
-.register-terms p{letter-spacing: normal; line-height: 25px; color:#afafaf;}
-.register-terms p a{color:#75C091; text-decoration: underline;}
+.register-terms p{letter-spacing: normal; line-height: 25px; color:#000;}
+.register-terms p a{color:#0DB2B2; text-decoration: underline;}
 .register-terms p a:hover{color:#0DB2B2;}
 .register-terms label{opacity: 1 !important;}
 .terms-register input {position: absolute;opacity: 0;cursor: pointer;height: 0;width: 0;}
-.termsCheck { position: absolute;top: 0;left: 0;height: 25px;width: 25px;background-color: #eee; border-radius: 4px; cursor: pointer;}
-.terms-register:hover input ~ .termsCheck {background-color: #ccc;}
-.terms-register input:checked ~ .termsCheck {background-color: #75C091;}
+.termsCheck { position: absolute;top: 0;left: 0;height: 25px;width: 25px; border: 1px solid #0DB2B2; border-radius: 4px; cursor: pointer;}
 .termsCheck:after {content: "";position: absolute;display: none;}
 .terms-register input:checked ~ .termsCheck:after { display: block;}
-.terms-register .termsCheck:after { left: 8px;top: 2px;width: 8px;height: 16px;border: solid white;border-width: 0 3px 3px 0;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);}
+.terms-register .termsCheck:after { left: 8px;top: 2px;width: 8px;height: 16px;border: solid #0DB2B2;border-width: 0 3px 3px 0;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);}
 .terms-register{position: absolute; right:30px; top: 0px;}
 .register form{padding-bottom: 0px;}
 .register h5{color: #afafaf;}
@@ -1242,7 +1240,7 @@ margin-bottom: 30px; color:#000; box-shadow: 5px 8px 30px 0 rgb(31 35 37 / 5%);}
 .login-smartmind{text-align: left !important;}
 .class-rate img{max-width: 15px; background: none; padding: 0px; filter: brightness(0) invert(1);}
 .class-rate img:hover{background: none;}
-select.form-control{height: 52px;}
+select.form-control{height: 50px;}
 .reference{direction: ltr;}
 .video-subjects{margin-top: 20px;}
 .video-subjects ul{padding: 0px; list-style: none;}

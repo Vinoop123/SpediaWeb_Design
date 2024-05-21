@@ -68,7 +68,7 @@
     .request-private, .live-class, .prerecorded, .my-subscribed-courses, .live-class-details, .video-library-subscribed{padding: 15px 0px;}
     .request-private h1{max-width: 100%; font-size: 14px; margin-bottom: 6px; line-height:24px; margin-right: 10px;}
     footer{padding: 30px 0px;}
-    .inner-heading .nav-tabs li a{min-width: 150px; margin: 15px 5px;}
+    .inner-heading .nav-tabs li a{min-width: 150px; margin: 15px 5px; padding: 8px;}
     .ad-two{margin: 30px 0px; margin-bottom: 5px;}
     .menu-login .logo img{max-width: 130px;}
     .dp{position: absolute; width: 41px; height: 41px; top: -42px; left: 15px;}
@@ -165,6 +165,8 @@
     .video-continue-close{font-size: 15px; left: 2px; top: 2px;}
     .video-continue{height: 75px;}
     .video-continue-play{top: 45%;}
+    .request_privateclass{padding: 20px 15px;}
+    .send-btn{min-width: auto; width: 100%;}
 }
 
 /* Large Mobile :480px. */

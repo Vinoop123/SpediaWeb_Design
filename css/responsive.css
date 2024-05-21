@@ -49,6 +49,7 @@
     .my-course-btn{left: 59%; top: 5px;}
     .video-comment-field, .video-rating{margin-left: 5px;}
     .video-comment-field{width: 65%;}
+    .video-continue  .container{max-width: 100%; padding-right: 0px;}
 }
 
 /* small mobile :320px. */
@@ -155,6 +156,15 @@
     .story-carousel video, .story-carousel img{height: 300px;}
     .empty-notification{min-height: 66vh;}
     .empty-notification-content{max-width: 300px;}
+    .video-continue  .container{padding-right: 0px;}
+    .video-continue-box_img{width: 100px; height: 75px;}
+    .video-continue-box{padding-right: 110px; padding-left: 45px;}
+    .video-continue-play i{width: 40px; height: 40px; line-height: 39px;}
+    .video-continue-box h5{font-size: 14px;}
+    .video-continue-box p{font-size: 12px;}
+    .video-continue-close{font-size: 15px; left: 2px; top: 2px;}
+    .video-continue{height: 75px;}
+    .video-continue-play{top: 45%;}
 }
 
 /* Large Mobile :480px. */

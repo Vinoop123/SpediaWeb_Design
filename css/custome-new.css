@@ -566,4 +566,31 @@ height: 68px;}
 .request_privateclass .form-group textarea::placeholder{color: #000;}
 .send-btn{min-width: 250px; height: 50px; border-radius: 6px; color: #fff; background: #0DB2B2; border: none; font-size: 16px;
 font-weight: 700;}
+.my-profile{padding-top: 30px;}
+.my-profile-box{background: #fff; border-radius: 8px; position: relative; padding: 15px; -webkit-box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.06);
+-moz-box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.06); box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.06); text-align: right;}
+.my-profile-box h1{margin-bottom: 10px; font-size: 22px;}
+.my-profile-box h5{font-size: 16px; color: #8EA7AB; margin: 0px;}
+.my-profile-qr{position: relative; width: 200px; height: 200px; display: inline-block;}
+.my-profile-qr img{width: 100%; height: 100%; object-fit: cover;}
+.my-profile-dp{width: 90px; height: 90px; background: #fff; padding: 4px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+border-radius: 50%;}
+.my-profile-dp img{border: 2px dotted #0DB2B2; padding: 4px; border-radius: 50%;}
+.my-profile-edit{position: absolute; left: 15px; top: 15px; cursor: pointer;}
+.profile-relative-videos{position: relative; background: #fff; border-radius: 6px; -webkit-box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.06);
+    -moz-box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.06); box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.06); text-align: right; overflow: hidden;
+transition: 0.3s all ease-in-out;}
+.profile-relative-videos:hover{-webkit-box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.25); -moz-box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.25); 
+box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.25);}
+.profile-relative-videos-img{width: 100%; height: 150px;}
+.profile-relative-videos-img img{border-radius: 6px; width: 100%; height: 100%; object-fit: cover;}
+.profile-relative-videos-content{padding: 10px;}
+.profile-relative-videos-content h5{font-weight: 700; font-size: 18px; margin-bottom: 12px;}
+.profile-relative-videos-content p{margin-bottom: 8px;}
+.profile-relative-videos-content p span{margin-right: 5px; font-weight: 700;}
+.profile-relative-videos-content img{width: 24px;}
+.profile-relative-videos-content h6{font-size: 14px;}
+.profile-relative-videos-content h6 span{float: left;}
+.profile-videos{padding-top: 0px; padding-bottom: 60px;}
+.video-remaining{font-weight: 700; color: #FF3B30;}
 

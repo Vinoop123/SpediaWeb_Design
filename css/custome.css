@@ -20,10 +20,10 @@ h1{font-size: 30px;}
 .banner h1{font-weight: 700;color: #1A1A1A; line-height: 46px;}
 .banner h6{color: #676767; font-size: 18px; line-height: 30px; direction: ltr;}
 .level-box{display: flex; align-items: center; justify-content: center; margin-top: 20px;  direction: ltr;}
-.analystic-graph{display: inline-block; background:#65BB8A; width: 54px; height: 54px; border-radius:50%; line-height: 51px; text-align:center ; position: relative; top: -20px;}
+.analystic-graph{display: inline-block; background:#0DB2B2; width: 54px; height: 54px; border-radius:50%; line-height: 51px; text-align:center ; position: relative; top: -20px;}
 .analystic-graph:hover img{filter: grayscale(0); }
 .point-box{width: 60%; position: relative;}
-.point-box input{color: #75C091; font-size: 20px; font-weight: 600; border: 1.16px solid rgba(13, 178, 178, 0.5); text-align: center; box-sizing: border-box; border-radius: 58px; padding: 9px 20px 9px 30px; width: 100%; height: 50px;}
+.point-box input{color: #0DB2B2; font-size: 20px; font-weight: 600; border: 1.16px solid rgba(13, 178, 178, 0.5); text-align: center; box-sizing: border-box; border-radius: 58px; padding: 9px 20px 9px 30px; width: 100%; height: 50px;}
 .point-position{position: absolute; top:0px; left: 0px;font-weight: 600; font-size: 20px; line-height: 27px; text-align: right; letter-spacing: -0.232px; color: #C5C5C5; border-right: 1px solid #78CBCB; padding: 11px 16px 11px 20px;}
 .point-box button{position: absolute; top:0px; right:0px; text-transform: uppercase;font-weight: 600; font-size: 20px; line-height: 27px; border:none; background:#0DB2B2; color:#fff;border-radius: 58px; padding: 11px 60px 11px 40px; transition: all 0.3s ease-in; height: 50px;}
 .point-box:hover button{background:#1B615F;}
@@ -496,7 +496,7 @@ font-weight: 700; width: 100%;}
 .zero{margin: 0px; padding: 0px;}
 .result-score h4{font-size: 18px; font-weight: 600; text-align: right; color: #1D4F57;}
 .result-score p{font-size: 14px; text-align: right; color: rgba(29, 79, 87, 0.6); margin: 0px;}
-.related-videos{margin-bottom: 30px;}
+.related-videos{margin-bottom: 20px;}
 .related-videos h5{font-size: 18px; float: right; color:rgba(26, 26, 26, 0.35);}
 .related-videos h6{color: #75C091; font-size: 15px; font-weight: 700;}
 .related-videos h6:hover{color:#0DB2B2;}
@@ -556,19 +556,19 @@ font-weight: 700; width: 100%;}
 .profile-image img{border: 3px dashed #FFFFFF; padding: 5px; border-radius: 50%; margin-bottom: 20px; width: 100px; height: 100px;}
 .profile-image h2{font-weight: 700;}
 .profile-image h4{font-weight: 400; font-size: 18px; line-height: 30px; margin: 0px;}
-.profile-details{padding: 30px 0px;}
-.profile-details .point-box{width: 100%; margin-bottom: 40px; margin-left: 20px;}
+.profile-details{padding: 30px 0px 15px;}
+.profile-details .point-box{width: 90%; margin-bottom: 40px; margin-left: 10px;}
 .profile-details .point-box input{direction: ltr; padding-left: 0px; padding-right: 60px; text-align: center;}
 .student-grade{background: rgba(117, 192, 145, 0.1); border-radius: 7px; padding: 20px; margin-bottom: 20px; direction: ltr; min-height: 56px;}
 .student-grade h5{margin: 0px; color: rgba(29, 79, 87, 0.6); font-size: 16px; line-height: 25px; display: inline-block;float: right;}
 .student-grade h6{ margin: 0px; line-height: 25px; color: #1D4F57; font-weight: 700; font-size: 18px;}
 .profile-details h4{text-align: center; font-size: 20px; font-weight: 700; color: #1a1a1a; margin-top: 20px; margin-bottom: 20px;}
-.personal-details{position: relative; padding: 10px; border-radius: 8px; padding-right: 50px; text-align: right; direction: ltr; min-height: 80px; box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 6%);}
+.personal-details{position: relative; padding: 10px; border-radius: 8px; padding-right: 50px; text-align: right; direction: ltr; min-height: 80px; box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 4%);}
 .personal-details h6{font-size: 14px; color:rgba(26, 26, 26, 0.5); margin: 0px; line-height: 28px;}
 .personal-details h5{font-size: 16px; color:rgba(26, 26, 26, 1); margin: 0px;}
-.personal-details img{position: absolute; right: 10px; top: 25%;}
+.personal-details img{position: absolute; right: 10px; top: 20%; width: 28px;}
 .subscribed-subjects{padding: 30px 0px;}
-.subscribed-subjects .related-videos h5{font-size: 20px; color:#1a1a1a; font-weight: 700;}
+.subscribed-subjects .related-videos h5{font-size: 24px; color:#1a1a1a; font-weight: 700;}
 .subscribed-subjects .course-list-content{bottom: inherit; top: 0px; width: 100%;}
 .subscribed-subjects .course-list-content h4{font-size: 14px; margin: 0px; color:rgba(255, 255, 255, 0.7);  position: absolute; width: 85%; bottom:20px;}
 .subscribed-subjects .course-list-content h4 button{float: left; border:none; background: #75C091; border-radius: 30px; color:#fff; padding: 6px 12px; font-weight: 700; margin-top: -8px; font-size: 12px;}
@@ -754,10 +754,10 @@ conic-gradient(#0DB2B2 0, #0DB2B2 18.3%, #75C091 0, #75C091 43.8%, #0DB2B2 0, #0
 .course-tabs .nav-tabs{margin: 0px; padding: 8px; background: #F1F9F4; text-align: center; display: flex; border: none; margin-bottom: 20px;}
 .course-tabs .nav-tabs li{flex: 1; font-size: 18px;  padding: 8px 0px;}
 .course-tabs .nav-tabs li.active{border: 1px solid #0DB2B2; color:#0DB2B2; background:#fff; border-radius: 30px;}
-.membership-card{background:rgba(106, 187, 136, 0.05); padding: 8px; border-radius: 6px; position: relative; padding-right: 50px;}
+.membership-card{background: rgba(13, 178, 178, 0.1); padding: 8px; border-radius: 6px; position: relative; padding-right: 50px;}
 .membership-card img{right: 10px;}
-.membership-card i{position: absolute; left: 15px; top: 15px; color:#75C091;}
-.membership-card h6::after{content: "\f00c"; font-family: "Font Awesome 5 Free"; font-weight: 900; color:#75C091; position: absolute; left: 15px;}
+.membership-card i{position: absolute; left: 15px; top: 15px; color:#0DB2B2;}
+.membership-card h6::after{content: "\f00c"; font-family: "Font Awesome 5 Free"; font-weight: 900; color:#0DB2B2; position: absolute; left: 15px;}
 .membership-card h6::before{content: "\f00d"; font-family: "Font Awesome 5 Free"; font-weight: 900; color:#FF3B30; position: absolute; left: 15px; opacity: 0;}
 .membership-card.active{opacity: 0.5;}
 .membership-card.active h6::before{opacity: 1;}
@@ -766,7 +766,7 @@ conic-gradient(#0DB2B2 0, #0DB2B2 18.3%, #75C091 0, #75C091 43.8%, #0DB2B2 0, #0
 .cart-success-popup h5{font-size: 18px; color:#1a1a1a; margin: 20px 0px; line-height: 28px;}
 .cart-success-popup h5 span{color:#FF3B30;}
 .cart-success-popup button{display: block; margin: 0 auto; margin-top: 25px; width: 100%; max-width: 160px; padding: 15px; border-radius: 30px; border:none; font-weight: 700; color:#fff; font-size: 16px; text-transform: uppercase;}
-.cart-success-popup button.continue{background:#75C091;}
+.cart-success-popup button.continue{background:#0DB2B2;}
 .cart-success-popup button.checkout{background:#FC652C;}
 .cart-success-popup button:hover{background:#0DB2B2;}
 .live-class-collapse{width:25px; height:25px; border-radius:50%; background:#1B5966; text-align: center; line-height: 25px; position: absolute; left: 20px; top:20px; cursor: pointer;}
@@ -1324,6 +1324,8 @@ select.form-control{height: 50px;}
     .live-class-box-img-overlay{padding: 12px;}
     .live-class-collapse{left: 12px; top: 12px;}
     .logIn .nav-tabs li a{margin: 6px;}
+    .personal-details{margin-bottom: 15px;}
+    .profile-relative-videos{margin-bottom: 20px;}
 }
 
 @media screen and (max-width: 768px){
@@ -1382,7 +1384,7 @@ select.form-control{height: 50px;}
     .profile-bgm h5, .profile-bgm h6{display: none;}
     .profile-qr{margin: 0 auto; display: block; margin-top: 20px; float: none;}
     .edit-profile{float: inherit; right: 20px; bottom: -60px;}
-    .profile-details{padding-bottom: 0px;}
+    .profile-details{padding-bottom: 0px; padding-top: 10px;}
     .subscribed-subjects .related-videos h5{font-size: 18px;}
     .institution h5{font-size: 14px; line-height: 22px; min-height: inherit;}
     .select-grade.profile-details{padding-bottom: 20px;}

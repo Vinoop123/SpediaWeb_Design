@@ -22,53 +22,105 @@
     <header class="main-header">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-3 col">
-                   <a href="profile.html"><div class="profile-view">
-                       <h4><img src="images/profile.png"> <span>Hi, Jacob</span> </h4>
-                       </div></a>
-                    <a href="my-cart.html"><div class="cart-view">
-                       <i class="fas fa-shopping-bag"></i><sup>3</sup>
-                       </div></a>
+                <div class="col-md-3 col-5 dropdown">
+                    <a href="javaScript:void(0)" role="button" id="dropdownUser"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="profile-view">
+                        <div class="profile-point">
+                            <img src="images/profile.png">    نقطة <strong>468</strong>  
+                        </div>
+                    </div>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownUser">
+                        <div class="dropdown-item">
+                            <div class="d-flex py-2">
+                                <div class="avatar avatar-md avatar-indicators avatar-online">
+                                    <img src="images/profile.png">
+                                </div>
+                                <div class="mr-3 text-right">
+                                    <h5 class="mb-0">Jacob Richards</h5>
+                                    <p class="mb-0">Grade 12</p>
+                                </div>
+    
+                            </div>
+                            
+                        </div>
+                        <div class="dropdown-divider"></div>
+                            <ul class="profile-dropdown">
+                                <li>
+                                    <a class="dropdown-item" href="profile.html"><i class="far fa-user"></i> Profile</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javaScript:void(0)"><i class="far fa-bell"></i> Notification</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javaScript:void(0)"><i class="far fa-star"></i> Subscription</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javaScript:void(0)"><i class="fas fa-cog"></i> Settings</a>
+                                </li>
+                                
+                            
+                            </ul>
+                        <div class="dropdown-divider"></div>
+                        <ul class="profile-dropdown">
+                        <li>
+                            <a class="dropdown-item" href="javaScript:void(0)"><i class="fas fa-power-off"></i> Logout</a>
+                        </li>
+                    
+                    </ul>
+                        
+                    </div>
                 </div>
-                <div class="col-md-6 col text-center">
+                <div class="col-lg-6 col-md-4 col text-center">
                     <a href="index.html"> <img src="images/logo.png"> </a>
                 </div>
-                <div class="col-md-3 col">
+                <div class="col-lg-3 col-md-4 col-7">
                     <div id="menu-wrapper"></div>
+                    <ul class="topbar-icons">
+                        <a href="my-cart.html" title="Cart"> <li> <img src="images/icons/shopping-bag.svg"> <sup> 4 </sup></li></a>
+                    </ul>
+                    <div class="my-course-btn">
+                        <a href="mycourse.html"><button> اشتراكاتي <img src="images/icons/hand.svg"> </button></a>
+                    </div>
+                        
                 </div>
             </div>
         </div>
-    </header>
+	</header>
 
-    <section class="profile-bgm" style="background-image: url(images/jacob.jpg);">
-    <div class="profile-bgm-color"></div>    
-    <div class="container">
-    <div class="row align-items-start">
-    <div class="col-md-3">
-      <a href="javaScript:void(0)">
-         <div class="edit-profile">
-        <img src="images/icons/icon_editprofile.png">
-        </div> 
-          <h6>Edit Profile</h6>
-     </a>
-    </div>
-    <div class="col-md-6 text-center">
-        <div class="profile-image">
-        <img src="images/profile2.png">
-        <h2>Jacob Richards</h2>
-        <h4><a href="mailto:jrichards77@gmail.com">jrichards77@gmail.com</a></h4>    
+    <section class="inner-heading video-library-tab">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1> حسابي </h1>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="col-md-3">
-     <a href="javaScript:void(0)">
-         <div class="profile-qr">
-        <img src="images/icons/QR.png">
-        </div> 
-        <h5>My Profile QR</h5>
-     </a>     
-    </div>    
-    </div>    
-    </div>
+    </section>
+
+    <section class="my-profile">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8">
+                    <div class="my-profile-box">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-center">
+                             <div class="my-profile-qr">
+                                <img src="images/qr1.png">
+                                <div class="my-profile-dp"> <img src="images/profile2.png"></div>
+                             </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h1> جاكوب ريتشاردز </h1>
+                            <h5> jrichards77@gmail.com</h5>
+                        </div>
+                    </div>
+                    <div class="my-profile-edit"> <img src="images/new-icons/icon_edit profile.svg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     
     <section class="profile-details">
@@ -79,8 +131,8 @@
         <div class="analystic-graph"> <a href="skill-analysis.html"><img src="images/icons/analytics-graph-bar.png"></a>
         </div>
         <div class="point-box">
-            <a href="javascript:void(0)" class="profileInfo-pop_open"><div class="profile-info-icon"><img src="images/icons/info_black.svg"></div></a>
-            <input type="text" value="1225 pts">
+            <a href="javascript:void(0)" class="profileInfo-pop_open"><div class="profile-info-icon"><img src="images/new-icons/info_black.svg"></div></a>
+            <input type="text" value="نقطة 468">
             <!--<div class="point-position">-</div>-->
             <div class="icon-level">
             <img src="images/icons/icon_level.png">
@@ -88,47 +140,47 @@
             </div>    
         </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-6">
         <div class="student-grade">
-            <h5>Student Grade</h5>
-            <h6>High School / 12</h6> 
+            <h5> الصف </h5>
+            <h6> الثاني عشر - علمي </h6> 
         </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-6">
         <div class="student-grade">
-            <h5>Joined since</h5>
-            <h6>29 August 2019</h6>
+            <h5> تاريخ الانتهاء </h5>
+            <h6> 29 August 2024</h6>
         </div>
         </div>
         <div class="col-md-12">
-        <h4>Personal Information</h4>
+        <h4> المعلومات الشخصية </h4>
         </div>
         <div class="col-lg-3 col-md-6  col-6">
         <div class="personal-details">
-        <h6>Full Name</h6>
-        <h5>Jacob Richards</h5>
-        <img src="images/icons/icon_fullname.png">
+        <h6> اسم المستخدم </h6>
+        <h5> jacob2022 </h5>
+        <img src="images/new-icons/username.svg">
         </div>   
         </div>
         <div class="col-lg-3 col-md-6 col-6">
         <div class="personal-details">
-        <h6>Parents Phone</h6>
-        <h5>+965 22415801</h5>
-        <img src="images/icons/icon_phone.png">    
+        <h6> الاسم كاملا </h6>
+        <h5> Jacob Richards </h5>
+        <img src="images/new-icons/icon_fullname.svg">    
         </div>   
         </div>
         <div class="col-lg-3 col-md-6  col-6">
         <div class="personal-details">
-        <h6>Birthday</h6>
-        <h5>12 December 2001</h5>
-        <img src="images/icons/icon_calendar.png">    
+        <h6> رقم الموبايل </h6>
+        <h5> +965 22415801 </h5>
+        <img src="images/new-icons/icon_phone.svg">    
         </div>   
         </div>
         <div class="col-lg-3 col-md-6  col-6">
-        <div class="personal-details membership-card active">
-        <h6>Membership No</h6>
-        <h5>KC1003JTY23</h5>
-        <img src="images/icons/card_membership.png">
+        <div class="personal-details membership-card">
+        <h6> رقم العضوية </h6>
+        <h5> SDP9</h5>
+        <img src="images/new-icons/card_membership.svg">
         <!--<a href="javaScript:void(0)"><i class="fas fa-times"></i></a>  -->  
         </div>   
         </div>
@@ -144,141 +196,132 @@
     <div class="container">
         <div class="row"> 
         <div class="col-md-12 related-videos">
-            <h5>Private Requests</h5>
-            <a href="javaScript:void(0)"> <h6>SEE ALL</h6></a>
-            </div>      
-    <div class="col-lg-3 col-md-6 col-6">
-    <a href="javaScript:void(0)"><div class="course-list">
-    <img src="images/cours-list3.jpg">
-    <div class="course-list-overlay">
-    <div class="course-list-content">
-    <h5>Science of Nitrogen</h5> 
-    <h6>4 Chapter Available</h6>
-    <p> <span>5</span> Courses <img src="images/icons/video.png">  </p> 
-    <h4><button>05/07/2020</button> Valid until</h4> 
-    </div>    
-    </div>    
-        </div></a>    
-    </div>    
-    <div class="col-lg-3 col-md-6 col-6">
-    <a href="javaScript:void(0)"><div class="course-list">
-    <img src="images/cours-list4.jpg">
-    <div class="course-list-overlay">
-    <div class="course-list-content">
-    <h5>Science of Nitrogen</h5> 
-    <h6>4 Chapter Available</h6>
-    <p> <span>5</span> Courses <img src="images/icons/video.png">  </p>  
-    <h4><button>05/07/2020</button> Valid until</h4> 
-    </div>    
-    </div>    
-        </div> </a>   
-    </div>     
+            <h5> حصص خاصة </h5>
+            </div>   
+        <div class="col-lg-3 col-md-4 col-6">
+            <a href="javascript:void(0)">
+                <div class="profile-relative-videos">
+                    <div class="profile-relative-videos-img"> <img src="images/prerecorded/maths.jpg"></div>
+                    <div class="profile-relative-videos-content">
+                        <h5> رياضيات </h5>
+                        <p> تاريخ انتهاء : <span> May/2024/01 </span></p>
+                        <p> <img src="images/new-icons/videocam.svg"> موعد الحصة : <span> انتظار </span></p>
+                    </div>
+                </div>
+            </a>
         </div>
+        <div class="col-lg-3 col-md-4 col-6">
+            <a href="javascript:void(0)">
+                <div class="profile-relative-videos">
+                    <div class="profile-relative-videos-img"> <img src="images/prerecorded/arabic.jpg"></div>
+                    <div class="profile-relative-videos-content">
+                        <h5> عربي </h5>
+                        <p> تاريخ انتهاء : <span> May/2024/01 </span></p>
+                        <p> <img src="images/new-icons/videocam.svg"> موعد الحصة : <span> انتظار </span></p>
+                    </div>
+                </div>
+            </a>
         </div>
-    </section>
-    
-    
-    <section class="subscribed-subjects">
-    <div class="container">
-        <div class="row"> 
-        <div class="col-md-12 related-videos">
-            <h5>Subscribed Subjects</h5>
-            <a href="javaScript:void(0)"> <h6>SEE ALL</h6></a>
-            </div>  
-            <div class="col-lg-3 col-md-6 col-6">
-    <a href="javaScript:void(0)"><div class="course-list">
-    <img src="images/cours-list1.jpg">
-    <div class="course-list-overlay">
-    <div class="course-list-content">
-    <h5>Introduction to Ecology</h5> 
-    <h6>4 Chapter Available</h6>
-    <p> <span>5</span> Courses <img src="images/icons/video.png">  </p>  
-    <h4><button>05/07/2020</button> Valid until</h4>    
-    </div>    
-    </div>    
-        </div></a>   
-    </div>     
-    <div class="col-lg-3 col-md-6 col-6">
-    <a href="javaScript:void(0)"><div class="course-list">
-    <img src="images/cours-list2.jpg">
-    <div class="course-list-overlay">
-    <div class="course-list-content">
-    <h5>Climate Change Education</h5> 
-    <h6>4 Chapter Available</h6>
-    <p> <span>5</span> Courses <img src="images/icons/video.png">  </p>
-    <h4><button>05/07/2020</button> Valid until</h4> 
-    </div>    
-    </div>    
-        </div></a>  
-    </div>
-    <div class="col-lg-3 col-md-6 col-6">
-    <a href="javaScript:void(0)"><div class="course-list">
-    <img src="images/cours-list3.jpg">
-    <div class="course-list-overlay">
-    <div class="course-list-content">
-    <h5>Science of Nitrogen</h5> 
-    <h6>4 Chapter Available</h6>
-    <p> <span>5</span> Courses <img src="images/icons/video.png">  </p> 
-    <h4><button>05/07/2020</button> Valid until</h4> 
-    </div>    
-    </div>    
-        </div></a>    
-    </div>    
-    <div class="col-lg-3 col-md-6 col-6">
-    <a href="javaScript:void(0)"><div class="course-list">
-    <img src="images/cours-list4.jpg">
-    <div class="course-list-overlay">
-    <div class="course-list-content">
-    <h5>Science of Nitrogen</h5> 
-    <h6>4 Chapter Available</h6>
-    <p> <span>5</span> Courses <img src="images/icons/video.png">  </p>  
-    <h4><button>05/07/2020</button> Valid until</h4> 
-    </div>    
-    </div>    
-        </div> </a>   
-    </div>     
+        <div class="col-lg-3 col-md-4 col-6">
+            <a href="javascript:void(0)">
+                <div class="profile-relative-videos">
+                    <div class="profile-relative-videos-img"> <img src="images/prerecorded/english.jpg"></div>
+                    <div class="profile-relative-videos-content">
+                        <h5> انجليزي </h5>
+                        <p> تاريخ انتهاء : <span> May/2024/01 </span></p>
+                        <p> <img src="images/new-icons/videocam.svg"> موعد الحصة : <span> انتظار </span></p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+            <a href="javascript:void(0)">
+                <div class="profile-relative-videos">
+                    <div class="profile-relative-videos-img"> <img src="images/prerecorded/pscycology.jpg"></div>
+                    <div class="profile-relative-videos-content">
+                        <h5> علم نفس </h5>
+                        <p> تاريخ انتهاء : <span> May/2024/01 </span></p>
+                        <p> <img src="images/new-icons/videocam.svg"> موعد الحصة : <span> انتظار </span></p>
+                    </div>
+                </div>
+            </a>
+        </div>
         </div>
         </div>
     </section>
+
+    <section class="subscribed-subjects profile-videos">
+        <div class="container">
+            <div class="row"> 
+            <div class="col-md-12 related-videos">
+                <h5> فيديوهاتي </h5>
+                </div>   
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="javascript:void(0)">
+                    <div class="profile-relative-videos">
+                        <div class="profile-relative-videos-img"> <img src="images/prerecorded/geography.jpg"></div>
+                        <div class="profile-relative-videos-content">
+                            <h5> جغرافيا </h5>
+                            <h6> 30 فصول  <span> <img src="images/new-icons/videocam.svg"> 273 درس</span></h6>
+                            <p class="video-remaining"> باقي من الأيام 15 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="javascript:void(0)">
+                    <div class="profile-relative-videos">
+                        <div class="profile-relative-videos-img"> <img src="images/prerecorded/statistics.jpg"></div>
+                        <div class="profile-relative-videos-content">
+                            <h5> احصاء </h5>
+                            <h6> 30 فصول  <span> <img src="images/new-icons/videocam.svg"> 273 درس</span></h6>
+                            <p class="video-remaining"> باقي من الأيام 15 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="javascript:void(0)">
+                    <div class="profile-relative-videos">
+                        <div class="profile-relative-videos-img"> <img src="images/prerecorded/islamic.jpg"></div>
+                        <div class="profile-relative-videos-content">
+                            <h5> التربية الإسلامية </h5>
+                            <h6> 30 فصول  <span> <img src="images/new-icons/videocam.svg"> 273 درس</span></h6>
+                            <p class="video-remaining"> باقي من الأيام 15 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="javascript:void(0)">
+                    <div class="profile-relative-videos">
+                        <div class="profile-relative-videos-img"> <img src="images/prerecorded/computer.jpg"></div>
+                        <div class="profile-relative-videos-content">
+                            <h5> الحاسوب </h5>
+                            <h6> 30 فصول  <span> <img src="images/new-icons/videocam.svg"> 273 درس</span></h6>
+                            <p class="video-remaining"> باقي من الأيام 15 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            </div>
+            </div>
+        </section>
+        
+    
     
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-2 col-md-3 col-6 footer-links">
-                    <h5>Information</h5>
-                    <ul>
-                        <a href="javaScript:void(0)">
-                            <li>Privacy Policy</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>Terms &amp; Condition</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>FAQ</li>
-                        </a>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-md-3 col-6 footer-links footer-textlft">
-                    <h5>Quick Links</h5>
-                    <ul>
-                        <a href="javaScript:void(0)">
-                            <li>About Us</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>Contact</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>Careers</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>Help</li>
-                        </a>
-                    </ul>
-                </div>
-                <div class="col-lg-8 col-md-6 footer-contact">
+                <div class="col-md-12">
                     <img src="images/logo.png">
-                    <p>Lorem ipsum dolor ami short description about spedia, you can put in this footer to give more information.</p>
-                    <h6>Copyright © 2020 <a href="index.html">Spedia</a>. All Rights Reserved</h6>
+                    </div>
+                    <div class="col-md-12">
+                    <a href="javaScript:void(0)"><p>Terms & Conditions</p></a>
+                    <a href="javaScript:void(0)"><p>Contact Us</p></a>
+                </div>
+                <div class="col-md-12">
+                    <h6>© 2021 Spedia</h6>
                 </div>
             </div>
         </div>

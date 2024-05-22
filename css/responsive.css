@@ -92,8 +92,8 @@
     .my-privateClasses .request-box button{min-width: 45px; font-size: 10px; left: 8px;}
     .contact-us-section{padding-top: 30px;}
     .skillsubject-carousel.owl-carousel .owl-stage{padding-right: 0px !important;}
-    .profile-details .point-box input{padding: 6px 20px 6px 0px;}
-    .analystic-graph{width: 50px; height: 50px; line-height: 50px;}
+    .profile-details .point-box input{padding: 6px 20px 6px 0px; font-size: 16px;}
+    .analystic-graph{width: 50px; height: 50px; line-height: 50px; top: -12px;}
     .practice-circle{margin-left: 10px;}
     .leaderboard{padding-top: 30px;}
     .live-course-box-img img{height: 130px;}
@@ -167,6 +167,21 @@
     .video-continue-play{top: 45%;}
     .request_privateclass{padding: 20px 15px;}
     .send-btn{min-width: auto; width: 100%;}
+    .my-profile{padding-top: 20px;}
+    .my-profile-box{text-align: center;}
+    .my-profile-qr{margin-bottom: 12px;}
+    .my-profile-box h1{font-size: 20px;}
+    .profile-details .point-box{width: 80%; margin-bottom: 25px;}
+    .student-grade{padding: 12px; margin-bottom: 10px; text-align: right;}
+    .student-grade h5{float: none;}
+    .subscribed-subjects{padding-top: 10px; padding-bottom:0px;}
+    .profile-relative-videos{margin-bottom: 20px;}
+    .profile-relative-videos-img{height: 100px;}
+    .profile-relative-videos-content{padding: 8px;}
+    .profile-relative-videos-content p, .profile-relative-videos-content h6{font-size: 11px;}
+    .profile-relative-videos-content h5, .profile-relative-videos-content p, .profile-relative-videos-content h6{margin-bottom: 5px;}
+    .profile-relative-videos-content h5{font-size: 16px;}
+    .profile-relative-videos-content img{width: 18px;}
 }
 
 /* Large Mobile :480px. */

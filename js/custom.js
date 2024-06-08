@@ -254,6 +254,8 @@ $('.skillsubject-carousel').owlCarousel({
 });
 
 
+
+
 $(document) .ready(function(){
   var li =  $(".owl-item li ");
   $(".owl-item li").click(function(){

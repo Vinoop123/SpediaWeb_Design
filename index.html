@@ -90,7 +90,7 @@
 	</header>
 
     <section class="story-section">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <ul class="stories">
@@ -121,6 +121,14 @@
                         <li class="story-open"> 
                             <div class="stories-img"> <img src="images/course-banner.jpg"> </div>
                             <h6>  مراجعة </h6> 
+                        </li>
+                        <li class="story-open"> 
+                            <div class="stories-img"> <img src="images/Artboard14.jpg"> </div>
+                            <h6> كامل مسجلة </h6> 
+                        </li>
+                        <li class="story-open"> 
+                            <div class="stories-img unseen"> <img src="images/Artboard13.jpg"> </div>
+                            <h6> مراجعة شاملة مراجعة شاملة</h6> 
                         </li>
                     </ul>
                 </div>
@@ -564,14 +572,11 @@
 
 <script>
     $(document).ready(function() {
-            var newCustomer = (sessionStorage.getItem('demoPop') === 'true') ? false : true;
             $('#liveClassNotfication').popup({
-                autoopen: newCustomer,
                 pagecontainer: '.container',
                 transition: 'all 0.3s',
                 scrolllock:true, blur: false
             });
-            sessionStorage.setItem('demoPop', 'true');
         });
 </script>
 

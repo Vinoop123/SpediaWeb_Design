@@ -5,11 +5,16 @@ img{ max-width:100%;} input, textarea, button, input:focus, textarea:focus, butt
 a, a:hover, a:focus{color:inherit;}
 h1{font-size: 30px;}
 .main-header{position: relative;top: 0;left: 0;right: 0;-webkit-transition: all .3s ease-in-out;-o-transition: all .3s ease-in-out;transition: all .3s ease-in-out; z-index: 333333;  align-items: center; font-weight: 200; background: #FFFFFF; border-bottom: 2px solid #E8E8E8; box-shadow: 0px 0px 50px rgba(103, 103, 103, 0.05); padding: 20px 0px;}
-.sidebar{-webkit-transition: all .3s ease-in-out;-o-transition: all .3s ease-in-out;transition: all .3s ease-in-out;position: fixed; top: 90px; left: 0; height: 88%; width: 250px; background: #fff; box-shadow: 0px 0px 50px rgba(103, 103, 103, 0.05); z-index: 333333; display: block; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 15px 25px; color: #e9e9e9; text-align: right; line-height: 2; background:#0DB2B2; overflow-y: scroll;}
+.sidebar{-webkit-transition: all .3s ease-in-out;-o-transition: all .3s ease-in-out;transition: all .3s ease-in-out;position: fixed; top: 90px; left: 0; height: 90vh; width: 300px; background: #fff; 
+  box-shadow: 10px 0px 20px 0px rgba(0,0,0,0.02); z-index: 333333; display: block; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 15px; color: #000; text-align: right; line-height: 2; overflow-y: scroll;
+border-right: 2px solid #ededed;}
 .sidebar-closed{-webkit-transform: translateX(-100%); -ms-transform: translateX(-100%); transform: translateX(-100%);}
 .sidebar-opened{	-webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0);}
-.sidebar li{list-style: none; font-size: 18px; line-height: 40px;}
-.sidebar li:hover{color:#000;}
+.sidebar li{list-style: none; font-size: 16px; line-height: 60px; border-bottom: 1px solid rgba(13, 178, 178, 0.2); position: relative; padding-right: 50px;}
+.sidebar ul{margin: 0px; padding: 0px;}
+.sidebar a li:hover{color:#0DB2B2;}
+.sidebar a li:hover .menu-icon{background:#0DB2B2;}
+.sidebar a li:hover .menu-icon img{ filter: invert(1) brightness(100);}
 .sign-buttton button{line-height: 24px; /*font-family: 'Nunito', sans-serif;*/ text-transform: uppercase; background: none; border:none; color:#000; font-size: 16px; font-weight: 700;}
 .sign-buttton .register-btn{background:#0DB2B2; color:#fff; border-radius: 10px; padding: 12px 20px; font-size: 15px; letter-spacing: 0.32px; margin-left: 25px;}
 .sign-buttton .register-btn:hover{background: #1B615F; color: #fff;}
@@ -1698,4 +1703,22 @@ select.form-control{height: 50px;}
 @-webkit-keyframes Loader {
   0%   { background-position: 0 0; }
   100% { background-position: 100% 0; }
+}
+
+@keyframes countdown {
+  from {
+    stroke-dashoffset: 0px;
+  }
+  to {
+    stroke-dashoffset: 339px;
+  }
+}
+
+@-webkit-keyframes countdown {
+  from {
+    stroke-dashoffset: 0px;
+  }
+  to {
+    stroke-dashoffset: 339px;
+  }
 }

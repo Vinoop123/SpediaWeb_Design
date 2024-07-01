@@ -947,9 +947,9 @@ option { direction: rtl; }
 .sidebar .dropdown-btn .fa-minus{display: none; transition: all 0.3s ease-in;}
 .sidebar .dropdown-btn.active .fa-plus{display: none; transition: all 0.3s ease-in;}
 .sidebar .dropdown-btn.active .fa-minus{display: block; transition: all 0.3s ease-in;}
-.sidebar::-webkit-scrollbar { width: 6px;}
+.sidebar::-webkit-scrollbar { width: 4px;}
 .sidebar::-webkit-scrollbar-thumb {background-color: #fff;}
-.sidebar {scrollbar-color: #0DB2B2 #fff; scrollbar-width:6px;}
+.sidebar {scrollbar-color: #0DB2B2 #E1EBEC; scrollbar-width:thin;}
 .profile-bgm-color{background: linear-gradient(180deg, rgba(13, 178, 178, 0.7) 0%, rgba(13, 178, 178, 0.95) 100%); width: 100%; height: 100%; position: absolute; top:0px;}
 .sold-out{position: absolute; bottom: 0px; width: 100%; background: #FF0000; color:#fff; z-index: 1; text-align: center; padding: 8px; text-transform: uppercase;}
 .sold-out h5{margin-bottom: 0px;}

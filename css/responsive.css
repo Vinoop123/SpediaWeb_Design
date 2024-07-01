@@ -28,6 +28,9 @@
     .live-class-details-img{margin-bottom: 20px;}
     .sign-buttton .register-btn{margin-left: 14px;}
     .live-class-details-img img{height: 400px;}
+    .validation-pop-content img{max-width: 120px;}
+    .validation-pop-content{padding-right: 140px; padding-bottom: 0px;}
+    .validation-pop-content h4{font-size: 28px; margin-bottom: 10px;}
 }
 
 /* small mobile :767px. */
@@ -210,7 +213,7 @@
     .video-library-tab .nav-tabs li a{padding: 8px; font-size: 12px; min-width: auto; margin: 5px 0px; border-radius: 5px;}
     .slider-carousel .owl-nav .owl-prev{left: 0px;}
     .slider-carousel .owl-nav .owl-next{ right: 0px;}
-    .show-all{top: 0px; font-size: 13px;}
+    .show-all{top: 8px; font-size: 14px;}
     .video-library-tab .nav-tabs{overflow: auto; white-space: nowrap;}
     .video-library-tab .nav-tabs li{margin: 0px 1px;}
     .previous-test button{min-width: auto;}
@@ -274,6 +277,28 @@
     .subject-tests-download{padding-bottom: 0px; margin-bottom: 10px;}
     .inner-heading h1{font-size: 26px; padding: 0px 35px; line-height: 42px;}
     .liveclass-category .live-course-box-content h5{min-height: 48px;}
+    .quiz-time-questions h2{font-size: 20px; margin-bottom: 10px;}
+    .quiz-time-questions{margin-top: 8px;}
+    .quiz-time-questions .progress{margin-top: 20px; margin-bottom: 0px;}
+    .quiz-time-wrong p, .quiz-time-right p{font-size: 18px;}
+    .quiz-time-questions h2 span{font-size: 30px;}
+    .quiz-question-box{margin-top: 0px;}
+    .quiz-big-image{margin-bottom: 15px;}
+    .quiz-question-box p{font-size: 15px;}
+    .true-false button{width: 150px; margin-left: 10px; height: 50px;}
+    .quiz-answer-box{margin-top: 20px;}
+    .quiz-submit-area button{max-width: 230px; height: 50px; }
+    .quiz-submit-area h5{font-size: 16px;}
+    .validation-pop-content{padding: 10px; padding-right: 140px;}
+    .validation-pop-content img{max-width: 130px;}
+    .validation-pop-content h4{font-size: 24px; margin-bottom: 10px;}
+    .validation-pop-content p{font-size: 14px;}
+    .validation-pop button{height: 50px; font-size: 18px;}
+    .clearfix2{height: 150px;}
+    .home-title h2{font-size: 20px;}
+    .home-title h2 img{max-width: 35px;}
+    .quiz-back-btn{font-size: 24px; right: 5%; top: 30px;}
+    .answer-options button{margin-bottom: 10px;}
     
 
 

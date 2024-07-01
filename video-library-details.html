@@ -87,30 +87,49 @@
         </div>
 	</header>
 
-<section class="inner-heading video-library-tab">
-    <div class="inner-overlay"></div>
+<section class="subject-details-page">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>كيمياء </h1>
-                <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active"><a href="#videoLibrary" aria-controls="videoTab" role="tab" data-toggle="tab">الفيديوهات</a></li>
-                    <li role="presentation"><a href="#notes" aria-controls="notes" role="tab" data-toggle="tab"> مذكرات</a></li>
-                    <li role="presentation"><a href="#previousExam" aria-controls="previousExam" role="tab" data-toggle="tab">اختبارات سابقة</a></li>
-                    <li role="presentation"><a href="#bookSolution" aria-controls="bookSolution" role="tab" data-toggle="tab">حلول الكتاب</a></li>
-                    
-                </ul>
+        <div class="row align-items-center">
+            <div class="col">
+                <h1> الكيمياء </h1>
+            </div>
+            <div class="col">
+                 <select>
+                    <option> الفصل الدراسي 1</option>
+                    <option> الفصل الدراسي 2</option>
+                 </select>
             </div>
         </div>
     </div>
 </section>
+
+    <div class="container">
+        <section class="subject-details-tab">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#videoLibrary" aria-controls="videoTab" role="tab" data-toggle="tab">
+                        <img src="images/new-icons/video.png"> <img src="images/new-icons/Ellipse.svg"> الفيديوهات
+                    </a></li>
+                    <li role="presentation"><a href="#notes" aria-controls="notes" role="tab" data-toggle="tab"> <img src="images/new-icons/notes.png"> 
+                        <img src="images/new-icons/Ellipse.svg">  مذكرات</a></li>
+                    <li role="presentation"><a href="#previousExam" aria-controls="previousExam" role="tab" data-toggle="tab"> <img src="images/new-icons/exam.png">
+                        <img src="images/new-icons/Ellipse.svg">  اختبارات </a></li>
+                    <li role="presentation"><a href="#bookSolution" aria-controls="bookSolution" role="tab" data-toggle="tab"> <img src="images/new-icons/review.png">
+                        <img src="images/new-icons/Ellipse.svg">  مراجعات</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+    </div>
 
 <section class="live-class-details video-library-subscribed">
     <div class="container">
         <div class="tab-content" id="accordion">
             <div role="tabpanel" class="tab-pane active" id="videoLibrary">
         <div class="row">
-            <div class="col-lg-4 col-md-12 order-md-2">
+            <div class="col-lg-4 col-md-12">
                 <div class="live-course-sideBox">
                 <div class="live-class-details-img">
                     <img src="images/prerecorded/chemistry.jpg">
@@ -118,8 +137,8 @@
                 <div class="live-course-sideBox-content">
                 <h3> KD 20.000 <small>KD 30.000</small></h3>
                 <a href="javaScript:void(0)" class="price-popup_open"><button class="bt-primary">اشترك الآن</button></a>
-                <!-- <a href="javaScript:void(0)" class="sampleVideo-popup_open"><button class="preview"><img src="images/icons/videocam.svg"> نظرة عامة </button></a> -->
-                <h4>تحصل على</h4>
+                <a href="javaScript:void(0)" class="sampleVideo-popup_open"><button class="preview"><img src="images/new-icons/videocam-new.svg"> تجربة مجانية </button></a>
+                <h4> عند الاشتراك في الفيديوهات تحصل على:</h4>
                 <ul>
                     <li>حصص  LIVE مع نخبة من معلمي SMARTMIND <img src="images/icons/teacher.svg"></li>
                     <li>إمكانية مشاهدة حصص الـ LIVE مسجلة على الموقع <img src="images/icons/livetv.svg"></li>
@@ -132,28 +151,25 @@
                 </div>
             </div>
             <div class="col-lg-8 col-md-12">
-                <h5>محتوى المادة</h5>
+                <h2> فيديوهات </h2>
                     <div class="wrapper center-block">
                         <div class="panel-group" role="tablist" aria-multiselectable="true">
                         <div class="panel panel-default">
-                          <div class="panel-heading" role="tab" id="headingOne">
+                          <div class="panel-heading active" role="tab" id="headingOne">
                             <h4 class="panel-title">
-                              <a role="button" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                الوحدة الأولى: الغازات
+                              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                الوحدة الأولى : الجبر - الأعداد و العمليات عليها
                               </a>
                             </h4>
                           </div>
-                          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                             <div class="panel-body">
                                 <ul>
-                                        <h5>الفصل الأول: سلوك الغازات <img src="images/icons/lock_black.svg"></h5>
-                                          <li> <a href="javaScript:void(0)"> الدرس 1 – 1: خواص الغازات <i class="videoCount"> 200 <img src="images/icons/play_circle_outline.svg"></i></a> <a href="#!"><img src="images/icons/quiz_black.svg" class="quiz-icon2"></a> <a href="#!"><img src="images/icons/book2.svg" class="book2"></a>    </li>
-                                          <li> <a href="javaScript:void(0)"> الدرس 1 – 2: العوامل التي تؤثر في ضغط الغاز <i class="videoCount"> 200 <img src="images/icons/play_circle_outline.svg"></i></a> <a href="#!"><img src="images/icons/quiz_black.svg" class="quiz-icon2"></a> <a href="#!"><img src="images/icons/book2.svg" class="book2"></a>    </li>
-                                    
-                                        <h5>الفصل الثاني: قوانين الغازات <img src="images/icons/lock_black.svg"></h5>
-                                        <li> <a href="javaScript:void(0)"> الدرس 2 – 1: قوانين الغازات <i class="videoCount"> 200 <img src="images/icons/play_circle_outline.svg"></i></a> <a href="#!"><img src="images/icons/quiz_black.svg" class="quiz-icon2"></a> <a href="#!"><img src="images/icons/book2.svg" class="book2"></a>    </li>
-                                        <li> <a href="javaScript:void(0)"> الدرس 2 – 2: الغازات المثالية <i class="videoCount"> 200 <img src="images/icons/play_circle_outline.svg"></i></a> <a href="#!"><img src="images/icons/quiz_black.svg" class="quiz-icon2"></a> <a href="#!"><img src="images/icons/book2.svg" class="book2"></a>    </li>
-                                        <li> <a href="javaScript:void(0)"> الدرس 2 – 3: الجسيمات الغازية، مخالطيها وحركتها <i class="videoCount"> 200 <img src="images/icons/play_circle_outline.svg"></i></a> <a href="#!"><img src="images/icons/quiz_black.svg" class="quiz-icon2"></a> <a href="#!"><img src="images/icons/book2.svg" class="book2"></a>    </li>
+                                          <li> <a href="javaScript:void(0)">   1-1 خواص نظام الأعداد الحقيقية <span> 200 فيديو </span> </a>   </li>
+                                          <li> <a href="javaScript:void(0)">  1-4 القيمة المطلقة <span> 200 فيديو </span> </a>   </li>
+                                        <li> <a href="javaScript:void(0)">  1-7 حل معادلات من الدرجة الثانية في متغير واحد <span> <img src="images/icons/lock_black.svg"> </span> </a>  </li>
+                                        <li> <a href="javaScript:void(0)"> الدرس 2 – 2: الغازات المثالية <span> <img src="images/icons/lock_black.svg"> </span> </a>  </li>
+                                        <li> <a href="javaScript:void(0)"> الدرس 2 – 3: الجسيمات الغازية، مخالطيها وحركتها <span> <img src="images/icons/lock_black.svg"> </span> </a>   </li>
                                   
                                 </ul>
                             </div>
@@ -170,9 +186,11 @@
                           <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
                             <div class="panel-body">
                                 <ul>
-                                        <h5>الفصل الأول: سرعة التفاعل الكيميائي والاتزان الكيميائي <img src="images/icons/lock_black.svg"></h5>
-                                        <li> <a href="javaScript:void(0)"> الدرس 1 – 1: خواص الغازات <i class="videoCount"> 200 <img src="images/icons/play_circle_outline.svg"></i></a> <a href="#!"><img src="images/icons/quiz_black.svg" class="quiz-icon2"></a> <a href="#!"><img src="images/icons/book2.svg" class="book2"></a>    </li>
-                                          <li> <a href="javaScript:void(0)"> الدرس 1 – 2: العوامل التي تؤثر في ضغط الغاز <i class="videoCount"> 200 <img src="images/icons/play_circle_outline.svg"></i></a> <a href="#!"><img src="images/icons/quiz_black.svg" class="quiz-icon2"></a> <a href="#!"><img src="images/icons/book2.svg" class="book2"></a>    </li>
+                                        <li> <a href="javaScript:void(0)"> 2-2 النسب المثلثية :الجيب وجيب التمام ومقلوباتهما <span> 200 فيديو </span>  </a>  </li>
+                                        <li> <a href="javaScript:void(0)"> 2-4النسب المثلثية لبعض الزوايا الخاصة <span> 200 فيديو </span>  </a>  </li>
+                                        <li> <a href="javaScript:void(0)"> 2-7 القطاع الدائري و القطعة الدائرية <span> <img src="images/icons/lock_black.svg"> </span> </a>  </li>
+                                        <li> <a href="javaScript:void(0)"> الدرس 1 – 1: خواص الغازات  <span> <img src="images/icons/lock_black.svg"> </span> </a>  </li>
+                                          <li> <a href="javaScript:void(0)"> الدرس 1 – 2: العوامل التي تؤثر في ضغط الغاز <span> <img src="images/icons/lock_black.svg"> </span> </a>   </li>
                                 </ul>
                             </div>
                           </div>
@@ -189,10 +207,13 @@
                             <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
                               <div class="panel-body">
                                   <ul>
-                                          <h5>        الفصل الأول: الأحماض والقواعد <img src="images/icons/lock_black.svg"></h5>
-                                          <li> <a href="javaScript:void(0)"> الدرس 2 – 1: قوانين الغازات <i class="videoCount"> 200 <img src="images/icons/play_circle_outline.svg"></i></a> <a href="#!"><img src="images/icons/quiz_black.svg" class="quiz-icon2"></a> <a href="#!"><img src="images/icons/book2.svg" class="book2"></a>    </li>
-                                        <li> <a href="javaScript:void(0)"> الدرس 2 – 2: الغازات المثالية <i class="videoCount"> 200 <img src="images/icons/play_circle_outline.svg"></i></a> <a href="#!"><img src="images/icons/quiz_black.svg" class="quiz-icon2"></a> <a href="#!"><img src="images/icons/book2.svg" class="book2"></a>    </li>
-                                        <li> <a href="javaScript:void(0)"> الدرس 2 – 3: الجسيمات الغازية، مخالطيها وحركتها <i class="videoCount"> 200 <img src="images/icons/play_circle_outline.svg"></i></a> <a href="#!"><img src="images/icons/quiz_black.svg" class="quiz-icon2"></a> <a href="#!"><img src="images/icons/book2.svg" class="book2"></a>    </li>
+                                          
+                                        <li> <a href="javaScript:void(0)"> 5-1الأنماط الرياضية و المتتاليات (المتتابعات) <span> 200 فيديو </span>  </a>  </li>
+                                        <li> <a href="javaScript:void(0)"> 5-2 المتتالية الحسابية <span> 200 فيديو </span>  </a>  </li>
+                                        <li> <a href="javaScript:void(0)"> 5-3 المتتالية الهندسية <span> 200 فيديو </span>  </a>  </li>
+                                        <li> <a href="javaScript:void(0)"> الدرس 2 – 1: قوانين الغازات <span> <img src="images/icons/lock_black.svg"> </span> </a>  </li>
+                                        <li> <a href="javaScript:void(0)"> الدرس 2 – 2: الغازات المثالية <span> <img src="images/icons/lock_black.svg"> </span> </a>   </li>
+                                        <li> <a href="javaScript:void(0)"> الدرس 2 – 3: الجسيمات الغازية، مخالطيها وحركتها <span> <img src="images/icons/lock_black.svg"> </span> </a>   </li>
                                   </ul>
                               </div>
                             </div>
@@ -227,34 +248,29 @@
     <div role="tabpanel" class="tab-pane" id="previousExam">
         <div class="row">
             <div class="col-md-12">
-            <h5>Previous Test</h5> 
+                <h2> اختبارات </h2>
             </div>
-                
-            <div class="col-xl-4 col-lg-6 col-md-6">
-                <div class="row previous-test">
-                    <div class="unsubscriber-overlay">
-                        <img src="images/icons/lock.svg">
+          
+            <div class="col-md-12">
+                <div class="subject-tests-box">
+                    <div class="subject-tests-download">
+                        <p> الكيمياء الصف العاشر -الفصل الدراسي الأول </p>
+                        <h6> <span> <img src="images/icons/lock_black.svg"> </span> </h6>
                     </div>
-                    <div class="col-md-5 col-5">
-                    <div class="course-list">    
-                    <img src="images/cours-list4.jpg">
-                    <div class="course-list-overlay"></div>
-                        </div>    
+                    <div class="subject-tests-download">
+                        <p> الكيمياء الصف العاشر -الفصل الدراسي الأول </p>
+                        <h6> <span> <img src="images/icons/lock_black.svg"> </span></h6>
                     </div>
-                    <div class="col-md-7 col-7">
-                    <h6>Phyton Data Structures </h6>
-                    <p>University / Harvard</p>    
+                    <div class="subject-tests-download">
+                        <p> الكيمياء الصف العاشر -الفصل الدراسي الأول </p>
+                        <h6> <span> <img src="images/icons/lock_black.svg"> </span></h6>
                     </div>
-                    <div class="col-md-12"><hr></div>
-                    <div class="col-md-12">
-                    <p>Download results in PDF files:</p>
-                    <a href="javaScript:void(0)" download=""><button> Without Answer <img src="images/icons/download.png"></button></a>  
-                        <a href="javaScript:void(0)" download=""><button class="withAnswer"> With Answer <img src="images/icons/download.png"></button></a>   
+                    <div class="subject-tests-download">
+                        <p> الانماط الكيمياء</p>
+                        <h6> <span> <img src="images/icons/lock_black.svg"> </span> </h6>
                     </div>
                 </div>
             </div>
-                
-                  
                
             </div>
     </div>
@@ -262,59 +278,44 @@
     <div role="tabpanel" class="tab-pane" id="bookSolution">
         <div class="row">
             <div class="col-md-12">
-            <h5>Book Solution</h5> 
-            </div>
-                
-            <div class="col-xl-4 col-lg-6 col-md-6">
-                <div class="row previous-test">
-                    <div class="unsubscriber-overlay">
-                        <img src="images/icons/lock.svg">
-                    </div>
-                    <div class="col-md-5 col-5">
-                    <div class="course-list">    
-                    <img src="images/cours-list2.jpg">
-                    <div class="course-list-overlay"></div>
-                        </div>    
-                    </div>
-                    <div class="col-md-7 col-7">
-                    <h6>Phyton Data Structures </h6>
-                    <p>University / Harvard</p>    
-                    </div>
-                    <div class="col-md-12"><hr></div>
-                    <div class="col-md-12">
-                    <p>Download results in PDF files:</p>
-                    <a href="javaScript:void(0)" download=""><button> Without Answer <img src="images/icons/download.png"></button></a>  
-                        <a href="javaScript:void(0)" download=""><button class="withAnswer"> With Answer <img src="images/icons/download.png"></button></a>   
-                    </div>
+             <h2> مراجعات </h2>
+            </div>                
+            
+            <!-- <div class="col-md-12">
+                <div class="subject-notes-box">
+                    <a href="javascript:void(0)"> <p> حل كتاب الكيمياء  الفصل 1 <span> <img src="images/icons/lock_black.svg"> </span> </p> </a>
+                    <a href="javascript:void(0)"> <p> حل كتاب الكيمياء  الفصل 2 <span> <img src="images/icons/lock_black.svg"> </span> </p> </a>
+                    <a href="javascript:void(0)"> <p> حل كتاب الكيمياء  الفصل 3 <span> <img src="images/icons/lock_black.svg"> </span> </p> </a>
+                    <a href="javascript:void(0)"> <p> حل كتاب الكيمياء  الفصل 4 <span> <img src="images/icons/lock_black.svg"> </span> </p> </a>
+                    
+                </div>
+            </div> -->
+
+            <div class="col-md-12">
+                <div class="empty-data">
+                    <img src="images/empty-icons/empty-page.png">
+                    <p> شدعوة يبا خلنا متواصلين! </p>
                 </div>
             </div>
-                   
-               
+
             </div>
     </div>
 
     <div role="tabpanel" class="tab-pane" id="notes">
         <div class="row">
             <div class="col-md-12">
-            <h5>Notes</h5> 
+             <h2> مذكرات</h2>
             </div>
-                
-            <div class="col-xl-4 col-lg-6 col-md-6">
-                <div class="row previous-test">
-                    <div class="unsubscriber-overlay">
-                        <img src="images/icons/lock.svg">
-                    </div>
-                    <div class="col-md-5 col-5">
-                    <div class="course-list">    
-                    <img src="images/cours-list3.jpg">
-                    <div class="course-list-overlay"></div>
-                        </div>    
-                    </div>
-                    <div class="col-md-7 col-7">
-                    <h6>Phyton Data Structures </h6>
-                    <p>University / Harvard</p>
-                    <a href="javaScript:void(0)" download=""><button>Download <img src="images/icons/download.png"></button></a>      
-                    </div>
+             
+            <div class="col-md-12">
+                <div class="subject-notes-box">
+                    <a href="javascript:void(0)"> <p> مذكرة الدرس الأول <span> <img src="images/icons/lock_black.svg"> </span> </p> </a>
+                    <a href="javascript:void(0)"> <p> مذكرة الدرس الثاني <span> <img src="images/icons/lock_black.svg"> </span> </p> </a>
+                    <a href="javascript:void(0)"> <p> مذكرة الدرس الثالث <span> <img src="images/icons/lock_black.svg"> </span> </p> </a>
+                    <a href="javascript:void(0)"> <p> مذكرة الدرس الثالث <span> <img src="images/icons/lock_black.svg"> </span> </p> </a>
+                    <a href="javascript:void(0)"> <p> مذكرة الدرس الخامس <span> <img src="images/icons/lock_black.svg"> </span> </p> </a>
+                    <a href="javascript:void(0)"> <h6> المعلق <span>  <img src="images/new-icons/play_lesson.svg"></span></h6> </a>
+                    
                 </div>
             </div>
                    
@@ -521,29 +522,29 @@
 
 
 <div id="price-popup" class="price-pop">
-         <h5>Please Select the Price</h5>
+         <h5> السعر </h5>
          <div class="cart-price">
             <a href="javaScript:void(0)">  <label class="cart-price-radio">
                 <input type="radio" name="radio2">
                 <span class="checkmark">
-                    <h6>Per Month</h6>
+                    <h6>  شهر </h6>
                     <h4>KD 20.000</h4>
-                    <p>Expires on 14 Nov 2021</p>
+                    <p> تنتهي صلاحيته في 14 نوفمبر 2024 </p>
                 </span>
             </label></a>
             <a href="javaScript:void(0)"> <label class="cart-price-radio you-save">
                 <input type="radio" checked="" name="radio2">
                 <span class="checkmark">
-                    <h6>Per Semester</h6>
+                    <h6> فصل دراسي</h6>
                     <h4>KD 30.000</h4>
-                    <p>Expires on 14 Nov 2021</p>
+                    <p> تنتهي صلاحيته في 14 نوفمبر 2024 </p>
                 </span>
-                <div class="offer-rate">You Save 20</div>
+                <div class="offer-rate"> أنت أحفظ 20</div>
             </label></a>
         </div>
-        <button class="bt-primary">Suscribe</button>
-        <a href="javaScript:void(0)"> <u>terms&conditions</u></a>
-        <a href="javaScript:void(0)"> <u class="privacy">Privacy Policy</u></a>
+        <button class="bt-primary"> اشترك الآن </button>
+        <a href="javaScript:void(0)"> <u> الشروط و الأحكام </u></a>
+        <a href="javaScript:void(0)"> <u class="privacy"> سياسة الخصوصية </u></a>
          <a href="javaScript:void(0)" class="price-popup_close close"><i class="fas fa-times"></i></a>
  </div>
 

@@ -224,7 +224,7 @@ $('.liveclass-category').owlCarousel({
           loop: true
       },
       1000: {
-          items: 4
+          items: 3
       }
   }
 });
@@ -252,6 +252,8 @@ $('.skillsubject-carousel').owlCarousel({
       }
   }
 });
+
+
 
 
 $(document) .ready(function(){

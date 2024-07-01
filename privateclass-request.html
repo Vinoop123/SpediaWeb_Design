@@ -19,15 +19,18 @@
 </head>
 
 <body>
+    
     <header class="main-header">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-3 col dropdown">
+                <div class="col-md-3 col-5 dropdown">
                     <a href="javaScript:void(0)" role="button" id="dropdownUser"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <div class="profile-view">
-                            <h4><img src="images/profile.png"> <span>Hi, Jacob</span> </h4>
+                    <div class="profile-view">
+                        <div class="profile-point">
+                            <img src="images/profile.png">    نقطة <strong>468</strong>  
                         </div>
+                    </div>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownUser">
                         <div class="dropdown-item">
@@ -37,7 +40,7 @@
                                 </div>
                                 <div class="mr-3 text-right">
                                     <h5 class="mb-0">Jacob Richards</h5>
-                                    <p class="mb-0">jacobrichards@gmail.com</p>
+                                    <p class="mb-0">Grade 12</p>
                                 </div>
     
                             </div>
@@ -47,6 +50,9 @@
                             <ul class="profile-dropdown">
                                 <li>
                                     <a class="dropdown-item" href="profile.html"><i class="far fa-user"></i> Profile</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javaScript:void(0)"><i class="far fa-bell"></i> Notification</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="javaScript:void(0)"><i class="far fa-star"></i> Subscription</a>
@@ -67,31 +73,33 @@
                         
                     </div>
                 </div>
-                <div class="col-md-6 col text-center">
+                <div class="col-lg-6 col-md-4 col text-center">
                     <a href="index.html"> <img src="images/logo.png"> </a>
                 </div>
-                <div class="col-md-3 col">
-                    <a href="my-cart.html">
-                        <div class="cart-view">
-                            <i class="fas fa-shopping-bag"></i><sup>3</sup>
-                        </div>
-                    </a>
+                <div class="col-lg-3 col-md-4 col-7">
                     <div id="menu-wrapper"></div>
+                    <ul class="topbar-icons">
+                        <a href="my-cart.html" title="Cart"> <li> <img src="images/icons/shopping-bag.svg"> <sup> 4 </sup></li></a>
+                    </ul>
+                    <div class="my-course-btn">
+                        <a href="mycourse.html"><button> اشتراكاتي <img src="images/icons/hand.svg"> </button></a>
+                    </div>
+                        
                 </div>
             </div>
         </div>
-    </header>
+	</header>
+
     
 
 <section class="inner-heading">
-    <div class="inner-overlay"></div>
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h1>حصة خاصة</h1>
+                <h1> طلب  حصة خاصة  </h1>
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation" class="active"><a href="#activeClass" aria-controls="activeClass" role="tab" data-toggle="tab">حجز حصة</a></li>
-                    <li role="presentation"><a href="#reserved" aria-controls="reserved" role="tab" data-toggle="tab">المتاح</a></li>
+                    <li role="presentation"><a href="#reserved" aria-controls="reserved" role="tab" data-toggle="tab"> المحجوز </a></li>
                     
                 </ul>
             </div>
@@ -103,105 +111,120 @@
 <section>
     <div class="tab-content" id="accordion">
         <div role="tabpanel" class="tab-pane active" id="activeClass">
-            <section class="banner logIn register">
-                <div class="container">
+            <div class="container request_privateclass">
                 <div class="row justify-content-center">
-                   <div class="col-lg-8 col-md-10 reserve-class">
-                    <form action="">
+                    <div class="col-lg-10">
                         <div class="row">
-                    <div class="col-md-6">   
-                        <div class="form-group">
-                        <label>Subject</label>
-                        <input type="text" placeholder="Subject" class="form-control" required>    
-                                </div> 
-                    </div> 
-                        <div class="col-md-6">   
-                        <div class="form-group">
-                        <label>Date</label>
-                        <input type="date" placeholder="Date" class="form-control unstyled" required>
-                                        <i class="far fa-calendar-alt"></i>
-                    </div> 
-                    </div>
-                             <div class="col-md-6">   
-                        <div class="form-group">
-                        <label>Time</label>
-                        <select class="form-control">
-                            <option>1 </option>
-                            <option>2 </option>
-                            <option>5</option>
-                            <option>10</option>
-                            </select> 
-                                </div> 
-                    </div> 
-                             <div class="col-md-6">   
-                        <div class="form-group">
-                        <label>No of Hours</label>
-                        <select class="form-control">
-                            <option>1 hour / 10 KD</option>
-                            <option>2 hour / 20 KD</option>
-                            <option>5 hour / 50 KD</option>
-                            <option>10 hour / 80 KD</option>
-                            </select> 
-                                </div> 
-                    </div> 
-                          <!--  <div class="col-md-6">   
-                        <div class="form-group">
-                        <label>Type</label>
-                        <select>
-                            <option>VIP <span>(For One Student)</span></option>
-                            <option>VIP (For Two Student)</option>
-                            <option>VIP (For Three Student)</option>
-                            </select> 
-                                </div> 
-                    </div>-->
-                            
-                            <div class="col-md-6">   
-                        <div class="form-group">
-                        <label>Add Attachment</label>
-                        <input type="file" class="form-control" placeholder="Choose Time" required>    
-                                </div> 
-                    </div> 
-                            
-                              <div class="col-md-12">   
-                        <div class="form-group">
-                        <label>Describe your need</label>
-                        <textarea rows="4" class="form-control" placeholder="Eg: I need to understand biology chapter 1 to 3"></textarea>  
-                                </div> 
-                    </div> 
-                             <div class="col-md-12">
-                       <div class="row booked-reserveClass align-items-center">
-                           <!-- <div class="col"><a href="course-list.html"> <p>Reserved Live Class Subject 01</p></a>
-                           <h6> 10:30 Am | 30 June 2020</h6>
-                           </div> -->
-                           <div class="col"> <h5>$75.00</h5></div>
-                           </div>
-                       </div>
-                            <div class="col-md-12">  
-                            <div class="form-group register-terms">
-                    <p>By clicking register, you agree to our <br><a href="javaScript:void(0)">Terms and Conditions</a></p>
-                    <label class="terms-register">
-                      <input type="checkbox">
-                      <span class="termsCheck"></span>
-                    </label>
-                </div>    
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label> <img src="images/new-icons/book_4.svg"> المادة</label>
+                                <select class="form-control">
+                                    <option> اختيار المادة</option>
+                                    <option> الرياضيات </option>
+                                    <option>  اللغة الإنجليزية </option>
+                                    <option>  اللغة العربية </option>
+                                </select>
                             </div>
-                            <div class="col-md-12">  
-                    <a href="checkout.html"><button type="submit">Pay Now</button> </a>   
+                            <div class="form-group">
+                                <label> <img src="images/new-icons/calendar_month.svg"> التاريخ </label>
+                                <div class="calendar-container">
+                                    <input type="text" id="date-input" placeholder="Select a date" hidden readonly>
+                                    <div id="calendar" class="calendar">
+                                        <div class="calendar-header">
+                                            <button id="prev-month"> <i class="fas fa-angle-right"></i> </button>
+                                            <span id="month-year"></span>
+                                            <button id="next-month"> <i class="fas fa-angle-left"></i> </button>
+                                        </div>
+                                        <div class="calendar-body">
+                                            <div class="calendar-weekdays">
+                                                <div> س </div>
+                                                <div> ح</div>
+                                                <div> ن </div>
+                                                <div> ث </div>
+                                                <div> ر</div>
+                                                <div> خ</div>
+                                                <div> ج</div>
+                                            </div>
+                                            <div class="calendar-days"></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                </form> 
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label> <img src="images/new-icons/schedule_black.svg"> الوقت </label>
+                                    <div class="radio-group">
+                                        <input type="radio" name="time" id="morning-time">
+                                        <label for="morning-time"> الفترة الصباحية
+                                          <br>  5am-12pm</label>
+                                    </div>
+                                    <div class="radio-group">
+                                        <input type="radio" name="time" id="evening-time">
+                                        <label for="evening-time"> الفترة المسائية
+                                           <br> 12pm-12am </label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label> <img src="images/new-icons/alarm_on.svg"> اختيار عدد الساعات </label>
+                                    <div class="radio-group">
+                                        <input type="radio" name="hours" id="sixty-minutes">
+                                        <label for="sixty-minutes">  60 <br>
+                                            دقيقة</label>
+                                    </div>
+                                    <div class="radio-group">
+                                        <input type="radio" name="hours" id="ninty-minutes">
+                                        <label for="ninty-minutes">  90 <br>
+                                            دقيقة</label>
+                                    </div>
+                                    <div class="radio-group">
+                                        <input type="radio" name="hours" id="one20-minutes">
+                                        <label for="one20-minutes">  120 <br>
+                                            دقيقة</label>
+                                    </div>
+                                    <div class="radio-group">
+                                        <input type="radio" name="hours" id="one50-minutes">
+                                        <label for="one50-minutes">  150 <br>
+                                            دقيقة</label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label> <img src="images/new-icons/attach_file.svg"> المرفقات </label>
+                                    <input type="file" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label> <img src="images/new-icons/rate_review.svg"> ملاحظات </label>
+                                    <textarea rows="4" class="form-control" placeholder=" نص الرسالة"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group register-terms">
+                                    <p>موافق علي <a href="javascript:void(0)">الشروط و الأحكام</a> </p>
+                                    <label class="terms-register">
+                                        <input id="chkprivacy" type="checkbox">
+                                        <span class="termsCheck"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button class="send-btn"> ارسال الطلب </button>
+                            </div>
+                            </div>
                     </div>
-                    </div>
-                </div>    
-                </section>
+                 
+                 </div>
+                </div>
+           
 </div>
 
 <div role="tabpanel" class="tab-pane" id="reserved">
     <section>
-        <div class="col-md-12 text-center empty-cart">
-            <img src="images/icons/sentiment_neutral_24px_outlined.svg">
-            <p>احجز حصتك الخاصة مع أمهر المعلمين من خلال التطبيق</p>
-                <a href="privateclass-request.html"><button>طلب حصة خاصة</button></a>    
+        <div class="col-md-12 text-center private-class-empty">
+            <img src="images/empty-icons/privateclass.png">
+             <p>   ما عندك حصص خاصة </p>
+                <a href="privateclass-request.html"><button> نحجز الحصة الخاصة </button></a>    
             </div>
     </section>
     </div>
@@ -228,188 +251,55 @@
 
 
 <aside class="sidebar sidebar-closed">
-    <button class="dropdown-btn">Ask Spedia
-        <i class="fas fa-plus"></i>
-        <i class="fas fa-minus"></i>
-    </button>
-    <div class="dropdown-container">
-        <a href="ask-spedia.html">
-            <li>Ask Spedia</li>
-        </a>
-        <a href="ask-spedia-topic.html">
-            <li>Ask Spedia Questions</li>
-        </a>
-        <a href="ask-spedia-subscribe.html">
-            <li>Ask Spedia Subscribe</li>
-        </a>
-        <a href="ask-spedia-reply.html">
-            <li>Ask Spedia Reply</li>
-        </a>
-    </div>
-    <a href="bookmark.html">
-        <li>Bookmark</li>
-    </a>
-    <a href="contact-us.html">
-        <li>Contact Us</li>
-    </a>
-    <button class="dropdown-btn">Courses
-        <i class="fas fa-plus"></i>
-        <i class="fas fa-minus"></i>
-    </button>
-    <div class="dropdown-container">
-        <a href="courses.html">
-            <li>Courses</li>
-        </a>
-        <a href="course-list.html">
-            <li>Course List</li>
-        </a>
-        <a href="course-video.html">
-            <li>Course Video</li>
-        </a>
-        <a href="subject-video.html">
-            <li>Subject Video</li>
-        </a>
-        <a href="training-course.html">
-            <li>Training Course</li>
-        </a>
-        <a href="university-courses.html">
-            <li>University Course</li>
-        </a>
-        <a href="university.html">
-            <li>University</li>
-        </a>
-    </div>
-    <button class="dropdown-btn">Login
-        <i class="fas fa-plus"></i>
-        <i class="fas fa-minus"></i>
-    </button>
-    <div class="dropdown-container">
-        <a href="create-account.html">
-            <li>Create Account</li>
-        </a>
-        <a href="guest-login.html">
-            <li>Guest Login</li>
-        </a>
-        <a href="login.html">
-            <li> Login</li>
-        </a>
-        <a href="verification-code.html">
-            <li> Verification</li>
-        </a>
-        <a href="welcome.html">
-            <li> Welcome</li>
-        </a>
-    </div>
-    <button class="dropdown-btn">Empty
-        <i class="fas fa-plus"></i>
-        <i class="fas fa-minus"></i>
-    </button>
-    <div class="dropdown-container">
-        <a href="empty-cart.html">
-            <li> Cart</li>
-        </a>
-        <a href="empty-live-class.html">
-            <li> Live Class</li>
-        </a>
-        <a href="empty-request-private.html">
-            <li> Request Private</li>
-        </a>
-        <a href="empty-video.html">
-            <li>Video</li>
-        </a>
-        <a href="error.html">
-            <li>Error</li>
-        </a>
-        <a href="success.html">
-            <li>Success</li>
-        </a>
-    </div>
-    <a href="home-work.html">
-        <li>Home Work</li>
-    </a>
-    <a href="leaderboard.html">
-        <li>Leaderboard</li>
-    </a>
-    <a href="live-class.html">
-        <li>Live Class</li>
-    </a>
-    <a href="my-cart.html">
-        <li>My Cart</li>
-    </a>
-    <button class="dropdown-btn">Profile
-        <i class="fas fa-plus"></i>
-        <i class="fas fa-minus"></i>
-    </button>
-    <div class="dropdown-container">
-        <a href="parent-info.html">
-            <li>Parent Info</li>
-        </a>
-        <a href="parent-profile.html">
-            <li>Parent Profile</li>
-        </a>
-        <a href="profile.html">
-            <li>Profile</li>
-        </a>
-        <a href="student-info.html">
-            <li>Student info</li>
-        </a>
-        <a href="student-profile.html">
-            <li>Student Profile</li>
-        </a>
-    </div>
-    <a href="previous-test.html">
-        <li>Prevoius Test</li>
-    </a>
-    <button class="dropdown-btn">Quiz
-        <i class="fas fa-plus"></i>
-        <i class="fas fa-minus"></i>
-    </button>
-    <div class="dropdown-container">
-        <a href="quiz-library.html">
-            <li>Quiz Library</li>
-        </a>
-        <a href="quiz-score_test.html">
-            <li>Quiz Score Test</li>
-        </a>
-        <a href="quiz-score.html">
-            <li>Quiz Score</li>
-        </a>
-        <a href="quiz-validation.html">
-            <li>Quiz Validation</li>
-        </a>
-        <a href="quiz.html">
-            <li>Quiz</li>
-        </a>
-    </div>
-    <a href="reference-code.html">
-        <li>Reference Code</li>
-    </a>
-    <a href="request-private.html">
-        <li>Request Private</li>
-    </a>
-    <a href="reserve-liveclass.html">
-        <li>Reserve Live Class</li>
-    </a>
-    <a href="skill-analysis.html">
-        <li>Skill Analysis</li>
-    </a>
-    <a href="statistics.html">
-        <li>Statistics</li>
-    </a>
-    <a href="timeline.html">
-        <li>Timeline</li>
-    </a>
-  </aside>
+    <ul>
+        <li class="p-0">  
+            <div class="switches-container">
+            <input type="radio" id="switchDay" name="switchBackground" value="Day" checked="checked" />
+            <input type="radio" id="switchDark" name="switchBackground" value="Dark" />
+            <label for="switchDay"> <img src="images/new-icons/day-mode.svg"></label>
+            <label for="switchDark"> <img src="images/new-icons/night-mode.svg"></label>
+            <div class="switch-wrapper">
+              <div class="switch">
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div> الخلفية </li>
+        <li class="p-0">
+            <div class="switches-container">
+                <input type="radio" id="switchArabic" name="switchLanguage" value="Arabic" checked="checked" />
+                <input type="radio" id="switchEnglish" name="switchLanguage" value="English" />
+                <label for="switchArabic"> <img src="images/new-icons/ع.svg"></label>
+                <label for="switchEnglish"> <img src="images/new-icons/E.svg"></label>
+                <div class="switch-wrapper">
+                  <div class="switch">
+                    <div></div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            اللغة </li>
+        <a href="profile.html"> <li> <div class="menu-icon"> <img src="images/new-icons/profile.svg"> </div> حسابي </li> </a>
+        <a href="javascript:void(0)"> <li> <div class="menu-icon"> <img src="images/new-icons/recorded-videos.svg"> </div> الفيديوهات المسجلة </li> </a>
+        <a href="liveCourses.html"> <li> <div class="menu-icon"> <img src="images/new-icons/liveclass-menu.svg"> </div> فصل مباشر </li> </a>
+        <a href="ask-spedia.html"> <li> <div class="menu-icon"> <img src="images/new-icons/ask-spedia.svg"> </div> اسأل معلم </li> </a>
+        <a href="javascript:void(0)"> <li> <div class="menu-icon"> <img src="images/new-icons/liveclass-recording.svg"> </div> تسجيلات الحصص المباشرة </li> </a>
+        <a href="bookmark.html"> <li> <div class="menu-icon"> <img src="images/new-icons/saved-videos2.svg"> </div> الفيديوهات المحفوظة </li> </a>
+        <a href="quiz.html"> <li> <div class="menu-icon"> <img src="images/new-icons/onetime-quiz.svg"> </div> الاختبار التقييمي </li> </a>
+        <a href="timeline.html"> <li> <div class="menu-icon"> <img src="images/new-icons/timeline.svg"> </div> سجل النشاط </li> </a>
+        <a href="statistics.html"> <li> <div class="menu-icon"> <img src="images/new-icons/statistics.svg"> </div> الإحصائيات </li> </a>
+        <a href="leaderboard.html"> <li> <div class="menu-icon"> <img src="images/new-icons/leaderboard.svg"> </div> لوحة الشرف </li> </a>
+        <a href="notification.html"> <li> <div class="menu-icon"> <img src="images/new-icons/notification.svg"> </div> الإشعارات </li> </a>
+        <a href="home-work.html"> <li> <div class="menu-icon"> <img src="images/new-icons/homework.svg"> </div> الواجبات </li> </a>
+        <a href="javascript:void(0)"> <li> <div class="menu-icon"> <img src="images/new-icons/chat.svg"> </div> مساعدة </li> </a>
+        <a href="contact-us.html"> <li> <div class="menu-icon"> <img src="images/new-icons/contactus.svg"> </div> إتصل بنا </li> </a>
+        <a href="terms-conditions.html"> <li> <div class="menu-icon"> <img src="images/new-icons/terms-conditions.svg"> </div> الشروط والأحكام </li> </a>
+        <a href="privacy-policy.html"> <li> <div class="menu-icon"> <img src="images/new-icons/privacy-policy.svg"> </div> سياسة الخصوصية </li> </a>
+        <a href="login.html"> <li> <div class="menu-icon"> <img src="images/new-icons/logout.svg"> </div> تسجيل الخروج </li> </a>
+    </ul>
+</aside>
 
-  <div id="sampleVideo-popup" class="sampleVideo-pop">
-    <div class="video-pop">
-     <video controls width="100%" id="video">
-         <source src="images/mov_bbb.mp4" type="video/mp4">
-     </video>
-    </div>
-     <a href="javaScript:void(0)" class="sampleVideo-popup_close close"><i class="fas fa-times"></i></a>
- </div>
-  
+
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/scrolltoTop.min.js"></script>
@@ -417,55 +307,7 @@
   <script type="text/javascript" src="js/owl.carousel.min.js"></script>
   <script type="text/javascript" src="js/select2.min.js"></script>
   <script type="text/javascript" src="js/jquery.popupoverlay.js"></script>
+  <script type="text/javascript" src="js/calendar.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
-
-
-  <script type="text/javascript">
-      $('.card-link').click(function(e){
-            $(this).parent().toggleClass('inactive');
-        });
-
-    
-        $('#sampleVideo-popup').popup({
-        transition: 'all 0.3s',
-        scrolllock:true
-    });
-    $('video').parent().click(function () {
-          if($(this).children("video").get(0).paused){        
-              $(this).children("video").get(0).play();   
-              $(this).children(".video-play-btn").fadeOut();
-              $(this).children(".video-image").fadeOut();
-              }   
-          else{ 
-          }
-        });
-        
-        var video = document.getElementById('video');
-            var intervalRewind;
-            $(video).on('play',function(){
-                video.playbackRate = 1.0;
-                clearInterval(intervalRewind);
-            });
-            $(video).on('pause',function(){
-                video.playbackRate = 1.0;
-                clearInterval(intervalRewind);
-            });
-            $("#forward").click(function() { // button function for 4x fast speed forward
-                video.playbackRate = 3.0;
-            });
-            $("#backward").click(function() { // button function for rewind
-               intervalRewind = setInterval(function(){
-                   video.playbackRate = 1.0;
-                   if(video.currentTime == 0){
-                       clearInterval(intervalRewind);
-                       video.pause();
-                   }
-                   else{
-                       video.currentTime += -.1;
-                   }
-                            },3);
-        });
-
-  </script>
 
 </body></html>

@@ -19,142 +19,97 @@
 
 <body>
     
-    <header class="main-header">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-3 col">
-                    <div class="sign-buttton">
-        <a href="create-account.html"><button class="register-btn">Register</button></a>
-        <a href="login.html"><button>Log In</button></a>
-        </div>
-                </div>
-                <div class="col-md-6 col text-center">
-                    <a href="index.html"> <img src="images/logo.png"> </a>
-                </div>
-                <div class="col-md-3 col">
-                    <div id="menu-wrapper"></div>
-                </div>
-            </div>
-        </div>
-	</header>
-    
-    <section class="banner welcome">
+  <header class="main-header">
     <div class="container">
-    <div class="row justify-content-center">
-    <div class="col-xl-5 col-lg-6 col-md-7">
-        <h1>Welcome</h1>
-      <p>Choose your avatar</p>
-       <form>
-        <label class="welcome-radio">
-      <input type="radio"  name="radio">
-      <span class="checkmark">
-          <img src="images/icons/avatar-1.svg">
-      </span>
-         </label>
-        <label class="welcome-radio">
-      <input type="radio"  name="radio">
-      <span class="checkmark">
-          <img src="images/icons/avatar-2.svg">
-      </span>
-         </label>
-        
-        <div class="form-group">
-    <label>Name</label>
-    <input type="text" placeholder="Full Name" required>    
-    </div>      
-    <div class="form-group">
-    <label>School Type</label>
-    <select class="js-example-basic-single form-control">
-      <option>Middle School</option>
-      <option>High School</option>
-    </select> 
-    </div>              
-    <div class="form-group">
-    <label>Select Grade</label>
-    <select class="js-example-basic-single form-control">
-      <option>Fifth Grade</option>
-      <option>Fourth Grade</option>
-      <option>Tenth Grade</option>
-    </select> 
-    </div>
-           <a href="javaScript:void(0)"><button>Next</button> </a>
-        </form>
-    </div>    
-    </div>    
-    </div>
-    </section>
-    
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <img src="/images/logo.png">
-                </div>
-                <div class="col-md-12">
-                    <a href="/Home/TermsAndCondition"><p>الشروط والأحكام</p></a>
-                    <a href="/Home/ContactUs"><p>اتصل بنا</p></a>
-                </div>
-                <div class="col-md-12">
-                    <h6>© 2022 Spedia</h6>
-                </div>
+        <div class="row align-items-center">
+            <div class="col-md-3 col">
+                <a href="create-account.html"> <div class="login-back-btn"> <i class="fas fa-arrow-right"></i></div> </a>
+            </div>
+            <div class="col-md-6 col text-center">
+                <a href="index.html"> <img src="images/logo.png"> </a>
+            </div>
+            <div class="col-md-3 col">
             </div>
         </div>
-    </footer>
+    </div>
+</header>
 
-    <aside class="sidebar sidebar-closed">
-    <ul>
-        <li class="p-0">  
-            <div class="switches-container">
-            <input type="radio" id="switchDay" name="switchBackground" value="Day" checked="checked" />
-            <input type="radio" id="switchDark" name="switchBackground" value="Dark" />
-            <label for="switchDay"> <img src="images/new-icons/day-mode.svg"></label>
-            <label for="switchDark"> <img src="images/new-icons/night-mode.svg"></label>
-            <div class="switch-wrapper">
-              <div class="switch">
-                <div></div>
-                <div></div>
-              </div>
-            </div>
-          </div> الخلفية </li>
-        <li class="p-0">
-            <div class="switches-container">
-                <input type="radio" id="switchArabic" name="switchLanguage" value="Arabic" checked="checked" />
-                <input type="radio" id="switchEnglish" name="switchLanguage" value="English" />
-                <label for="switchArabic"> <img src="images/new-icons/ع.svg"></label>
-                <label for="switchEnglish"> <img src="images/new-icons/E.svg"></label>
-                <div class="switch-wrapper">
-                  <div class="switch">
-                    <div></div>
-                    <div></div>
-                  </div>
+  <section class="welcome">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <h1> كمل ملفك </h1>
+          <h5> اختار صورة تمثلك </h5>
+          <form>
+           <div class="text-center mb-3">
+            <label class="welcome-radio">
+              <input type="radio"  name="radio">
+              <span class="checkmark">
+                  <img src="images/icons/avatar-1.svg">
+              </span>
+                 </label>
+                <label class="welcome-radio">
+              <input type="radio"  name="radio">
+              <span class="checkmark">
+                  <img src="images/icons/avatar-2.svg">
+              </span>
+                 </label>
+                
+           </div>
+            <div class="form-group">
+        <label> ممكن نتعرف عليك/ج </label>
+        <input type="text" placeholder="اسمك/ج الكامل ونعم مقدما">    
+        </div>      
+        <div class="form-group">
+        <label> أي مدرسة يالطيب/ة؟ </label>
+        <select class="js-example-basic-single form-control">
+          <option> نوع المدرسة؟ </option>
+          <option> المراحل الدراسية </option>
+        </select> 
+        </div>              
+        <div class="form-group">
+        <label> أي صف الحبيب /ة؟ </label>
+        <select class="js-example-basic-single form-control">
+          <option> الصف الخامس </option>
+          <option> الصف 7</option>
+          <option> الصف 10</option>
+        </select> 
+        </div>
+               <a href="index.html"><button class="btn-primary">التالي</button> </a>
+            </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+    
+    
+  <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="index.html"> <img src="images/logo.png"> </a>
                 </div>
-              </div>
-            اللغة </li>
-        <a href="profile.html"> <li> <div class="menu-icon"> <img src="images/new-icons/profile.svg"> </div> حسابي </li> </a>
-        <a href="javascript:void(0)"> <li> <div class="menu-icon"> <img src="images/new-icons/recorded-videos.svg"> </div> الفيديوهات المسجلة </li> </a>
-        <a href="liveCourses.html"> <li> <div class="menu-icon"> <img src="images/new-icons/liveclass-menu.svg"> </div> فصل مباشر </li> </a>
-        <a href="ask-spedia.html"> <li> <div class="menu-icon"> <img src="images/new-icons/ask-spedia.svg"> </div> اسأل معلم </li> </a>
-        <a href="javascript:void(0)"> <li> <div class="menu-icon"> <img src="images/new-icons/liveclass-recording.svg"> </div> تسجيلات الحصص المباشرة </li> </a>
-        <a href="bookmark.html"> <li> <div class="menu-icon"> <img src="images/new-icons/saved-videos2.svg"> </div> الفيديوهات المحفوظة </li> </a>
-       <a href="myQuiz.html"> <li> <div class="menu-icon"> <img src="images/new-icons/onetime-quiz.svg"> </div> الاختبار التقييمي </li> </a>
-        <a href="timeline.html"> <li> <div class="menu-icon"> <img src="images/new-icons/timeline.svg"> </div> سجل النشاط </li> </a>
-        <a href="statistics.html"> <li> <div class="menu-icon"> <img src="images/new-icons/statistics.svg"> </div> الإحصائيات </li> </a>
-        <a href="leaderboard.html"> <li> <div class="menu-icon"> <img src="images/new-icons/leaderboard.svg"> </div> لوحة الشرف </li> </a>
-        <a href="notification.html"> <li> <div class="menu-icon"> <img src="images/new-icons/notification.svg"> </div> الإشعارات </li> </a>
-        <a href="home-work.html"> <li> <div class="menu-icon"> <img src="images/new-icons/homework.svg"> </div> الواجبات </li> </a>
-        <a href="javascript:void(0)"> <li> <div class="menu-icon"> <img src="images/new-icons/chat.svg"> </div> مساعدة </li> </a>
-        <a href="contact-us.html"> <li> <div class="menu-icon"> <img src="images/new-icons/contactus.svg"> </div> إتصل بنا </li> </a>
-        <a href="terms-conditions.html"> <li> <div class="menu-icon"> <img src="images/new-icons/terms-conditions.svg"> </div> الشروط والأحكام </li> </a>
-        <a href="privacy-policy.html"> <li> <div class="menu-icon"> <img src="images/new-icons/privacy-policy.svg"> </div> سياسة الخصوصية </li> </a>
-        <a href="login.html"> <li> <div class="menu-icon"> <img src="images/new-icons/logout.svg"> </div> تسجيل الخروج </li> </a>
-    </ul>
-</aside>
+                <div class="col-md-12">
+                <a href="javaScript:void(0)"><p> الشروط والأحكام </p></a>
+                <a href="javaScript:void(0)"><p> اتصل بنا </p></a>
+            </div>
+            <div class="col-md-12">
+                <h6>© 2024 Spedia</h6>
+            </div>
+        </div>
+    </div>
+</footer>
+
+   
 
     
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/menu-hamburger.min.js"></script>
     <script type="text/javascript" src="js/scrolltoTop.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/select2.min.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
     

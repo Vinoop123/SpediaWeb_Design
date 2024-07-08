@@ -1,25 +1,4 @@
-$(document).ready(function(){
-var rootElement = document.getElementById("menu-wrapper");
-var sidebar = document.getElementsByClassName("sidebar")[0];
-var header = document.getElementsByClassName("main-header")[0];
-var menu = MenuHamburger.initialize({
-  rootElement: rootElement,
-  size: 40,
-  iconColor: "#0DB2B2",
-  lineWidth: 2,
-});
-menu.on("open", function () {
-  sidebar.classList.remove("sidebar-closed");
-  sidebar.classList.add("sidebar-opened");
-});
-menu.on("close", function () {
-  sidebar.classList.remove("sidebar-opened");
-  sidebar.classList.add("sidebar-closed");
-  header.classList.remove("main-header-opened");
-  header.classList.add("main-header-closed");
-});
 
-});
 
 $(document).ready(function(){
   $(window).bind('scroll', function() {
@@ -253,6 +232,34 @@ $('.skillsubject-carousel').owlCarousel({
   }
 });
 
+$('.homeStory-carousel').owlCarousel({
+  loop: false,
+  margin: 10,
+  nav: true,
+  navText: [
+    "<i class='fas fa-angle-left'></i>",
+    "<i class='fas fa-angle-right'></i>"
+  ],
+  center: false,
+  rtl:true,
+  dots: false,
+  autoplay: false,
+  responsive: {
+      0: {
+          items: 3,
+          autoplay: false,
+          stagePadding: 25,
+          center:false,
+          nav:false
+      },
+      600: {
+          items: 6,
+      },
+      1000: {
+          items: 8
+      }
+  }
+});
 
 
 
@@ -331,7 +338,28 @@ $(document).ready(function(){
 });
 
 
-
+$(document).ready(function(){
+  var rootElement = document.getElementById("menu-wrapper");
+  var sidebar = document.getElementsByClassName("sidebar")[0];
+  var header = document.getElementsByClassName("main-header")[0];
+  var menu = MenuHamburger.initialize({
+    rootElement: rootElement,
+    size: 40,
+    iconColor: "#0DB2B2",
+    lineWidth: 2,
+  });
+  menu.on("open", function () {
+    sidebar.classList.remove("sidebar-closed");
+    sidebar.classList.add("sidebar-opened");
+  });
+  menu.on("close", function () {
+    sidebar.classList.remove("sidebar-opened");
+    sidebar.classList.add("sidebar-closed");
+    header.classList.remove("main-header-opened");
+    header.classList.add("main-header-closed");
+  });
+  
+  });
 
 
 

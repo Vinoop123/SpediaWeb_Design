@@ -50,7 +50,7 @@
     position: absolute;
     z-index: 2;
     list-style: none;
-    text-align: left;
+    text-align: right;
     padding: 0;
     margin: 0 0 0 -1px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
@@ -88,9 +88,9 @@
     margin-right: 6px; }
   .iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel] {
     padding-right: 10px;
-    padding-left: 30px !important;
-    height: 56px; float: left; width: 70%;
-    border-radius: 10px; border: 1px solid #f4f4f4;
+    padding-left: 0px !important;
+    height: 60px; float: left; width: 77%;
+    border-radius: 6px; border: 1px solid #f4f4f4;
     margin-left: 0; direction: ltr; text-align: right;}
 /*.iti--separate-dial-code input[type=tel]:focus{border: 2px solid #1258ff;     -webkit-box-shadow: 0 0 0 3px rgba(66,153,225,.2);
     box-shadow: 0 0 0 3px rgba(66,153,225,.2);}*/
@@ -108,7 +108,8 @@
     .iti--allow-dropdown input[readonly] + .iti__flag-container:hover .iti__selected-flag {
       background-color: transparent; }
   .iti--separate-dial-code .iti__selected-flag {
-    background-color: #f4f4f4; border-radius:10px; padding: 15px; height: 56px;border: 1px solid #f4f4f4; direction: ltr; }
+    background-color: rgba(26, 26, 26, 0.05); border-radius:6px; padding: 10px 20px; height: 60px;border: 1px solid #f4f4f4; font-size: 18px;
+  direction: ltr;}
   .iti--separate-dial-code .iti__selected-dial-code {
     margin-left: 10px; }
   .iti--container {

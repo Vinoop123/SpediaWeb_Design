@@ -72,7 +72,7 @@
             // if there is just a dial code in the input: remove it on blur
             autoHideDialCode: true,
             // add a placeholder in the input with an example number for the selected country
-            autoPlaceholder: "polite",
+            autoPlaceholder: null,
             // modify the parentClass
             customContainer: "",
             // modify the auto placeholder
@@ -98,7 +98,7 @@
             // number type to use for placeholders
             placeholderNumberType: "MOBILE",
             // the countries at the top of the list. defaults to united states and united kingdom
-            preferredCountries: [ "ae", ],
+            preferredCountries: [ "kw", ],
             // display the country dial code next to the selected flag so it's not part of the typed number
             separateDialCode: false,
             // specify the path to the libphonenumber script to enable validation/formatting

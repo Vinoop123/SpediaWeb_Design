@@ -1,80 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Countdown Timer</title>
-    <style>
-        body {
-  height: 100%;
-  width: 100%;
-  background-color: #333;
-}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Spedia - Easy to Learn </title>
+  <meta name=description content="">
+  <link rel="shortcut icon" href="images/favicon.png">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="css/select2.min.css">
+  <link rel="stylesheet" type="text/css" href="css/custome.css">
+  <link rel="stylesheet" type="text/css" href="css/custome-new.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
-#countdown {
-  position: relative;
-  margin: auto;
-  margin-top: 100px;
-  height: 40px;
-  width: 40px;
-  text-align: center;
-}
-
-#countdown-number {
-  color: white;
-  display: inline-block;
-  line-height: 40px;
-}
-
-svg {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 80px;
-  height: 80px;
-  transform: rotateY(-180deg) rotateZ(-90deg);
-}
-
-svg circle {
-  stroke-dasharray: 226px;
-  stroke-dashoffset: 0px;
-  stroke-linecap: round;
-  stroke-width: 4px;
-  stroke: white;
-  fill: none;
-  animation: countdown 30s linear infinite forwards;
-}
-
-@keyframes countdown {
-  from {
-    stroke-dashoffset: 0px;
-  }
-  to {
-    stroke-dashoffset: 226px;
-  }
-}
-    </style>
 </head>
+
+
 <body>
-   
-    <div id="countdown">
-        <div id="countdown-number"></div>
-        <svg>
-          <circle r="36" cx="40" cy="40"></circle>
-        </svg>
+ 
+  <section class="pad-40">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 mb-2">
+          <button class="survey-form_open btn-primary"> Survey Form</button>
+        </div>
+        <div class="col-lg-3 mb-2">
+          <button class="notificationEnable_open btn-secondary"> Notification Enabled Popup</button>
+        </div>
       </div>
+    </div>
+  </section>
+  
+   
 
-      <script>
-       var countdownNumberEl = document.getElementById('countdown-number');
-var countdown = 30;
+  <section id="survey-form" class="survey-form">
+    <h4> املأ النموذج </h4>
+    <div class="form-group">
+      <label> ما مدى احتمالية توصيتنا بصديق؟ </label>
+      <div class="survey-true">
+        <button> صح </button>
+        <button> خطأ </button>
+      </div>
+    </div>
+    <div class="form-group">
+      <label> ما هي الميزة التي تريدها في التطبيق؟ </label>
+       <select class="form-control">
+        <option> لأقصى حد </option>
+        <option> متوسط </option>
+        <option> سيء </option>
+       </select>
+    </div>
+    <div class="form-group">
+      <label> ما هي الميزة التي يجب إضافتها بجانب برنامج؟ </label>
+       <input type="text" class="form-control" placeholder="أكتب هنا">
+    </div>
+    <div class="form-group">
+      <label> ما الذي يمكننا تحسينه؟ </label>
+       <textarea rows="3" class="form-control" placeholder="أكتب هنا"></textarea>
+    </div>
+    <div class="survey-footer">
+      <p> وهذا سوف يساعدنا على تحسين تجربتك </p>
+      <button class="btn-primary survey-form_close"> ثبت </button>
+      <i class="fas fa-times survey-close survey-form_close"></i>
+    </div>
+  </section>
 
-countdownNumberEl.textContent = countdown;
+  <section id="notificationEnable" class="notificationEnable">
+     <img src="images/empty-icons/notification.png">
+     <h4> ندز لك اشعارات </h4>
+     <p> لا تحاتي ما يطوفك شي طالما مفعل الاشعارات!! </p>
+     <button class="btn-primary notificationEnable_close"> فعلهم الحين </button>
+     <h5 class="notificationEnable_close"> فعلهم بعدين </h5>
+  </section>
+  
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/menu-hamburger.min.js"></script>
+<script type="text/javascript" src="js/scrolltoTop.min.js"></script>
+<script type="text/javascript" src="js/select2.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.popupoverlay.js"></script>
 
-setInterval(function() {
-  countdown = --countdown <= 0 ? 30 : countdown;
+<script>
+    $(document).ready(function() {
+            $('#survey-form, #notificationEnable').popup({ pagecontainer: '.container', transition: 'all 0.3s', scrolllock:true, blur: false });
+            $('.survey-true button').click(function() {
+                $('.survey-true button').removeClass('highlight')
+                $(this).addClass('highlight');
+            });
+        });
 
-  countdownNumberEl.textContent = countdown;
-}, 1000);
-      </script>
+</script>
+
 </body>
 </html>

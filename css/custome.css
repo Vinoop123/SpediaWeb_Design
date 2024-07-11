@@ -773,11 +773,11 @@ conic-gradient(#0DB2B2 0, #0DB2B2 18.3%, #75C091 0, #75C091 43.8%, #0DB2B2 0, #0
 .reserve-class select{background:url(../images/icons/expand_more-24px.svg) #f4f4f4 no-repeat center left;} */
 .request-private{padding: 60px 0px 30px;}
 .request-box{border: 1px solid #E5E5EA; padding: 15px; border-radius: 8px; direction: ltr;  position: relative; margin-bottom: 30px;}
-.request-box p{margin:0px; font-size: 12px; color:#1D4F57;}
+.request-box p{margin:0px; font-size: 14px; color: var(--secondary-colour);}
 .request-box h5{color: #1a1a1a;}
-.request-box .file{background:#F2F4FF; border-radius: 50%; width: 24px; height: 24px; display: inline-block; position: relative; line-height: 22px; text-align: center; margin-right: 10px;}
+.request-box .file{background:#F2F4FF; border-radius: 50%; width: 30px; height: 30px; display: inline-block; position: relative; line-height: 30px; text-align: center; margin-right: 10px; color: #AFAFAF;}
 .request-box .file img{filter: invert(0.5); -webkit-filter:invert(0.3);}
-.request-box button{background:#FF3B30; padding:4px 10px; border-radius:30px; font-size: 12px; color:#fff; border:none; min-width: 80px; position: absolute; left: 15px; top: 50%;  transform: translate(0%, -50%);}
+.request-box button{background:var(--green); padding:4px; border-radius:4px; font-size: 14px; color: var(--white); border:none; min-width: 80px; position: absolute; left: 15px; top: 50%;  transform: translate(0%, -50%);}
 .request-box button.approved{background:#34C759;}
 .request-box button.pending{background:#F98D23;}
 .request-box button:hover{background:#0DB2B2;}
@@ -1538,7 +1538,6 @@ select.form-control{height: 60px;}
     .unit-total-answers h6{font-size: 12px;}
     .unit-total-answers h6 i{font-size: 12px !important; padding-right: 1px;}
     .unit-total-answers h6 span{padding-left:0px;}
-    .request-box button{top: 28%;}
     .ask-spedia{padding-top: 30px;}
     .student-video-subject{margin: 3px;}
     .number-box input{width: 47%;}
@@ -1717,7 +1716,7 @@ select.form-control{height: 60px;}
   --dark:#000;
   --light-dark:#fff;
   --light-grey:#E1EBEC;
-  --green: #2DCE8A;
+  --green: #4CD964;
   --yellow: #FCD34C;
   --red: #FF0000;
 

@@ -22,31 +22,79 @@
     <header class="main-header">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-3 col">
-                   <a href="javaScript:void(0)"><div class="profile-view">
-                       <h4><img src="images/profile.png"> <span>Hi, Jacob</span> </h4>
-                       </div></a>
-                    <a href="my-cart.html"><div class="cart-view">
-                       <i class="fas fa-shopping-bag"></i><sup>3</sup>
-                       </div></a>
+                <div class="col-md-3 col-7 dropdown">
+                    <a href="javaScript:void(0)" role="button" id="dropdownUser"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="profile-view">
+                        <div class="profile-point">
+                            <img src="images/profile.png">    نقطة <strong>468</strong>  
+                        </div>
+                    </div>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownUser">
+                        <div class="dropdown-item">
+                            <div class="d-flex py-2">
+                                <div class="avatar avatar-md avatar-indicators avatar-online">
+                                    <img src="images/profile.png">
+                                </div>
+                                <div class="mr-3 text-right">
+                                    <h5 class="mb-1">جاكوب ريتشاردز</h5>
+                                    <p class="mb-0">الصف الثاني عشر</p>
+                                </div>
+    
+                            </div>
+                            
+                        </div>
+                        <div class="dropdown-divider"></div>
+                            <ul class="profile-dropdown">
+                                <li>
+                                    <a class="dropdown-item" href="profile.html"><i class="far fa-user"></i>   حسابي </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javaScript:void(0)"><i class="far fa-bell"></i>  الإشعارات </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javaScript:void(0)"><i class="far fa-star"></i>  اشتراكاتي </a>
+                                </li>
+                            </ul>
+                        <div class="dropdown-divider"></div>
+                        <ul class="profile-dropdown">
+                        <li>
+                            <a class="dropdown-item" href="javaScript:void(0)"><i class="fas fa-power-off"></i>  تسجيل الخروج </a>
+                        </li>
+                    
+                    </ul>
+                        
+                    </div>
                 </div>
-                <div class="col-md-6 col text-center">
+                <div class="col-lg-6 col-md-4 col text-center">
                     <a href="index.html"> <img src="images/logo.png"> </a>
                 </div>
-                <div class="col-md-3 col">
+                <div class="col-lg-3 col-md-4 col-5">
                     <div id="menu-wrapper"></div>
+                    <a href="/Subscription/Cart" id="a_cartIcon">
+                        <div class="cart-view">
+                            <i class="fas fa-shopping-bag"></i> <sup>3</sup>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
-    </header>
+	</header>
+
+    <section class="inner-heading video-library-tab">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1> لوحة الشرف </h1>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="leaderboard">
     <div class="container">
         <div class="row justify-content-center align-items-end">
-        <div class="col-md-12 text-center mr-bot50">
-        <h1>Leaderboards</h1> 
-        <p>Ranks based on total points</p>    
-        </div>
         <div class="col-md-12">
             <div class="row justify-content-center">
             <div class="col-md-4 col">
@@ -54,47 +102,38 @@
                     <img src="images/icons/Union.png" class="leaderKing">
                     <h4>#1</h4>
                     <img src="images/leaderboard1.png">
-                    <h3>Theresa Miles</h3>
-                    <h5>4928 pts</h5>
+                    <h3> تيريزا مايلز </h3>
+                    <h5> 4928 نقطة </h5>
                 </div>    
                 </div> 
-                <div class="col-md-4 col">
-                    <div class="leader-board-circle topper">
-                        <img src="images/icons/Union.png" class="leaderKing">
-                        <h4>#1</h4>
-                        <img src="images/leaderboard1.png">
-                        <h3>Theresa Miles</h3>
-                        <h5>4928 pts</h5>
-                    </div>    
-                    </div> 
                     </div>
             
         </div>
-        <div class="col-md-3 col">
-        <div class="leader-board-circle">
-            <h4>#3</h4>
-            <img src="images/leaderboard3.png">
-            <h3>Lee Mccoy</h3>
-            <h5>2490 pts</h5>
-        </div>    
-        </div> 
-             <div class="col-md-3 col">
+         <div class="col-md-3 col">
         <div class="leader-board-circle">
             <h4>#2</h4>
             <img src="images/leaderboard2.png">
-            <h3>Tanya Mia</h3>
-            <h5>2652 pts</h5>
+            <h3> تانيا ميا </h3>
+            <h5> 2450 نقطة </h5>
         </div>    
         </div> 
+        <div class="col-md-3 col">
+            <div class="leader-board-circle">
+                <h4>#3</h4>
+                <img src="images/leaderboard3.png">
+                <h3> لي مكوي </h3>
+                <h5> 2652 نقطة </h5>
+            </div>    
+            </div> 
             <div class="clearfix"></div>
             <div class="col-md-10">
             <div class="leaderboard-box">
                 <h4>4</h4>
                 <div class="leaderboard-box-img">
                 <img src="images/leaderboard4.png">
-                <h3>Angel Richards</h3> 
+                <h3> انجيل ريتشاردز </h3> 
                 </div>
-                <h5>1958 pts</h5>   
+                <h5> 2100 نقطة </h5>   
             </div>
             </div>
             <div class="col-md-10">
@@ -102,9 +141,9 @@
                 <h4>5</h4>
                 <div class="leaderboard-box-img">
                 <img src="images/leaderboard5.png">
-                <h3>Jerome Bell</h3> 
+                <h3> جيروم بيل </h3> 
                 </div>
-                <h5>1707 pts</h5>   
+                <h5> 1900 نقطة </h5>   
             </div>
             </div>
             <div class="col-md-10">
@@ -112,9 +151,9 @@
                 <h4>6</h4>
                 <div class="leaderboard-box-img">
                 <img src="images/leaderboard6.png">
-                <h3>Marjorie Bell</h3> 
+                <h3> مارجوري بيل </h3> 
                 </div>
-                <h5>1689 pts</h5>   
+                <h5> 1800 نقطة </h5>   
             </div>
             </div>
             <div class="col-md-10">
@@ -122,9 +161,9 @@
                 <h4>7</h4>
                 <div class="leaderboard-box-img">
                 <img src="images/leaderboard7.png">
-                <h3>Jane Alexander</h3> 
+                <h3> جين الكسندر </h3> 
                 </div>
-                <h5>1572 pts</h5>   
+                <h5> 1700 نقطة </h5>   
             </div>
             </div>
             <div class="col-md-10">
@@ -132,9 +171,9 @@
                 <h4>8</h4>
                 <div class="leaderboard-box-img">
                 <img src="images/leaderboard8.png">
-                <h3>Darrell Williamson</h3> 
+                <h3> داريل ويليامسون </h3> 
                 </div>
-                <h5>1378 pts</h5>   
+                <h5> 1378 نقطة  </h5>   
             </div>
             </div>
             <div class="col-md-10">
@@ -144,7 +183,7 @@
                 <img src="images/leaderboard9.png">
                 <h3>جاكوب ريتشاردز</h3> 
                 </div>
-                <h5>1225 pts</h5>   
+                <h5> 1225 نقطة  </h5>   
             </div>
             </div>
         </div>
@@ -154,41 +193,15 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-2 col-md-3 col-6 footer-links">
-                    <h5>Information</h5>
-                    <ul>
-                        <a href="javaScript:void(0)">
-                            <li>Privacy Policy</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>Terms &amp; Condition</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>FAQ</li>
-                        </a>
-                    </ul>
+                <div class="col-md-12">
+                    <a href="index.html"> <img src="images/logo.png"> </a>
+                    </div>
+                    <div class="col-md-12">
+                    <a href="javaScript:void(0)"><p> الشروط والأحكام </p></a>
+                    <a href="javaScript:void(0)"><p> اتصل بنا </p></a>
                 </div>
-                <div class="col-lg-2 col-md-3 col-6 footer-links footer-textlft">
-                    <h5>Quick Links</h5>
-                    <ul>
-                        <a href="javaScript:void(0)">
-                            <li>About Us</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>Contact</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>Careers</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>Help</li>
-                        </a>
-                    </ul>
-                </div>
-                <div class="col-lg-8 col-md-6 footer-contact">
-                    <img src="images/logo.png">
-                    <p>Lorem ipsum dolor ami short description about spedia, you can put in this footer to give more information.</p>
-                    <h6>Copyright © 2020 <a href="index.html">Spedia</a>. All Rights Reserved</h6>
+                <div class="col-md-12">
+                    <h6>© 2024 Spedia</h6>
                 </div>
             </div>
         </div>

@@ -240,8 +240,8 @@ $('.homeStory-carousel').owlCarousel({
     "<i class='fas fa-angle-left'></i>",
     "<i class='fas fa-angle-right'></i>"
   ],
-  center: false,
-  rtl:true,
+  center: true,
+  rtl:false,
   dots: false,
   autoplay: false,
   responsive: {
@@ -250,7 +250,8 @@ $('.homeStory-carousel').owlCarousel({
           autoplay: false,
           stagePadding: 25,
           center:false,
-          nav:false
+          nav:false,
+          rtl:true
       },
       600: {
           items: 6,

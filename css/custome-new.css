@@ -687,7 +687,7 @@ font-weight: 700; border: none;}
 .clearfix2{width: 100%; position: relative; height: 200px;}
 .quiz-submit-area h5{ position: absolute; left: 15px; top: 50%; transform: translate(0, -50%); display: inline-block; font-weight: 700; color: var(--secondary-colour);}
 .answer-options button{width: 100%; min-height: 60px; border: 1px solid var(--primary-colour); border-radius: 5px; font-size: 18px; background: none;  padding: 10px 20px;
-margin-bottom: 20px; position: relative;}
+margin-bottom: 20px; position: relative; text-align: right;}
 .answer-options button p{margin: 0px;}
 .answer-options button.highlight img, .answer-options button.wrong-answer img, .answer-options button.wright-answer img{filter: invert(1) brightness(100);}
 .answer-options button.highlight::after, .answer-options button.wright-answer::after{content: "\f058"; font-family: "Font Awesome 5 Free"; font-weight: 400; position: absolute; left: 20px; font-size: 30px;
@@ -837,6 +837,8 @@ background: var(--white); font-size: 18px; cursor: pointer;}
 .popup-notes-text p{font-size: 16px; margin: 0px;}
 .popup-notes-text h6{font-size: 20px; font-weight: 700;}
 .sub-vid-ico{position: relative; top: 2px;}
+.quiz-right-arrow{position: absolute; right: 20px; top: 40%; transform: translate(0, -50%); font-size: 30px; color: var(--primary-colour);}
+.quiz-left-arrow{position: absolute; left: 20px; top: 40%; transform: translate(0, -50%); font-size: 30px; color: var(--primary-colour);}
 
 
 :root {

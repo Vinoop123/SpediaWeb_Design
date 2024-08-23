@@ -697,7 +697,7 @@ top: 50%; transform: translate(0, -50%);}
 .quiz-question  figure.center-block{ text-align: center;}
 .quiz-question  figure.left-block{ float: left; margin-right: 20px;}
 .quiz-question  figure.right-block{ float: right; margin-left: 20px;}
-.validation-pop{position: fixed; height: 30%; width: 100%; bottom: 0; transition: 0.5s; right: 0; z-index: 1113; background: var(--white); -webkit-box-shadow: 0px -6px 20px 0px rgba(0,0,0,0.08);
+.validation-pop{position: fixed; height: 0; width: 100%; bottom: 0; transition: 0.5s; right: 0; z-index: 1113; background: var(--white); -webkit-box-shadow: 0px -6px 20px 0px rgba(0,0,0,0.08);
 -moz-box-shadow: 0px -6px 20px 0px rgba(0,0,0,0.08); box-shadow: 0px -6px 20px 0px rgba(0,0,0,0.08); }
 .validation-pop-content{ padding: 20px; position: relative; padding-right: 220px;}
 .validation-pop-content img{position: absolute; right: 0px; max-width: 180px; top: 0px;}

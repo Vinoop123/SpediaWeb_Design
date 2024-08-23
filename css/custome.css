@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700&display=swap');
-body{ font-size: 15px;font-family: 'droid_arabic_kufiregular'; direction: rtl; text-align: right;}
+body{ font-size: 15px;font-family: 'droid_arabic_kufiregular'; direction: rtl; text-align: right; margin: 0px !important;}
 a, a:link, a:visited, a:hover, a:active, button, button:hover { text-decoration:none; outline:none; -webkit-transition: all .3s ease-in-out; transition: all .3s ease-in-out; }
 img{ max-width:100%;} input, textarea, button, input:focus, textarea:focus, button:focus{outline: none;}
 a, a:hover, a:focus{color:inherit;}

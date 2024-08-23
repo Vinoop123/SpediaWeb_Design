@@ -39,6 +39,9 @@
 .english-language .video-continue-play{left: auto; right: 0px;}
 .english-language .video-continue-box_img{right: auto; left: 0px;}
 
+@media (max-width: 840px) {
+  .video-continue .container{padding-left: 0px; padding-right: 15px;}
+}
 
 
 @media (max-width: 480px) {
@@ -46,6 +49,8 @@
   .liveclass-carousel.owl-carousel .owl-stage, .videorecorder-carousel.owl-carousel .owl-stage,
   .subscribed-carousel.owl-carousel .owl-stage, .activeliveclass-carousel.owl-carousel .owl-stage,
   .liveclass-category.owl-carousel .owl-stage{padding-left: 0px !important;}
+  .english-language .video-continue-box{padding-left: 110px; padding-right: 45px;}
+  .english-language .profile-point{padding-right: 5px;}
 }
 
 

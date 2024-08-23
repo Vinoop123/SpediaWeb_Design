@@ -47,7 +47,6 @@ $('.liveclass-carousel').owlCarousel({
   margin: 30,
   nav: true,
   center: false,
-  rtl:true,
   navText: [
       "<i class='fas fa-angle-left'></i>",
       "<i class='fas fa-angle-right'></i>"
@@ -82,7 +81,6 @@ $('.slider-carousel').owlCarousel({
   ],
   dots: false,
   autoplay: true,
-  rtl:true,
   items:1
 });
 
@@ -97,7 +95,6 @@ $('.activeliveclass-carousel').owlCarousel({
   ],
   dots: false,
   autoplay: false,
-  rtl:true,
   center: false,
   responsive: {
       0: {
@@ -127,7 +124,6 @@ $('.privateclass-carousel').owlCarousel({
   ],
   dots: false,
   autoplay: false,
-  rtl:true,
   center: false,
   responsive: {
       0: {
@@ -157,7 +153,6 @@ $('.videorecorder-carousel').owlCarousel({
   ],
   dots: false,
   autoplay: true,
-  rtl:true,
   center: false,
   responsive: {
       0: {
@@ -189,7 +184,6 @@ $('.liveclass-category').owlCarousel({
   ],
   dots: false,
   autoplay: true,
-  rtl:true,
   responsive: {
       0: {
           items: 1,
@@ -213,7 +207,6 @@ $('.skillsubject-carousel').owlCarousel({
   margin: 10,
   nav: false,
   center: false,
-  rtl:true,
   dots: false,
   autoplay: false,
   responsive: {
@@ -251,7 +244,7 @@ $('.homeStory-carousel').owlCarousel({
           stagePadding: 25,
           center:false,
           nav:false,
-          rtl:true
+          rtl:false
       },
       600: {
           items: 6,
@@ -293,7 +286,7 @@ $(document).ready(function(){
       ],
       dots: true,
       autoplay: true,
-      rtl:true,
+      rtl:false,
       items:1,
       autoplayTimeout:5000,
       autoplayHoverPause:false,

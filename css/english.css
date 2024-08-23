@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+.english-language{direction: ltr; text-align: left; font-family: "Nunito Sans", sans-serif;}
+.english-language .theme-swich-login, .english-language .topbar-icons{text-align: right;}
+.english-language .language-swich-login label{margin-right: 0px; margin-left: 6px;}
+.english-language .theme-swich-login label{margin-left: 0px; margin-right: 6px;}
+.english-language .language-swich-login .language-swich-circle img{height: 20px; position: relative; margin-top: -6px;}
+.english-language .theme-swich-login .language-swich-circle img{position: relative; margin-top: -6px;}
+.english-language #topcontrol{left: auto; right: 5px !important;}
+.english-language .close-icon{left: auto; right: 0px;}
+.english-language .login-back-btn i{transform: rotate(180deg);}
+.english-language .iti--separate-dial-code input[type=tel]{float: right; text-align: left; padding-left: 10px !important;}
+.english-language .iti__country-list, .english-language .profile-dropdown{text-align: left;}
+.english-language .register-terms{padding-right: 0px; padding-left: 35px;}
+.english-language .terms-register{right: auto; left: 0px;}
+.english-language select{direction: ltr;}
+.english-language .select2-container--default .select2-selection--single .select2-selection__arrow{left: auto; right: 10px;}
+.english-language .profile-point{padding: 2px; padding-right: 10px;}
+.english-language #menu-wrapper{float: right;}
+.english-language .my-course-btn button img{left: auto; right: 4px;}
+.english-language .my-course-btn{left: auto; right: 35%;}
+.english-language .avatar-indicators:before{right: auto; left: 5%;}
+.english-language .dropdown-menu .text-right{text-align: left !important;}
+.english-language .dropdown-menu .mr-3{margin-right:0; margin-left: 1rem;}
+.english-language .profile-dropdown li i{padding-left: 0px; padding-right: 8px;}
+.english-language .sidebar{left: auto; right: 0;}
+.english-language .sidebar-closed{-webkit-transform: translateX(100%);-ms-transform: translateX(100%);transform: translateX(100%);}
+.english-language .switches-container{left: auto; right: 0;}
+.english-language .switches-container input:nth-of-type(2):checked~.switch-wrapper {transform: translateX(100%);}
+.english-language .sidebar li{padding-right: 0px;padding-left: 50px;}
+.english-language .menu-icon{right: auto; left: 0px; line-height: 40px;}
+.english-language .request-private h1, .english-language .request-private-box button{margin-right: 0px; margin-left: 60px;}
+.english-language .show-all, .english-language .liveClassnotification i{left: auto; right: 15px;}
+.english-language .live-course-box-img .subscribed-icon, .english-language .prerecorded-box-img .subscribed-icon{left: auto; right: 10px;}
+.english-language .story-close-icon{left: auto; right: 10px;}
+.english-language .story-dp{padding-right: 0px; padding-left: 70px;}
+.english-language .story-dp img{right: auto; left: 0px;}
+.english-language .video-continue-close{left: auto; right: 8px;}
+.english-language .video-continue-box{padding-left: 170px; padding-right: 60px;}
+.english-language .video-continue-play{left: auto; right: 0px;}
+.english-language .video-continue-box_img{right: auto; left: 0px;}
+
+
+
+@media (max-width: 480px) {
+  .english-language .dropdown{padding-left: 15px;}
+  .liveclass-carousel.owl-carousel .owl-stage, .videorecorder-carousel.owl-carousel .owl-stage,
+  .subscribed-carousel.owl-carousel .owl-stage, .activeliveclass-carousel.owl-carousel .owl-stage,
+  .liveclass-category.owl-carousel .owl-stage{padding-left: 0px !important;}
+}
+
+
+@keyframes Loader {
+    0%   { background-position: 100% 0; }
+    100% { background-position: 0 0; }
+  }
+  
+  @-webkit-keyframes Loader {
+    0%   { background-position: 100% 0; }
+    100% { background-position: 0 0; }
+  }

@@ -62,6 +62,7 @@
     .privateclass-carousel .request-box button{ min-width: 70px; transform: inherit; top: inherit; bottom: 8px; left: 8px;}
     .request-box{min-height: 120px;}
     .request-box .file{ margin: 0px; position: absolute; right: 8px; bottom: 8px;}
+    .validation-pop{height: 180px;}
 }
 
 /* small mobile :320px. */
@@ -162,7 +163,7 @@
     .quiz-list{margin-bottom: 10px; min-height: 80px; padding-right: 80px;}
     .myquiz-icon{width: 60px; height: 60px;}
     .story-content{max-width: 96%;}
-    .story-carousel video, .story-carousel img{height: 300px;}
+    .story-carousel video, .story-carousel img{height: auto;}
     .empty-notification{min-height: 66vh;}
     .empty-notification-content{max-width: 300px;}
     .video-continue  .container{padding-right: 0px;}

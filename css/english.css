@@ -12,7 +12,7 @@
 .english-language .iti__country-list, .english-language .profile-dropdown{text-align: left;}
 .english-language .register-terms{padding-right: 0px; padding-left: 35px;}
 .english-language .terms-register{right: auto; left: 0px;}
-.english-language select{direction: ltr;}
+.english-language select{direction: ltr; text-align: left;}
 .english-language .select2-container--default .select2-selection--single .select2-selection__arrow{left: auto; right: 10px;}
 .english-language .profile-point{padding: 2px; padding-right: 10px;}
 .english-language #menu-wrapper{float: right;}
@@ -24,7 +24,7 @@
 .english-language .profile-dropdown li i{padding-left: 0px; padding-right: 8px;}
 .english-language .sidebar{left: auto; right: 0;}
 .english-language .sidebar-closed{-webkit-transform: translateX(100%);-ms-transform: translateX(100%);transform: translateX(100%);}
-.english-language .switches-container{left: auto; right: 0;}
+.english-language .switches-container, .english-language .bookmark-content i{left: auto; right: 0;}
 .english-language .switches-container input:nth-of-type(2):checked~.switch-wrapper {transform: translateX(100%);}
 .english-language .sidebar li{padding-right: 0px;padding-left: 50px;}
 .english-language .menu-icon{right: auto; left: 0px; line-height: 40px;}
@@ -36,8 +36,38 @@
 .english-language .story-dp img{right: auto; left: 0px;}
 .english-language .video-continue-close{left: auto; right: 8px;}
 .english-language .video-continue-box{padding-left: 170px; padding-right: 60px;}
-.english-language .video-continue-play{left: auto; right: 0px;}
-.english-language .video-continue-box_img{right: auto; left: 0px;}
+.english-language .video-continue-play, .english-language .reserved-class-box-content ul button,
+.english-language .new-message, .english-language .cart-page i{left: auto; right: 0px;}
+.english-language .video-continue-box_img, .english-language .icon-level{right: auto; left: 0px;}
+.english-language .my-profile-edit, .english-language .profile-info-icon{left: auto; right: 15px;}
+.english-language .level-box{direction: rtl;}
+.english-language .profile-details .point-box{margin-left: 0px; margin-right: 10px;}
+.english-language .student-grade h6, .english-language .profile-relative-videos-content h6 span{float: right;}
+.english-language .personal-details{padding: 10px; padding-left: 50px;}
+.english-language .personal-details img{right: auto; left: 10px;}
+.english-language .membership-card h6::after{left: auto; right: 15px;}
+.english-language .related-videos h5{float: left;}
+.english-language .profile-relative-videos-content img{transform: rotate(180deg);}
+.english-language .profile-relative-videos-content p span{margin-left: 5px;}
+.english-language .liveclass-category .live-course-box-content h4 span{margin-left: 5px;}
+.english-language .live-class-collapse, .english-language .topic-box-attach{left: auto; right: 20px;}
+.english-language .survey-form, .english-language .notificationEnable{text-align: left !important;}
+.english-language .survey-close, .english-language .topic-box-subject{left: auto; right: 10px;}
+.english-language .audio-record audio{margin-right: 0px; margin-left: 10px;}
+.english-language .text-right{text-align: left !important;}
+.english-language .topic-box p{padding-left: 0px; padding-right: 110px;}
+.english-language .topic-box-question h5 i, .english-language .topic-box-reply h5 i{margin-left: 0px; margin-right: 5px;}
+.english-language .checkout-radio{float: left; margin-left: 0px; margin-right: 15px;}
+.english-language .card-details .form-group i{left: auto; right: 20px;}
+.english-language .select-grade .form-group, .english-language .my-cart h6, .english-language .my-cart h1{text-align: left !important;}
+.english-language .my-cart .offer{left: auto; right: 27%;}
+.english-language .my-cart .form-group i{left: auto; right: 23%;}
+.english-language .my-cart h6 span, .english-language .my-cart h1 span{float: right;}
+.english-language .cart-item-price{left: auto; right: 8px;}
+.english-language .timeline-filter{text-align: left !important;}
+.english-language .timeline-filter i{left: auto; right: 20px;}
+
+
 
 @media (max-width: 840px) {
   .video-continue .container{padding-left: 0px; padding-right: 15px;}
@@ -51,6 +81,8 @@
   .liveclass-category.owl-carousel .owl-stage{padding-left: 0px !important;}
   .english-language .video-continue-box{padding-left: 110px; padding-right: 45px;}
   .english-language .profile-point{padding-right: 5px;}
+  .english-language .request-private h1, .english-language .request-private-box button{margin-left: 10px;}
+  .english-language .checkout-radio{margin-right: 8px;}
 }
 
 

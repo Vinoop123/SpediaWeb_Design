@@ -192,7 +192,7 @@
     .profile-relative-videos-content h5{font-size: 16px;}
     .profile-relative-videos-content img{width: 18px;}
     .pad-bot80{padding-bottom: 30px;}
-    .back-btn{width: 30px; height: 30px; line-height: 30px; right: 15px;}
+    .back-btn{width: 30px; height: 30px; line-height: 32px; right: 15px;}
     .quiz-congratz h1{font-size: 38px; margin-bottom: 20px;}
     .quiz-congratz-circle{width: 130px; height: 130px;}
     .quiz-congratz-circle::before{width: 130px; height: 130px;}
@@ -288,7 +288,7 @@
     .previous-test button{min-width: auto;}
     .previous-test button img{margin-right: 4px;}
     .video-library-subscribed .previous-test button{padding: 6px; font-size: 10px;}
-    .privateclass-carousel .owl-stage{padding-right: 0px !important;}
+    .privateclass-carousel .owl-stage{padding: 0px !important;}
     h3{font-size: 17px;}
     .videoCount{font-size: 14px; border: none; text-align: left;}
     .videoCount img{max-width: 16px;}

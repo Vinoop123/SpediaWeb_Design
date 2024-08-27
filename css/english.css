@@ -66,6 +66,37 @@
 .english-language .cart-item-price{left: auto; right: 8px;}
 .english-language .timeline-filter{text-align: left !important;}
 .english-language .timeline-filter i{left: auto; right: 20px;}
+.english-language .contact-info-list .ml-3{margin-left: 0 !important; margin-right: 1rem !important;}
+.english-language .contact-info-list li .contact-icon span.fa-phone{transform: rotateY(180deg);}
+.english-language .back-btn, .english-language .live-course-sideBox-content ul li img{right: auto; left: 0px;}
+.english-language .back-btn i{transform: rotateY(180deg);}
+.english-language .live-course-sideBox ul li{padding-right: 0px; padding-left: 30px;}
+.english-language .panel-heading a:before{left: auto; right: 10px;}
+.english-language .price-pop .close, .english-language .sampleVideo-pop .close{left: auto; right: 10px;}
+.english-language .price-popup-radio.highlight::before{right: auto; left: 10px;}
+.english-language .popup-notes-text{text-align: left;}
+.english-language .price-pop u{float: right;}
+.english-language .price-pop u.privacy{float: left;}
+.english-language .video-rating, .english-language .video-comment-field{margin-left: 0px; margin-right: 20px;}
+.english-language .video-comment-sendBtn{line-height: 46px;}
+.english-language .video-comment-sendBtn img{transform: rotateY(180deg);}
+.english-language .rating-video, .rating-video > label{float: right;}
+.english-language .video-rating label span{margin-left: 0px; margin-right: 8px;}
+.english-language .video-comment-field{width: 60%;}
+.english-language .video-play-list ul li{padding-left: 80px; padding-right: 50px;}
+.english-language .video-number, .english-language .home-work-score{right: auto; left: 0px;}
+.english-language .completed-icon, .english-language .play-icon,
+.english-language .video-play-list .c100.small{left: auto; right: 0px;}
+.english-language .home-work-box-content{padding-right: 0px; padding-left: 100px;}
+.english-language .home-work-download{float: left;}
+.english-language .leaderboard-box h5{float: right; padding-right: 15px;}
+.english-language .leaderboard-box h4{padding-left: 10px; padding-right: 20px;}
+.english-language .leaderboard-box-img img{margin-left: 0px; margin-right: 20px;}
+.english-language .leaderboard-box-img{padding-right: 0px; padding-left: 20px; border: none; border-left: 1px solid var(--primary-colour);}
+.english-language .live-course-box .join, .english-language .request-box button{left: auto; right: 15px;}
+.english-language .request-box p{direction: rtl;}
+.english-language .request-box .file{margin-right: 0px; margin-left: 10px;}
+.english-language .toggle-password{left: auto; right: 15px;}
 
 
 
@@ -83,6 +114,15 @@
   .english-language .profile-point{padding-right: 5px;}
   .english-language .request-private h1, .english-language .request-private-box button{margin-left: 10px;}
   .english-language .checkout-radio{margin-right: 8px;}
+  .english-language .back-btn{left: 15px;}
+  .english-language  .video-play-list ul li { padding-right: 60px; padding-left: 60px;}
+  .english-language .video-rating{text-align: left; margin-right: 0px;}
+  .english-language .video-comment-field{width: 80%; margin-right: 8px;}
+  .english-language .leaderboard-box-img{border: none; padding-left: 0px;}
+  .english-language .leaderboard-box h5{padding-right: 0px;}
+  .english-language .leaderboard-box-img img{margin: 0px;}
+  .english-language .live-class h1, .english-language .prerecorded h1, .english-language .active-liveclass h3,
+  .english-language .my-privateClasses h3{padding-left: 0px; padding-right: 80px;}
 }
 
 

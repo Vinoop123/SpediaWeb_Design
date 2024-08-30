@@ -325,10 +325,10 @@ border-radius: 30px;}
 .video-play-list .c100.small{font-size: 40px; margin: 0px; position: absolute; left: 0px; top: 10px;}
 .video-play-list .c100 > span{font-size: 12px; line-height: 40px;}
 .notification{padding: 40px 0px 60px;}
-.notification button{position: absolute; left: 0px; top: 0px; padding: 6px 14px; border-radius: 6px; border: none; background: none;}
-.notification button.markread{background: none; right:0px; left: auto;}
-.notification button:focus{background: var(--primary-colour); border-color: var(--primary-colour); color: var(--white);}
-.notification button:focus img{filter: invert(1) brightness(100);}
+.notification-icon{position: absolute; left: 0px; top: 0px; padding: 6px 14px; border-radius: 6px; border: none; background: none;}
+.notification-icon.markread{background: none; right:0px; left: auto;}
+.notification-icon:focus{background: var(--primary-colour); border-color: var(--primary-colour); color: var(--white);}
+.notification-icon img{filter: invert(1) brightness(100);}
 .notification-box{border-radius: 6px; padding: 15px 20px;  margin-bottom: 15px; opacity: 0.8; border: 1px solid #ddd;}
 .notification-box h6{color: #1a1a1a; font-size: 14px; margin-top: 10px; margin-bottom: 0px;}
 .notification-box h4{color: #1A1A1A; font-size: 16px; font-weight: 700; margin-bottom: 10px;}
@@ -444,7 +444,7 @@ animation-iteration-count: infinite;animation-timing-function: linear;}
 .removed-lesson-title h1{margin-bottom: 15px;}
 .removed-lesson-title select:focus{border: none; box-shadow: none; outline: none;}
 .removed-lesson-title select option{color: #000;}
-.removed-lesson-title button{background: #0C9C9C; color: var(--white); border: none; width: 100%; padding: 5px 7px; height: 38px; border-radius: 5px;}
+.removed-lesson-title button{background: var(--white); color: var(--primary-colour); border: none; width: 100%; padding: 5px 7px; height: 38px; border-radius: 5px;}
 .removed-lesson-title button i{display: none;}
 .removed-lessons{padding: 60px 0px; }
 .removed-lessons h3{color: #0C9C9C;}
@@ -857,7 +857,7 @@ display: inline-block; cursor: pointer;}
     --light-grey:#E1EBEC;
     --green: #4CD964;
     --yellow: #FCD34C;
-    --red: #FF0000;
+    --red: #FF3B30;
     --grey: #8EA7AB;
   
   }

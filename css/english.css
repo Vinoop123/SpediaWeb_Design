@@ -97,7 +97,63 @@
 .english-language .request-box p{direction: rtl;}
 .english-language .request-box .file{margin-right: 0px; margin-left: 10px;}
 .english-language .toggle-password{left: auto; right: 15px;}
-
+.english-language .quiz-list{padding-right: 10px; padding-left: 100px;}
+.english-language .quiz-subject p span{margin-left: 0px; margin-right: 10px;}
+.english-language .quiz-subject p img{margin-left: 0px; margin-right: 5px;}
+.english-language .myquiz-icon{right: auto; left: 10px;}
+.english-language .notification-icon{left: auto; right: 0px;}
+.english-language .calendar-header button{transform: rotateY(180deg);}
+.english-language .radio-group{margin-left: 0px; margin-right: 8px;}
+.english-language .quiz-time-wrong{text-align: right;}
+.english-language .quiz-question, .english-language .quiz-answer-box, .english-language .answer-options button{text-align: left;}
+.english-language .quiz-submit-area h5{left: auto; right: 15px;}
+.english-language .validation-pop-content{padding-left: 200px; padding-right: 20px;}
+.english-language .validation-pop-content img{right: auto; left: 0px;}
+.english-language .quiz-back-btn{right: auto; left: 15%; transform: rotateY(180deg);}
+.english-language .answer-options button.highlight::after, 
+.english-language .answer-options button.wright-answer::after,
+.english-language .answer-options button.wrong-answer::after{left: auto; right: 20px;}
+.english-language .quiz-score-left{left: auto; right: 0px; text-align: right;}
+.english-language .quiz-score-right, .english-language .removed-lessons ul li::before{right: auto; left: 0px;}
+.english-language .quiz-video-close-btn{left: auto; right: 30px;}
+.english-language .removed-search-img{left: auto; right: 13%;}
+.english-language .removed-lessons ul li{padding-right: 0px; padding-left: 25px;}
+.english-language .skill-strength p{text-align: right;}
+.english-language .skill-details-icon, .english-language .skill-details .collapsible:after{left: auto; right: 20px;}
+.english-language .skill-details .collapsible span{float: right; padding-left: 0px; padding-right: 20px;}
+.english-language .skill-details .collapsible{text-align: left;}
+.english-language .select-grade.profile-details .point-box{margin: 0 auto;}
+.english-language .practice-circle{float: left;}
+.english-language .total-practice{float: left; padding-right: 0px; padding-left: 20px;}
+.english-language .quiz-challenge h5, .english-language .statistic .quiz-challenge p{padding-right: 0px; padding-left: 60px;}
+.english-language .quiz-challenge img{right: auto; left: 30px;}
+.english-language .statistic .quiz-challenge button{left: auto; right: 30px;}
+.english-language .stats-icon{float: left;}
+.english-language .stats-subject{padding-right: 0px; padding-left: 20px;}
+.english-language .stats-subject h6{left: auto; right: 0px;}
+.english-language .total-practice h6, .english-language .total-practice h4{direction:rtl;}
+.english-language .add-student{left: auto; right: 0px;}
+.english-language .add-student button{border-radius: 0px; border-top-left-radius: 30px; border-bottom-left-radius: 30px;}
+.english-language .add-student-pop i{left: auto; right: 20px;}
+.english-language .profile-qr{float: left; line-height: 44px;}
+.english-language .profile-qr img{transform: none;}
+.english-language .profile-bgm .student-back h6{float: left; padding-left: 14px; padding-right: 0px;}
+.english-language .edit-profile{float: right; line-height: 44px;}
+.english-language .student-home h6{float: right;}
+.english-language .timeline-box button img{ transform: rotateY(180deg);}
+.english-language .timeline-box button img{margin-left: 0px; margin-right: 4px;}
+.english-language .timeline-box .absent, .english-language .timeline-box .present, .english-language .timeline-box .late{float: right;}
+.english-language .subject-details-page .text-left{text-align: right !important;}
+.english-language .live-class-details button.preview img{transform: rotateY(180deg);}
+.english-language .video-library-subscribed .panel-body li{padding-left: 24px; padding-right: 80px;}
+.english-language .video-library-subscribed .panel-body li::before{right: auto; left: 0px;}
+.english-language .video-library-subscribed .panel-body li span{left: auto; right: 0px;}
+.english-language .video-library-subscribed .panel-body li span img{transform: none;}
+.english-language .sub-vid-ico{top: -1px;}
+.english-language .subject-notes-box p{padding-left: 0px; padding-right: 90px;}
+.english-language .subject-notes-box p span{left: auto; right: 0px;}
+.english-language .subject-notes-box h6 span{float: right;}
+.english-language .subject-tests-box h6{text-align: right;}
 
 
 @media (max-width: 840px) {
@@ -114,7 +170,7 @@
   .english-language .profile-point{padding-right: 5px;}
   .english-language .request-private h1, .english-language .request-private-box button{margin-left: 10px;}
   .english-language .checkout-radio{margin-right: 8px;}
-  .english-language .back-btn{left: 15px;}
+  .english-language .back-btn{left: 15px; top: 5px;}
   .english-language  .video-play-list ul li { padding-right: 60px; padding-left: 60px;}
   .english-language .video-rating{text-align: left; margin-right: 0px;}
   .english-language .video-comment-field{width: 80%; margin-right: 8px;}
@@ -123,6 +179,23 @@
   .english-language .leaderboard-box-img img{margin: 0px;}
   .english-language .live-class h1, .english-language .prerecorded h1, .english-language .active-liveclass h3,
   .english-language .my-privateClasses h3{padding-left: 0px; padding-right: 80px;}
+  .english-language .quiz-list{padding-left: 80px;}
+  .english-language .request-box .file{right: auto; left: 0px;}
+  .english-language .quiz-back-btn{left: 5%;}
+  .english-language .quiz-time-wrong p, .english-language .quiz-time-right p{font-size: 15px;}
+  .english-language .quiz-score-right{left: 10px;}
+  .english-language .quiz-score-left{right: 10px;}
+  .english-language .rs-lft0{padding-left: 15px; padding-right: 0px;}
+  .english-language .removed-search-img{right: -27px;}
+  .english-language .student-grade h5{float: left;}
+  .english-language .practice-circle{margin-left: 0px; margin-right: 10px;}
+  .english-language .practice-view{display: flex;}
+  .english-language .quiz-challenge img{left: inherit;}
+  .english-language .quiz-challenge h5, .english-language .statistic .quiz-challenge p{padding-left: 0px;}
+  .english-language .statistic .quiz-challenge button{right: inherit;}
+  .english-language .add-student-pop i{right: 8px;}
+  .english-language .student-home{left: auto; right: 10px;}
+  .english-language .panel-title > a{padding-left: 10px; padding-right: 40px;}
 }
 
 

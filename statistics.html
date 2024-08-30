@@ -23,35 +23,83 @@
     <header class="main-header">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-3 col">
-                    <a href="javaScript:void(0)">
-                        <div class="profile-view">
-                            <h4><img src="images/profile.png"> <span>Hi, Jacob</span> </h4>
+                <div class="col-md-3 col-5 dropdown">
+                    <a href="javaScript:void(0)" role="button" id="dropdownUser"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="profile-view">
+                        <div class="profile-point">
+                            <img src="images/profile.png">    نقطة <strong>468</strong>  
                         </div>
+                    </div>
                     </a>
-                    <a href="my-cart.html">
-                        <div class="cart-view">
-                            <i class="fas fa-shopping-bag"></i><sup>3</sup>
+                    <div class="dropdown-menu" aria-labelledby="dropdownUser">
+                        <div class="dropdown-item">
+                            <div class="d-flex py-2">
+                                <div class="avatar avatar-md avatar-indicators avatar-online">
+                                    <img src="images/profile.png">
+                                </div>
+                                <div class="mr-3 text-right">
+                                    <h5 class="mb-1">جاكوب ريتشاردز</h5>
+                                    <p class="mb-0">الصف الثاني عشر</p>
+                                </div>
+    
+                            </div>
+                            
                         </div>
-                    </a>
+                        <div class="dropdown-divider"></div>
+                            <ul class="profile-dropdown">
+                                <li>
+                                    <a class="dropdown-item" href="profile.html"><i class="far fa-user"></i>   حسابي </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javaScript:void(0)"><i class="far fa-bell"></i>  الإشعارات </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javaScript:void(0)"><i class="far fa-star"></i>  اشتراكاتي </a>
+                                </li>
+                            </ul>
+                        <div class="dropdown-divider"></div>
+                        <ul class="profile-dropdown">
+                        <li>
+                            <a class="dropdown-item" href="javaScript:void(0)"><i class="fas fa-power-off"></i>  تسجيل الخروج </a>
+                        </li>
+                    
+                    </ul>
+                        
+                    </div>
                 </div>
-                <div class="col-md-6 col text-center">
+                <div class="col-lg-6 col-md-4 col text-center">
                     <a href="index.html"> <img src="images/logo.png"> </a>
                 </div>
-                <div class="col-md-3 col">
+                <div class="col-lg-3 col-md-4 col-7">
                     <div id="menu-wrapper"></div>
+                    <ul class="topbar-icons">
+                        <a href="my-cart.html" title="Cart"> <li> <img src="images/icons/shopping-bag.svg"> <sup> 4 </sup></li></a>
+                    </ul>
+                    <div class="my-course-btn">
+                        <a href="mycourse.html"><button> اشتراكاتي <img src="images/icons/hand.svg"> </button></a>
+                    </div>
+                        
                 </div>
             </div>
         </div>
-    </header>
+	</header>
+
+    <section class="inner-heading">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1> الإحصائيات </h1>
+                    <a href="javascript:void(0)"> <div class="back-btn"> <i class="fas fa-arrow-right"></i></div> </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section class="select-grade pad-bot20">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-12 text-center mr-bot20">
-                    <h1>Statistics</h1>
-                    <p>Performance statistics</p>
-                </div>
                 <div class="col-md-6">
                     <div class="student-grade">
                         <h5>Last Activity</h5>
@@ -91,7 +139,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="quiz-challenge">
-                        <img src="images/icons/icon_history.png">
+                        <img src="images/icons/time.svg">
                         <h5>Timeline History</h5>
                         <p>My recent activities</p>
                         <a href="javaScript:void(0)"> <button>View Timeline</button></a>
@@ -214,46 +262,20 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-2 col-md-3 col-6 footer-links">
-                    <h5>Information</h5>
-                    <ul>
-                        <a href="javaScript:void(0)">
-                            <li>Privacy Policy</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>Terms &amp; Condition</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>FAQ</li>
-                        </a>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-md-3 col-6 footer-links footer-textlft">
-                    <h5>Quick Links</h5>
-                    <ul>
-                        <a href="javaScript:void(0)">
-                            <li>About Us</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>Contact</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>Careers</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>Help</li>
-                        </a>
-                    </ul>
-                </div>
-                <div class="col-lg-8 col-md-6 footer-contact">
+                <div class="col-md-12">
                     <img src="images/logo.png">
-                    <p>Lorem ipsum dolor ami short description about spedia, you can put in this footer to give more information.</p>
-                    <h6>Copyright © 2020 <a href="index.html">Spedia</a>. All Rights Reserved</h6>
+                    </div>
+                    <div class="col-md-12">
+                    <a href="javaScript:void(0)"><p>Terms & Conditions</p></a>
+                    <a href="javaScript:void(0)"><p>Contact Us</p></a>
+                </div>
+                <div class="col-md-12">
+                    <h6>© 2021 Spedia</h6>
                 </div>
             </div>
         </div>
     </footer>
-
+    
     <aside class="sidebar sidebar-closed">
     <ul>
         <li class="p-0">  
@@ -284,10 +306,11 @@
               </div>
             اللغة </li>
         <a href="profile.html"> <li> <div class="menu-icon"> <img src="images/new-icons/profile.svg"> </div> حسابي </li> </a>
-        <a href="javascript:void(0)"> <li> <div class="menu-icon"> <img src="images/new-icons/recorded-videos.svg"> </div> الفيديوهات المسجلة </li> </a>
+        <a href="video-library.html"> <li> <div class="menu-icon"> <img src="images/new-icons/recorded-videos.svg"> </div> الفيديوهات المسجلة </li> </a>
         <a href="liveCourses.html"> <li> <div class="menu-icon"> <img src="images/new-icons/liveclass-menu.svg"> </div> فصل مباشر </li> </a>
+        <a href="privateclass-request.html"> <li> <div class="menu-icon"> <img src="images/new-icons/privateclass-menu.svg"> </div>  حصة خاصة </li> </a>
         <a href="ask-spedia.html"> <li> <div class="menu-icon"> <img src="images/new-icons/ask-spedia.svg"> </div> اسأل معلم </li> </a>
-        <a href="javascript:void(0)"> <li> <div class="menu-icon"> <img src="images/new-icons/liveclass-recording.svg"> </div> تسجيلات الحصص المباشرة </li> </a>
+        <a href="subject-video.html"> <li> <div class="menu-icon"> <img src="images/new-icons/liveclass-recording.svg"> </div> تسجيلات الحصص المباشرة </li> </a>
         <a href="bookmark.html"> <li> <div class="menu-icon"> <img src="images/new-icons/saved-videos2.svg"> </div> الفيديوهات المحفوظة </li> </a>
        <a href="myQuiz.html"> <li> <div class="menu-icon"> <img src="images/new-icons/onetime-quiz.svg"> </div> الاختبار التقييمي </li> </a>
         <a href="timeline.html"> <li> <div class="menu-icon"> <img src="images/new-icons/timeline.svg"> </div> سجل النشاط </li> </a>

@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Spedia - Mid school</title>
+    <meta name=description content="">
+    <link rel="shortcut icon" href="../images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/animate.css">
+    <link rel="stylesheet" type="text/css" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/intlTelInput.css">
+    <link rel="stylesheet" type="text/css" href="../css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/circle.css">
+    <link rel="stylesheet" type="text/css" href="../css/custome.css">
+    <link rel="stylesheet" type="text/css" href="../css/custome-new.css">
+    <link rel="stylesheet" type="text/css" href="../css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="../css/english.css">
+
+
+</head>
+
+<body class="english-language">
+
+    <header class="main-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-4 col-5 dropdown">
+                    <a href="javaScript:void(0)" role="button" id="dropdownUser"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="profile-view">
+                        <div class="profile-point">
+                            <img src="../images/profile.png">    Points  <strong>468</strong>  
+                        </div>
+                    </div>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownUser">
+                        <div class="dropdown-item">
+                            <div class="d-flex py-2">
+                                <div class="avatar avatar-md avatar-indicators avatar-online">
+                                    <img src="../images/profile.png">
+                                </div>
+                                <div class="mr-3 text-right">
+                                    <h5 class="mb-1">جاكوب ريتشاردز</h5>
+                                    <p class="mb-0">الصف الثاني عشر</p>
+                                </div>
+    
+                            </div>
+                            
+                        </div>
+                        <div class="dropdown-divider"></div>
+                            <ul class="profile-dropdown">
+                                <li>
+                                    <a class="dropdown-item" href="profile.html"><i class="far fa-user"></i>   حسابي </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javaScript:void(0)"><i class="far fa-bell"></i>  الإشعارات </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javaScript:void(0)"><i class="far fa-star"></i>  اشتراكاتي </a>
+                                </li>
+                            </ul>
+                        <div class="dropdown-divider"></div>
+                        <ul class="profile-dropdown">
+                        <li>
+                            <a class="dropdown-item" href="javaScript:void(0)"><i class="fas fa-power-off"></i>  تسجيل الخروج </a>
+                        </li>
+                    
+                    </ul>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-4 col text-center">
+                    <a href="index.html"> <img src="../images/logo.png"> </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-7">
+                    <div id="menu-wrapper"></div>
+                    <ul class="topbar-icons">
+                        <a href="my-cart.html" title="Cart"> <li> <img src="../images/icons/shopping-bag.svg"> <sup> 4 </sup></li></a>
+                    </ul>
+                    <div class="my-course-btn">
+                        <a href="mycourse.html"><button> اشتراكاتي <img src="../images/icons/hand.svg"> </button></a>
+                    </div>
+                        
+                </div>
+            </div>
+        </div>
+	</header>
+
+ 
+    <section class="inner-heading">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1> Request Private Class </h1>
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#activeClass" aria-controls="activeClass" role="tab" data-toggle="tab"> المواد </a></li>
+                        <li role="presentation"><a href="#reserved" aria-controls="reserved" role="tab" data-toggle="tab"> المحجوز </a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section>
+        <div class="tab-content" id="accordion">
+            <div role="tabpanel" class="tab-pane active" id="activeClass">
+                <div class="container request_privateclass">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label> <img src="../images/new-icons/book_4.svg"> المادة</label>
+                                    <select class="form-control">
+                                        <option> اختيار المادة</option>
+                                        <option> الرياضيات </option>
+                                        <option>  اللغة الإنجليزية </option>
+                                        <option>  اللغة العربية </option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label> <img src="../images/new-icons/calendar_month.svg"> التاريخ </label>
+                                    <div class="calendar-container">
+                                        <input type="text" id="date-input" placeholder="Select a date" hidden readonly>
+                                        <div id="calendar" class="calendar">
+                                            <div class="calendar-header">
+                                                <button id="prev-month"> <i class="fas fa-angle-right"></i> </button>
+                                                <span id="month-year"></span>
+                                                <button id="next-month"> <i class="fas fa-angle-left"></i> </button>
+                                            </div>
+                                            <div class="calendar-body">
+                                                <div class="calendar-weekdays">
+                                                    <div> س </div>
+                                                    <div> ح</div>
+                                                    <div> ن </div>
+                                                    <div> ث </div>
+                                                    <div> ر</div>
+                                                    <div> خ</div>
+                                                    <div> ج</div>
+                                                </div>
+                                                <div class="calendar-days"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label> <img src="../images/new-icons/schedule_black.svg"> الوقت </label>
+                                        <div class="radio-group">
+                                            <input type="radio" name="time" id="morning-time">
+                                            <label for="morning-time"> الفترة الصباحية
+                                              <br>  5am-12pm</label>
+                                        </div>
+                                        <div class="radio-group">
+                                            <input type="radio" name="time" id="evening-time">
+                                            <label for="evening-time"> الفترة المسائية
+                                               <br> 12pm-12am </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label> <img src="../images/new-icons/alarm_on.svg"> اختيار عدد الساعات </label>
+                                        <div class="radio-group">
+                                            <input type="radio" name="hours" id="sixty-minutes">
+                                            <label for="sixty-minutes">  60 <br>
+                                                دقيقة</label>
+                                        </div>
+                                        <div class="radio-group">
+                                            <input type="radio" name="hours" id="ninty-minutes">
+                                            <label for="ninty-minutes">  90 <br>
+                                                دقيقة</label>
+                                        </div>
+                                        <div class="radio-group">
+                                            <input type="radio" name="hours" id="one20-minutes">
+                                            <label for="one20-minutes">  120 <br>
+                                                دقيقة</label>
+                                        </div>
+                                        <div class="radio-group">
+                                            <input type="radio" name="hours" id="one50-minutes">
+                                            <label for="one50-minutes">  150 <br>
+                                                دقيقة</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label> <img src="../images/new-icons/attach_file.svg"> المرفقات </label>
+                                        <input type="file" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label> <img src="../images/new-icons/rate_review.svg"> ملاحظات </label>
+                                        <textarea rows="4" class="form-control" placeholder=" نص الرسالة"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group register-terms">
+                                        <p>موافق علي <a href="javascript:void(0)">الشروط و الأحكام</a> </p>
+                                        <label class="terms-register">
+                                            <input id="chkprivacy" type="checkbox">
+                                            <span class="termsCheck"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button class="send-btn"> ارسال الطلب </button>
+                                </div>
+                                </div>
+                        </div>
+                     
+                     </div>
+                    </div>
+               
+    </div>
+    
+    <div role="tabpanel" class="tab-pane" id="reserved">
+        <!-- <section>
+            <div class="col-md-12 text-center private-class-empty">
+                <img src="images/empty-icons/privateclass.png">
+                 <p>   ما عندك حصص خاصة </p>
+                    <a href="privateclass-request.html"><button> نحجز الحصة الخاصة </button></a>    
+                </div>
+        </section>  -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                <div class="request-box">
+                <h6> حصة خاصة مادة / قدرات - كيمياء </h6>
+                <p><a href="javaScript:void(0)"> <span class="file"> <i class="fas fa-paperclip"></i></span></a> يوم السبت 25 يونيو 2022 | 06:00 مساءً </p>
+                <a href="javaScript:void(0)"> <button> انضم </button> </a>   
+                </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                <div class="request-box">
+                <h6> حصة خاصة مادة / الرياضيات </h6>
+                <p><a href="javaScript:void(0)"> <span class="file"> <i class="fas fa-paperclip"></i></span></a> يوم السبت 25 يونيو 2022 | 06:00 مساءً </p>
+                <a href="javaScript:void(0)"> <button> انضم </button> </a>   
+                </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                <div class="request-box">
+                <h6> حصة خاصة مادة / الكيمياء </h6>
+                <p><a href="javaScript:void(0)"> <span class="file"> <i class="fas fa-paperclip"></i></span></a> يوم السبت 25 يونيو 2022 | 06:00 مساءً </p>
+                 <a href="javaScript:void(0)"> <button> انضم </button> </a>   
+                </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                <div class="request-box">
+                <h6> حصة خاصة مادة / رياضيات</h6>
+                <p><a href="javaScript:void(0)"> <span class="file"> <i class="fas fa-paperclip"></i></span></a> يوم السبت 25 يونيو 2022 | 06:00 مساءً </p>
+                <a href="javaScript:void(0)"> <button> انضم </button> </a>   
+                </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                <div class="request-box">
+                <h6> حصة خاصة مادة / رياضيات </h6>
+                <p><a href="javaScript:void(0)"> <span class="file"> <i class="fas fa-paperclip"></i></span></a> يوم السبت 25 يونيو 2022 | 06:00 مساءً </p>
+                <button class="pending"> قيد التنفيذ </button> </a>   
+                </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                <div class="request-box">
+                <h6> حصة خاصة مادة / اللغة العربية </h6>
+                <p><a href="javaScript:void(0)"> <span class="file"> <i class="fas fa-paperclip"></i></span></a> يوم السبت 25 يونيو 2022 | 06:00 مساءً </p>
+                <a href="javaScript:void(0)"> <button class="pending"> قيد التنفيذ </button> </a>   
+                </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                <div class="request-box">
+                <h6> حصة خاصة مادة / الأحياء</h6>
+                <p><a href="javaScript:void(0)"> <span class="file"> <i class="fas fa-paperclip"></i></span></a> يوم السبت 25 يونيو 2022 | 06:00 مساءً </p>
+                <a href="javaScript:void(0)"> <button class="approved"> فيديو </button> </a>   
+                </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                <div class="request-box">
+                <h6> حصة خاصة مادة / الأحياء </h6>
+                <p><a href="javaScript:void(0)"> <span class="file"> <i class="fas fa-paperclip"></i></span></a> يوم السبت 25 يونيو 2022 | 06:00 مساءً </p>
+                <a href="javaScript:void(0)"> <button class="approved"> فيديو </button> </a>   
+                </div>
+                </div>
+            </div>   
+        </div>
+        </div>
+    </div>
+    </div>
+    </section>
+        
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="index.html"> <img src="../images/logo.png"> </a>
+                    </div>
+                    <div class="col-md-12">
+                    <a href="javaScript:void(0)"><p> الشروط والأحكام </p></a>
+                    <a href="javaScript:void(0)"><p> اتصل بنا </p></a>
+                </div>
+                <div class="col-md-12">
+                    <h6>© 2024 Spedia</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <aside class="sidebar sidebar-closed">
+        <ul>
+            <li class="p-0">  
+                <div class="switches-container">
+                <input type="radio" id="switchDay" name="switchBackground" value="Day" checked="checked" />
+                <input type="radio" id="switchDark" name="switchBackground" value="Dark" />
+                <label for="switchDay"> <img src="../images/new-icons/day-mode.svg"></label>
+                <label for="switchDark"> <img src="../images/new-icons/night-mode.svg"></label>
+                <div class="switch-wrapper">
+                  <div class="switch">
+                    <div></div>
+                    <div></div>
+                  </div>
+                </div>
+              </div> الخلفية </li>
+            <li class="p-0">
+                <div class="switches-container">
+                    <input type="radio" id="switchArabic" name="switchLanguage" value="Arabic" checked="checked" />
+                    <input type="radio" id="switchEnglish" name="switchLanguage" value="English" />
+                    <label for="switchArabic"> <img src="../images/new-icons/ع.svg"></label>
+                    <label for="switchEnglish"> <img src="../images/new-icons/E.svg"></label>
+                    <div class="switch-wrapper">
+                      <div class="switch">
+                        <div></div>
+                        <div></div>
+                      </div>
+                    </div>
+                  </div>
+                اللغة </li>
+            <a href="profile.html"> <li> <div class="menu-icon"> <img src="../images/new-icons/profile.svg"> </div> حسابي </li> </a>
+            <a href="video-library.html"> <li> <div class="menu-icon"> <img src="../images/new-icons/recorded-videos.svg"> </div> الفيديوهات المسجلة </li> </a>
+            <a href="liveCourses.html"> <li> <div class="menu-icon"> <img src="../images/new-icons/liveclass-menu.svg"> </div> فصل مباشر </li> </a>
+            <a href="privateclass-request.html"> <li> <div class="menu-icon"> <img src="../images/new-icons/privateclass-menu.svg"> </div>  حصة خاصة </li> </a>
+            <a href="ask-spedia.html"> <li> <div class="menu-icon"> <img src="../images/new-icons/ask-spedia.svg"> </div> اسأل معلم </li> </a>
+            <a href="subject-video.html"> <li> <div class="menu-icon"> <img src="../images/new-icons/liveclass-recording.svg"> </div> تسجيلات الحصص المباشرة </li> </a>
+            <a href="bookmark.html"> <li> <div class="menu-icon"> <img src="../images/new-icons/saved-videos2.svg"> </div> الفيديوهات المحفوظة </li> </a>
+            <a href="myQuiz.html"> <li> <div class="menu-icon"> <img src="../images/new-icons/onetime-quiz.svg"> </div> الاختبار التقييمي </li> </a>
+            <a href="timeline.html"> <li> <div class="menu-icon"> <img src="../images/new-icons/timeline.svg"> </div> سجل النشاط </li> </a>
+            <a href="statistics.html"> <li> <div class="menu-icon"> <img src="../images/new-icons/statistics.svg"> </div> الإحصائيات </li> </a>
+            <a href="leaderboard.html"> <li> <div class="menu-icon"> <img src="../images/new-icons/leaderboard.svg"> </div> لوحة الشرف </li> </a>
+            <a href="notification.html"> <li> <div class="menu-icon"> <img src="../images/new-icons/notification.svg"> </div> الإشعارات </li> </a>
+            <a href="home-work.html"> <li> <div class="menu-icon"> <img src="../images/new-icons/homework.svg"> </div> الواجبات </li> </a>
+            <a href="javascript:void(0)"> <li> <div class="menu-icon"> <img src="../images/new-icons/chat.svg"> </div> مساعدة </li> </a>
+            <a href="contact-us.html"> <li> <div class="menu-icon"> <img src="../images/new-icons/contactus.svg"> </div> إتصل بنا </li> </a>
+            <a href="terms-conditions.html"> <li> <div class="menu-icon"> <img src="../images/new-icons/terms-conditions.svg"> </div> الشروط والأحكام </li> </a>
+            <a href="privacy-policy.html"> <li> <div class="menu-icon"> <img src="../images/new-icons/privacy-policy.svg"> </div> سياسة الخصوصية </li> </a>
+            <a href="login.html"> <li> <div class="menu-icon"> <img src="../images/new-icons/logout.svg"> </div> تسجيل الخروج </li> </a>
+        </ul>
+    </aside>
+
+
+  
+
+   
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/menu-hamburger.min.js"></script>
+    <script type="text/javascript" src="../js/scrolltoTop.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.popupoverlay.js"></script>
+    <script type="text/javascript" src="../js/select2.min.js"></script>
+    <script type="text/javascript" src="../js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="../js/calendar.js"></script>
+    <script type="text/javascript" src="../js/custom-en.js"></script>
+    <script type="text/javascript" src="../js/intlTelInput.js"></script>
+
+   
+</body></html>

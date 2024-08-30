@@ -118,7 +118,7 @@
     .profile-point img{width: 34px; height: 34px;}
     .main-header{padding: 10px 0px;}
     .my-subscribed-courses .col-6, .profile-details .col-6, .subscribed-subjects .col-6{padding: 0px 10px;}
-    .request-box{padding: 12px 8px; min-height: 110px;}
+    .request-box{padding: 12px 8px; min-height: 110px; margin-bottom: 10px;}
     .request-box h6{font-size: 16px;}
     .active-liveclass .live-course-box-content h5{font-size: 15px;}
     .live-course-box-content h6{font-size: 13px;}
@@ -181,7 +181,7 @@
     .my-profile-qr{margin-bottom: 12px;}
     .my-profile-box h1{font-size: 20px;}
     .profile-details .point-box{width: 80%; margin-bottom: 25px;}
-    .student-grade{padding: 12px; margin-bottom: 10px; text-align: right;}
+    .student-grade{padding: 12px; margin-bottom: 10px; text-align: right; min-height: 50px;}
     .student-grade h5{float: none;}
     .subscribed-subjects{padding-top: 10px; padding-bottom:0px;}
     .profile-relative-videos{margin-bottom: 20px;}
@@ -232,7 +232,7 @@
     .result-score p, .result-score ul li, .quiz-related-videos-box-content h5{font-size: 14px;}
     .quiz-related-videos{padding-top: 10px;}
     .quiz-related-videos h3{font-size: 18px;}
-    .quiz-related-videos .owl-carousel .owl-stage{padding-right: 0px !important;}
+    .quiz-related-videos .owl-carousel .owl-stage{padding: 0px !important;}
     .quiz-related-videos-box-img img{height: 100px;}
     .quiz-related-videos-box-content{padding: 10px 6px;}
     .video-play-btn{width: 45px; height: 45px; line-height: 45px; font-size: 14px;}
@@ -352,7 +352,7 @@
     .quiz-time-questions h2 span{font-size: 30px;}
     .quiz-question-box{margin-top: 0px;}
     .quiz-big-image{margin-bottom: 15px;}
-    .quiz-question-box p{font-size: 15px;}
+    .quiz-question-box p{font-size: 15px; line-height: 30px;}
     .true-false button{width: 150px; margin-left: 10px; height: 50px;}
     .quiz-answer-box{margin-top: 20px;}
     .quiz-submit-area button{max-width: 230px; height: 50px; }
@@ -381,6 +381,14 @@
     .notificationEnable h5{font-size: 16px;} 
     .ask-spedia p{font-size: 16px; line-height: 28px;}
     .ask-spedia .form-group{margin-bottom: 15px;}
+    .request-box button{top: 80%; left: 8px; min-width: 60px; height: 30px;}
+    .add-student-pop{padding: 15px; max-width: 350px;}
+    .add-student-pop i{left: 8px; top: 8px;}
+    .add-student-pop h4{font-size: 20px;}
+    .videos-watched{padding: 8px; margin-bottom: 10px;}
+    .student-videos{margin-top: 10px;}
+    .video-subjects ul li{font-size: 14px; display: inline-block;}
+    .video-subjects ul li a{padding: 6px 12px;}
     
 
 

@@ -11,44 +11,102 @@
     <link rel="stylesheet" type="text/css" href="css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/circle.css">
     <link rel="stylesheet" type="text/css" href="css/custome.css">
+    <link rel="stylesheet" type="text/css" href="css/custome-new.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 </head>
 
 <body>
 
+    
     <header class="main-header">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-3 col">
-                    <div class="sign-buttton">
-                        <a href="create-account.html"><button class="register-btn">Register</button></a>
-                        <a href="login.html"><button>Log In</button></a>
+                <div class="col-lg-3 col-md-4 col-5 dropdown">
+                    <a href="javaScript:void(0)" role="button" id="dropdownUser"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="profile-view">
+                        <div class="profile-point">
+                            <img src="images/profile.png">    نقطة <strong>468</strong>  
+                        </div>
+                    </div>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownUser">
+                        <div class="dropdown-item">
+                            <div class="d-flex py-2">
+                                <div class="avatar avatar-md avatar-indicators avatar-online">
+                                    <img src="images/profile.png">
+                                </div>
+                                <div class="mr-3 text-right">
+                                    <h5 class="mb-1">جاكوب ريتشاردز</h5>
+                                    <p class="mb-0">الصف الثاني عشر</p>
+                                </div>
+    
+                            </div>
+                            
+                        </div>
+                        <div class="dropdown-divider"></div>
+                            <ul class="profile-dropdown">
+                                <li>
+                                    <a class="dropdown-item" href="profile.html"><i class="far fa-user"></i>   حسابي </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javaScript:void(0)"><i class="far fa-bell"></i>  الإشعارات </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javaScript:void(0)"><i class="far fa-star"></i>  اشتراكاتي </a>
+                                </li>
+                            </ul>
+                        <div class="dropdown-divider"></div>
+                        <ul class="profile-dropdown">
+                        <li>
+                            <a class="dropdown-item" href="javaScript:void(0)"><i class="fas fa-power-off"></i>  تسجيل الخروج </a>
+                        </li>
+                    
+                    </ul>
+                        
                     </div>
                 </div>
-                <div class="col-md-6 col text-center">
+                <div class="col-lg-6 col-md-4 col text-center">
                     <a href="index.html"> <img src="images/logo.png"> </a>
                 </div>
-                <div class="col-md-3 col">
+                <div class="col-lg-3 col-md-4 col-7">
                     <div id="menu-wrapper"></div>
+                    <ul class="topbar-icons">
+                        <a href="my-cart.html" title="Cart"> <li> <img src="images/icons/shopping-bag.svg"> <sup> 4 </sup></li></a>
+                    </ul>
+                    <div class="my-course-btn">
+                        <a href="mycourse.html"><button> اشتراكاتي <img src="images/icons/hand.svg"> </button></a>
+                    </div>
+                        
                 </div>
             </div>
         </div>
-    </header>
+	</header>
 
-    <section class="select-grade">
+    <section class="inner-heading">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center mr-bot50">
-                    <h1>My Cart</h1>
+                <div class="col-md-12 text-center">
+                    <h1> My Cart</h1>
+                    <a href="javascript:void(0)"> <div class="back-btn"> <i class="fas fa-arrow-right"></i></div> </a>
                 </div>
-                
-                <div class="col-md-12 text-center empty-cart">
-                <img src="images/icons/shopping-cart.svg">
-                <p>You didnt added any subject to your cart! Please choose your subject you like to study</p>
-                    <a href="courses.html"><button>Select Subject</button></a>    
-                </div>
+            </div>
+        </div>
+    </section>
 
+
+    
+    <section class="select-grade empty-timeline">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-12 text-center">
+                    <img src="images/empty-icons/empty-page.png">
+                    <h5> سلة المشتريات فارغة </h5>
+                    <p> برجاء إضافة المواد لسلة المشتريات                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -57,41 +115,15 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-2 col-md-3 col-6 footer-links">
-                    <h5>Information</h5>
-                    <ul>
-                        <a href="javaScript:void(0)">
-                            <li>Privacy Policy</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>Terms &amp; Condition</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>FAQ</li>
-                        </a>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-md-3 col-6 footer-links footer-textlft">
-                    <h5>Quick Links</h5>
-                    <ul>
-                        <a href="javaScript:void(0)">
-                            <li>About Us</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>Contact</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>Careers</li>
-                        </a>
-                        <a href="javaScript:void(0)">
-                            <li>Help</li>
-                        </a>
-                    </ul>
-                </div>
-                <div class="col-lg-8 col-md-6 footer-contact">
+                <div class="col-md-12">
                     <img src="images/logo.png">
-                    <p>Lorem ipsum dolor ami short description about spedia, you can put in this footer to give more information.</p>
-                    <h6>Copyright © 2020 <a href="index.html">Spedia</a>. All Rights Reserved</h6>
+                    </div>
+                    <div class="col-md-12">
+                    <a href="javaScript:void(0)"><p>Terms & Conditions</p></a>
+                    <a href="javaScript:void(0)"><p>Contact Us</p></a>
+                </div>
+                <div class="col-md-12">
+                    <h6>© 2021 Spedia</h6>
                 </div>
             </div>
         </div>

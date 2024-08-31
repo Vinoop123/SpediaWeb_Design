@@ -846,6 +846,7 @@ background: var(--white); font-size: 18px; cursor: pointer;}
 display: inline-block; cursor: pointer;}
 .cart-select-price{margin-top: 15px;}
 .cart-price-box.selected{border-color: var(--primary-colour); color: var(--primary-colour);}
+.empty-timeline button{width: 100%; max-width: 400px; margin-top: 20px;}
 
 
 :root {

@@ -13,46 +13,92 @@
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="css/select2.min.css">
     <link rel="stylesheet" type="text/css" href="css/custome.css">
+    <link rel="stylesheet" type="text/css" href="css/custome-new.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 </head>
 
 <body>
     
-    <header class="main-header">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-3 col">
-                   <a href="javaScript:void(0)"><div class="profile-view">
-                       <h4><img src="images/profile.png"> <span>Hi, Jacob</span> </h4>
-                       </div></a>
+  <header class="main-header">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-3 col-md-4 col-5 dropdown">
+                <a href="javaScript:void(0)" role="button" id="dropdownUser"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="profile-view">
+                    <div class="profile-point">
+                        <img src="images/profile.png">    نقطة <strong>468</strong>  
+                    </div>
                 </div>
-                <div class="col-md-6 col text-center">
-                    <a href="index.html"> <img src="images/logo.png"> </a>
-                </div>
-                <div class="col-md-3 col">
-                    <div id="menu-wrapper"></div>
-                    <a href="my-cart.html"><div class="cart-view">
-                       <i class="fas fa-shopping-bag"></i><sup>3</sup>
-                       </div></a>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownUser">
+                    <div class="dropdown-item">
+                        <div class="d-flex py-2">
+                            <div class="avatar avatar-md avatar-indicators avatar-online">
+                                <img src="images/profile.png">
+                            </div>
+                            <div class="mr-3 text-right">
+                                <h5 class="mb-1">جاكوب ريتشاردز</h5>
+                                <p class="mb-0">الصف الثاني عشر</p>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    <div class="dropdown-divider"></div>
+                        <ul class="profile-dropdown">
+                            <li>
+                                <a class="dropdown-item" href="profile.html"><i class="far fa-user"></i>   حسابي </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="javaScript:void(0)"><i class="far fa-bell"></i>  الإشعارات </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="javaScript:void(0)"><i class="far fa-star"></i>  اشتراكاتي </a>
+                            </li>
+                        </ul>
+                    <div class="dropdown-divider"></div>
+                    <ul class="profile-dropdown">
+                    <li>
+                        <a class="dropdown-item" href="javaScript:void(0)"><i class="fas fa-power-off"></i>  تسجيل الخروج </a>
+                    </li>
+                
+                </ul>
+                    
                 </div>
             </div>
+            <div class="col-lg-6 col-md-4 col text-center">
+                <a href="index.html"> <img src="images/logo.png"> </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-7">
+                <div id="menu-wrapper"></div>
+                <ul class="topbar-icons">
+                    <a href="my-cart.html" title="Cart"> <li> <img src="images/icons/shopping-bag.svg"> <sup> 4 </sup></li></a>
+                </ul>
+                <div class="my-course-btn">
+                    <a href="mycourse.html"><button> اشتراكاتي <img src="images/icons/hand.svg"> </button></a>
+                </div>
+                    
+            </div>
         </div>
-	</header>
-    
-    <section class="course-banner pad-60 live-class-tab">
-    <div class="course-banner-overlay"></div>    
-    <div class="container ps-relative">
-    <div class="row">
-    <div class="col-md-12 text-center">    
-      <h1> Request Private Class</h1>
-    <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#request" aria-controls="request" role="tab" data-toggle="tab">Request Private</a></li>
-    <li role="presentation"><a href="#activeClass" aria-controls="activeClass" role="tab" data-toggle="tab">Active Classes</a></li>
-  </ul> 
-     </div>    
-    </div>    
     </div>
-    </section>
+</header>
+    
+<section class="inner-heading">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12 text-center">
+              <h1> طلب  حصة خاصة  </h1>
+              <ul class="nav nav-tabs" role="tablist">
+                  <li role="presentation"><a href="#activeClass" aria-controls="activeClass" role="tab" data-toggle="tab"> المواد </a></li>
+                  <li role="presentation" class="active"><a href="#reserved" aria-controls="reserved" role="tab" data-toggle="tab"> المحجوز </a></li>
+                  
+              </ul>
+          </div>
+      </div>
+  </div>
+</section>
  
 
     
@@ -60,22 +106,30 @@
     <div class="container">
     <div class="tab-content" id="accordion">
     <div role="tabpanel" class="tab-pane" id="activeClass">
-    <div class="row">
-        <div class="col-md-12 text-center empty-cart">
-                <img src="images/icons/sentiment_neutral_24px_outlined.svg">
-                <p>you dont have active classes</p>
-                    <a href="courses.html"><button>Select Class</button></a>    
+      <section class="select-grade empty-timeline">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-12 text-center">
+                    <img src="images/empty-icons/privateclass.png">
+                    <h5>  ما عندك حصص خاصة! </h5>
+                    <button class="bt-primary"> احجز الحين </button>
                 </div>
-    </div>    
+            </div>
+        </div>
+    </section>  
   </div>    
     <div role="tabpanel" class="tab-pane active" id="request">
-    <div class="row">
-         <div class="col-md-12 text-center empty-cart">
-                <img src="images/icons/sentiment_neutral_24px_outlined.svg">
-                <p>you dont have private request</p>
-                    <a href="reserve-liveclass.html"><button>Request</button></a>    
+      <section class="select-grade empty-timeline">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-12 text-center">
+                    <img src="images/empty-icons/privateclass.png">
+                    <h5>  ما عندك حصص خاصة! </h5>
+                    <button class="bt-primary"> احجز الحين </button>
                 </div>
-    </div>    
+            </div>
+        </div>
+    </section>     
     </div>
     </div>    
     </div>
@@ -83,33 +137,21 @@
     
 
     <footer>
-    <div class="container">
-    <div class="row">
-    <div class="col-lg-2 col-md-3 col-6 footer-links">
-    <h5>Information</h5> 
-    <ul>
-    <a href="javaScript:void(0)"><li>Privacy Policy</li></a>    
-    <a href="javaScript:void(0)"><li>Terms &amp; Condition</li></a>    
-    <a href="javaScript:void(0)"><li>FAQ</li></a>    
-    </ul>    
-    </div> 
-    <div class="col-lg-2 col-md-3 col-6 footer-links footer-textlft">
-    <h5>Quick Links</h5> 
-    <ul>
-    <a href="javaScript:void(0)"><li>About Us</li></a>    
-    <a href="javaScript:void(0)"><li>Contact</li></a>    
-    <a href="javaScript:void(0)"><li>Careers</li></a>    
-    <a href="javaScript:void(0)"><li>Help</li></a>    
-    </ul>    
-    </div>     
-    <div class="col-lg-8 col-md-6 footer-contact">
-    <img src="images/logo.png">    
-    <p>Lorem ipsum dolor ami short description about spedia, you can put in this footer to give more information.</p>
-        <h6>Copyright © 2020 <a href="index.html">Spedia</a>. All Rights Reserved</h6>    
-    </div>   
-    </div>    
-    </div>
-    </footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <img src="images/logo.png">
+                  </div>
+                  <div class="col-md-12">
+                  <a href="javaScript:void(0)"><p>Terms & Conditions</p></a>
+                  <a href="javaScript:void(0)"><p>Contact Us</p></a>
+              </div>
+              <div class="col-md-12">
+                  <h6>© 2024 Spedia</h6>
+              </div>
+          </div>
+      </div>
+  </footer>
 
     <aside class="sidebar sidebar-closed">
     <ul>

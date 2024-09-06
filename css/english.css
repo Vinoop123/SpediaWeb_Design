@@ -51,7 +51,7 @@
 .english-language .profile-relative-videos-content p span{margin-left: 5px;}
 .english-language .liveclass-category .live-course-box-content h4 span{margin-left: 5px;}
 .english-language .live-class-collapse, .english-language .topic-box-attach{left: auto; right: 20px;}
-.english-language .survey-form, .english-language .notificationEnable{text-align: left !important;}
+.english-language .survey-form{text-align: left !important;}
 .english-language .survey-close, .english-language .topic-box-subject{left: auto; right: 10px;}
 .english-language .audio-record audio{margin-right: 0px; margin-left: 10px;}
 .english-language .text-right{text-align: left !important;}
@@ -154,6 +154,7 @@
 .english-language .subject-notes-box p span{left: auto; right: 0px;}
 .english-language .subject-notes-box h6 span{float: right;}
 .english-language .subject-tests-box h6{text-align: right;}
+.english-language .play-icon{line-height: 40px;}
 
 
 @media (max-width: 840px) {

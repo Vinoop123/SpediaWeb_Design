@@ -14,10 +14,11 @@
     <link rel="stylesheet" type="text/css" href="css/custome.css">
     <link rel="stylesheet" type="text/css" href="css/custome-new.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/dark-theme.css">
 
 </head>
 
-<body>
+<body class="dark-theme">
 
     <header class="main-header">
         <div class="container">
@@ -262,9 +263,9 @@
 
         function AnswerSuccess(x) {
             if (x.matches) { // If media query matches
-                document.getElementById("answerSuccess").style.height = "180px";
+                document.getElementById("answerSuccess").style.height = "220px";
             } else {
-                document.getElementById("answerSuccess").style.height = "30%";
+                document.getElementById("answerSuccess").style.height = "40%";
             }
             }
 

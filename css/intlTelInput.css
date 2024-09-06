@@ -99,8 +99,6 @@
     /*left: 0; */}
   .iti--allow-dropdown .iti__flag-container:hover {
     cursor: pointer; }
-    .iti--allow-dropdown .iti__flag-container:hover .iti__selected-flag {
-      background-color: #f5f5f5; }
   .iti--allow-dropdown input[disabled] + .iti__flag-container:hover,
   .iti--allow-dropdown input[readonly] + .iti__flag-container:hover {
     cursor: default; }

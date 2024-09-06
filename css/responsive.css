@@ -181,8 +181,8 @@
     .my-profile-qr{margin-bottom: 12px;}
     .my-profile-box h1{font-size: 20px;}
     .profile-details .point-box{width: 80%; margin-bottom: 25px;}
-    .student-grade{padding: 12px; margin-bottom: 10px; text-align: right; min-height: 50px;}
-    .student-grade h5{float: none;}
+    .student-grade{padding: 12px; margin-bottom: 10px; text-align: right; min-height: 80px;}
+    .student-grade h5, .student-grade h6{float: none;}
     .subscribed-subjects{padding-top: 10px; padding-bottom:0px;}
     .profile-relative-videos{margin-bottom: 20px;}
     .profile-relative-videos-img{height: 100px;}
@@ -357,11 +357,11 @@
     .quiz-answer-box{margin-top: 20px;}
     .quiz-submit-area button{max-width: 230px; height: 50px; }
     .quiz-submit-area h5{font-size: 16px;}
-    .validation-pop-content{padding: 10px; padding-right: 140px;}
-    .validation-pop-content img{max-width: 130px;}
+    .validation-pop-content{padding: 10px; padding-right: 180px; height: 220px;}
+    .validation-pop-content img{max-width: 200px !important;}
     .validation-pop-content h4{font-size: 24px; margin-bottom: 10px;}
     .validation-pop-content p{font-size: 14px;}
-    .validation-pop button{height: 50px; font-size: 18px;}
+    .validation-pop button{height: 50px; font-size: 18px; position: absolute; bottom: 10px; left: 10px; margin: 0px; width: 94%;}
     .clearfix2{height: 150px;}
     .home-title h2{font-size: 20px;}
     .home-title h2 img{max-width: 35px;}
@@ -389,6 +389,11 @@
     .student-videos{margin-top: 10px;}
     .video-subjects ul li{font-size: 14px; display: inline-block;}
     .video-subjects ul li a{padding: 6px 12px;}
+    .reserved-classBox-overlay{padding: 10px;}
+    .reserved-classBox-overlay h5{font-size: 16px;}
+    .live-class-collapse{left: 8px; top: 8px;}
+    .topic-box-subject img{width: 75px; height: 75px;}
+    .topic-box p{padding-left: 80px; font-size: 14px;}
     
 
 

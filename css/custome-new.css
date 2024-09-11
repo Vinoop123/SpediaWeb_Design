@@ -132,8 +132,7 @@ background: none; color: var(--primary-colour); font-weight: 700; width: 100%; m
 .live-class-details button.preview:hover{background: var(--primary-colour); color: var(--white);}
 .live-class-details button.preview:hover img{filter: brightness(0) invert(1);}
 .live-class-details-img{border-top-left-radius: 8px; border-top-right-radius: 8px; overflow: hidden; position: relative;}
-.live-class-details-img img{object-fit: cover; height: 200px; width: 100%; transition: all 0.3s ease-in;}
-.live-class-details-img:hover img{transform: scale(1.5);}
+.live-class-details-img img{object-fit: cover; height: 170px; width: 100%; transition: all 0.3s ease-in;}
 .pad-bot60{padding-bottom: 60px;}
 .wrapper{width:100%;  } 
 .panel-heading { padding: 0;   border:0;}
@@ -846,7 +845,7 @@ display: inline-block; cursor: pointer;}
 .cart-price-box.selected{border-color: var(--primary-colour); color: var(--primary-colour);}
 .empty-timeline button{width: 100%; max-width: 400px; margin-top: 20px;}
 .dropdown-item:focus, .dropdown-item:hover{background: none;}
-
+.recorded-details-img img{height: 210px;}
 
 :root {
     --primary-colour: #0DB2B2;

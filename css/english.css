@@ -155,6 +155,7 @@
 .english-language .subject-notes-box h6 span{float: right;}
 .english-language .subject-tests-box h6{text-align: right;}
 .english-language .play-icon{line-height: 40px;}
+.practice-circle .c100 > span{line-height: 72px;}
 
 
 @media (max-width: 840px) {

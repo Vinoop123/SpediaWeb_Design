@@ -394,6 +394,7 @@
     .live-class-collapse{left: 8px; top: 8px;}
     .topic-box-subject img{width: 75px; height: 75px;}
     .topic-box p{padding-left: 80px; font-size: 14px;}
+    .iti--allow-dropdown input, .iti--separate-dial-code input{width: 60% !important;}
     
 
 

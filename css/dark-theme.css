@@ -1,5 +1,5 @@
 .dark-theme{ background: var(--dark-theme); color: var(--white);}
-.dark-theme .main-header{background: var(--dark); border-color: var(--border-colour);}
+.dark-theme .main-header{background: var(--dark-theme); border-color: var(--border-colour);}
 .dark-theme #menu-wrapper div{background: none !important;}
 .dark-theme #menu-wrapper div div{background: var(--primary-colour) !important;}
 .dark-theme .my-course-btn button{background: var(--primary-colour);}
@@ -119,12 +119,22 @@ hr{border-color: var(--border-colour);}
 .dark-theme .practice-circle .c100, .dark-theme .alert-message {background: var(--red);}
 .dark-theme .number-box .spd, .dark-theme .number-box input{border-color: var(--primary-colour); color: var(--white);}
 .dark-theme .alert-message p, .dark-theme .student-videos h4, .dark-theme .timelane-filter ul li.active span,
-.dark-theme .timeline-box h5{color: var(--white);}
+.dark-theme .timeline-box h5, .dark-theme .prerecorded-box-content h6 span{color: var(--white);}
 .dark-theme .add-student-pop .student-info-box{background: var(--dark-theme);}
 .dark-theme .timelane-filter ul li.filter,
 .dark-theme .timelane-filter ul li{background: var(--dark-secondary); color: var(--grey); border-color: var(--border-colour);}
 .dark-theme .timelane-filter ul li.active{border-color: var(--primary-colour); background: var(--primary-colour); color: var(--white);}
-.dark-theme .timeline-box p{color: var(--primary-colour);}
+.dark-theme .timeline-box p, .dark-theme .verification-code h4, .dark-theme .subject-notes-box h6{color: var(--primary-colour);}
+.dark-theme input{background: var(--dark-secondary); color: var(--white);}
+.dark-theme input::placeholder, .dark-theme .logIn form label, .dark-theme .welcome label{color: var(--grey);}
+.dark-theme .subject-details-tab{background: var(--dark-theme);}
+.dark-theme .subject-details-tab .nav-tabs li{border-color: var(--dark-secondary);}
+.dark-theme .subject-details-tab .nav-tabs li.active{border-color: var(--primary-colour);}
+.dark-theme .subject-notes-box p, .dark-theme .subject-tests-download{border-color: var(--border-colour);}
+.dark-theme .welcome-radio .checkmark{border-color: var(--grey);}
+.dark-theme select.form-control{background: var(--dark-secondary); color: var(--white);}
+.dark-theme .forgot-password, .dark-theme .close-icon{background: var(--dark-secondary);}
+.dark-theme .forgot-password input{background: var(--dark-theme);}
 
 @media (max-width: 840px) {
 

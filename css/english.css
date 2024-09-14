@@ -156,6 +156,8 @@
 .english-language .subject-tests-box h6{text-align: right;}
 .english-language .play-icon{line-height: 40px;}
 .practice-circle .c100 > span{line-height: 72px;}
+.english-language .delete-btn{left: auto; right: 0px;}
+.english-language .profile-edit .form-group .verified{left: auto; right: 0px;}
 
 
 @media (max-width: 840px) {
@@ -198,6 +200,7 @@
   .english-language .add-student-pop i{right: 8px;}
   .english-language .student-home{left: auto; right: 10px;}
   .english-language .panel-title > a{padding-left: 10px; padding-right: 40px;}
+  .english-language .delete-btn{right: 10px;}
 }
 
 

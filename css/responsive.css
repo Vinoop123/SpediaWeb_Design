@@ -395,6 +395,9 @@
     .topic-box-subject img{width: 75px; height: 75px;}
     .topic-box p{padding-left: 80px; font-size: 14px;}
     .iti--allow-dropdown input, .iti--separate-dial-code input{width: 60% !important;}
+    .delete-btn{left: 10px; top: 5px;}
+    .profile-edit .btn-primary{max-width: 100%;}
+    .profile-edit{padding-bottom: 30px;}
     
 
 

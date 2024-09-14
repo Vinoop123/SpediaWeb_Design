@@ -132,9 +132,13 @@ hr{border-color: var(--border-colour);}
 .dark-theme .subject-details-tab .nav-tabs li.active{border-color: var(--primary-colour);}
 .dark-theme .subject-notes-box p, .dark-theme .subject-tests-download{border-color: var(--border-colour);}
 .dark-theme .welcome-radio .checkmark{border-color: var(--grey);}
-.dark-theme select.form-control{background: var(--dark-secondary); color: var(--white);}
+.dark-theme select.form-control, .dark-theme .deleteprofile-popup{background: var(--dark-secondary); color: var(--white);}
 .dark-theme .forgot-password, .dark-theme .close-icon{background: var(--dark-secondary);}
-.dark-theme .forgot-password input{background: var(--dark-theme);}
+.dark-theme .forgot-password input, .dark-theme .profile-edit-dp i{background: var(--dark-theme);}
+.dark-theme .profile-edit .form-group select{background: var(--dark-secondary); color: var(--white);}
+.dark-theme .profile-edit-dp img{border-color: var(--dark-theme); background: var(--dark-theme);}
+.dark-theme .delete-n{background: var(--grey);}
+
 
 @media (max-width: 840px) {
 

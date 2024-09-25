@@ -138,6 +138,7 @@ hr{border-color: var(--border-colour);}
 .dark-theme .profile-edit .form-group select{background: var(--dark-secondary); color: var(--white);}
 .dark-theme .profile-edit-dp img{border-color: var(--dark-theme); background: var(--dark-theme);}
 .dark-theme .delete-n{background: var(--grey);}
+.dark-theme .select-class-popup{background: var(--dark-secondary);}
 
 
 @media (max-width: 840px) {

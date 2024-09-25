@@ -275,7 +275,7 @@
                     <a href="index.html"> <img src="../images/logo.png"> </a>
                     </div>
                     <div class="col-md-12">
-                    <a href="javaScript:void(0)"><p> الشروط والأحكام </p></a>
+                    <a href="javaScript:void(0)" class="SelectClassPop_open"><p> الشروط والأحكام </p></a>
                     <a href="javaScript:void(0)"><p> اتصل بنا </p></a>
                 </div>
                 <div class="col-md-12">
@@ -403,7 +403,28 @@
       
 </section>
 
-    
+<div id="SelectClassPop" class="select-class-popup">
+    <form id="formchangeclass" action="@Url.Action("ChangeClass","Home")" method="post">
+        <div class="form-group">
+            <label>اختيار المرحلة</label>
+            <select id="CategoryID" asp-items="@(new SelectList(CategoryList,"ClassCategoryID","CategoryNameAr"))" onchange="GetClass();" class="js-example-basic-single form-control">
+                <option value="0">-المرحلة-</option>
+            </select>
+            <p style="color: #ff0101;font-size: 14px;" id="lblcategory"></p>
+        </div>
+        <div class="form-group">
+            <label>اختيار الصف</label>
+            <select id="DdlClass" name="ClassID" class="js-example-basic-single form-control" asp-items="@(new SelectList(Model.ObjClasDropDown,"ClassID","Name"))">
+                <option style="direction: rtl !important;" value="0">--الصف--</option>
+            </select>
+            <p style="color: #ff0101;font-size: 14px;" id="lblclass"></p>
+        </div>
+        <a href="javaScript:void(0)"><button type="submit">متابعة</button> </a>
+       <a href="javaScript:void(0)" class="skip-btn SelectClassPop_close">
+        تخطي
+        </a>
+    </form>
+</div>
 
    
     <script type="text/javascript" src="../js/jquery.min.js"></script>
@@ -418,7 +439,7 @@
 
     <script>
         $(document).ready(function() {
-                $('#liveClassNotfication').popup({
+                $('#liveClassNotfication, #SelectClassPop').popup({
                     pagecontainer: '.container',
                     transition: 'all 0.3s',
                     scrolllock:true, blur: false

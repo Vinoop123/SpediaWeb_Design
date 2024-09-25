@@ -1174,11 +1174,11 @@ filter: brightness(0) invert(1);}
 .autocomplete ul li:nth-child(even){background: #f5f5f5;}
 .autocomplete ul li:last-child{ border-bottom-left-radius:8px; border-bottom-right-radius: 8px; }
 .autocomplete ul li:hover{font-weight: 700;}
-.select-class-popup{background:#fff; border-radius: 10px; padding: 30px; width: 100%; max-width: 400px; text-align: right !important;}
-.select-class-popup button{ min-width: 150px; background: #0DB2B2;color: #fff; font-weight: 700; border-radius:30px;
+.select-class-popup{background:#fff; border-radius: 10px; padding: 20px; width: 100%; max-width: 400px; text-align: right !important;}
+.select-class-popup button{ width: 100%; background: #0DB2B2;color: #fff; font-weight: 700; border-radius:8px; height: 50px; font-size: 18px;
 border:none; padding: 8px; margin-top: 6px;}
 .select-class-popup button:hover{background:#1D4F57;}
-.select-class-popup .skip-btn{position: relative; float: left; margin-top: 16px; opacity: 0.7;}
+.select-class-popup .skip-btn{ display: block; text-align: center; margin-top: 20px; color: #8EA7AB;}
 .select-class-popup .skip-btn:hover{opacity: 1;}
 .course-detail-box{width: 30%;}
 .course-detail-box h6{font-size: 13px; margin-bottom: 15px;}

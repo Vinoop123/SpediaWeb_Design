@@ -866,6 +866,7 @@ font-size: 16px; padding: 6px 14px;}
 .deleteprofile-popup button{width: 100%; max-width: 130px; height: 50px; border-radius: 6px; border: none; font-size: 16px;}
 .delete-y{background: var(--primary-colour); color: var(--white);}
 .delete-n{background: rgba(13, 178, 178, 0.1);}
+.select-class-popup select.form-control{background: none; border: 1px solid var(--primary-colour); color: var(--primary-colour); height: 50px;}
 
 :root {
     --primary-colour: #0DB2B2;

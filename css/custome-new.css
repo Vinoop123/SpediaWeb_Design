@@ -831,8 +831,8 @@ font-size: 18px; cursor: pointer;}
 .notificationEnable button{margin-bottom: 20px;}
 .notificationEnable h5{font-size: 18px; color: var(--grey); cursor: pointer;}
 .popup-notes{margin-bottom: 15px; position: relative;}
-.popup-notes-text{text-align: right; position: absolute; top: 50%; right: 0; transform: translate(-5%, -50%);}
-.popup-notes-text p{font-size: 16px; margin: 0px;}
+.popup-notes-text{text-align: center; position: absolute; top: 50%; right: 30px; transform: translate(-5%, -50%);}
+.popup-notes-text p{font-size: 16px; margin: 0px; max-width: 130px; font-weight: 700;}
 .popup-notes-text h6{font-size: 20px; font-weight: 700;}
 .sub-vid-ico{position: relative; top: 2px;}
 .quiz-right-arrow{position: absolute; right: 20px; top: 40%; transform: translate(0, -50%); font-size: 30px; color: var(--primary-colour);}

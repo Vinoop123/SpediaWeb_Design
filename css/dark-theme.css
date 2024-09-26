@@ -139,7 +139,6 @@ hr{border-color: var(--border-colour);}
 .dark-theme .profile-edit-dp img{border-color: var(--dark-theme); background: var(--dark-theme);}
 .dark-theme .delete-n{background: var(--grey);}
 .dark-theme .select-class-popup, .dark-theme .price-pop{background: var(--dark-secondary);}
-.dark-theme .popup-notes-text{color: var(--dark-secondary);}
 .dark-theme .price-popup-radio.highlight::before{background: var(--primary-colour); color: var(--white);}
 
 

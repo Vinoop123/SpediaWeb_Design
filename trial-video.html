@@ -18,7 +18,7 @@
 
 </head>
 
-<body class="dark-theme">
+<body>
     
     <header class="main-header">
         <div class="container">
@@ -146,7 +146,7 @@
     <div class="col-lg-8 col-md-12 video-list">
     <div class="video-play-list">
     <ul>
-    <a href="javaScript:void(0)"><li>
+    <a href="javaScript:void(0)" class="subscribe-pop_open"><li>
     <div class="video-number">
     <h4>01</h4>    
     </div>    
@@ -247,6 +247,12 @@
 </aside>
 
 
+<section id="subscribe-pop" class="video-subscribe-pop">
+    <img src="images/subscribe-videos2.png">
+     <p> ودك تشوف أقوى شرح ممكن يمر عليك؟ اشترك يالحبيب</p>
+     <button>  اشترك الآن </button>
+     <i class="fas fa-times subscribe-pop_close"></i>
+</section>
 
     
     <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -259,7 +265,7 @@
     
     <script type="text/javascript">
 
-    $('#subscribe-pop').popup({focusdelay: 400,  scrolllock: true,  transition: 'all 0.3s' });
+    $('#subscribe-pop').popup({focusdelay: 400,  scrolllock: true,  transition: 'all 0.3s', blur:false });
         $('video').parent().click(function () {
           if($(this).children("video").get(0).paused){        
               $(this).children("video").get(0).play();   

@@ -397,7 +397,9 @@
     .iti--allow-dropdown input, .iti--separate-dial-code input{width: 60% !important;}
     .delete-btn{left: 10px; top: 5px;}
     .profile-edit .btn-primary{max-width: 100%;}
-    .profile-edit{padding-bottom: 30px;}
+    .profile-edit{padding-bottom: 30px; padding-top: 30px;}
+    .profile-edit-dp img{width: 150px; height: 150px;}
+    .profile-edit-dp i{width: 45px; height: 45px; line-height: 45px; font-size: 18px;} 
     
 
 

@@ -1165,9 +1165,10 @@ filter: brightness(0) invert(1);}
 .welcome p{color:rgba(26, 26, 26, 0.35);}
 .welcome-radio{position: relative; width: 140px; height: 140px; display: inline-block !important; opacity: 1 !important; margin: 8px; margin-bottom: 20px; cursor: pointer;}
 .welcome-radio input {position: absolute;opacity: 0; cursor: pointer;}
-.welcome-radio .checkmark {position: absolute;top: 0;left: 0; height: 140px;width: 140px; border: 2px solid var(--light-dark); border-radius: 10px; padding: 0px;}
+.welcome-radio .checkmark {position: absolute;top: 0;left: 0; height: 140px;width: 140px; border: 2px solid var(--light-dark); border-radius: 10px; padding: 0px;
+text-align: center;}
 .welcome-radio:hover input ~ .checkmark {border: 2px solid var(--primary-colour);}
-.welcome-radio input:checked ~ .checkmark {border-color: var(--primary-colour);}
+.welcome-radio input:checked ~ .checkmark {border-color: var(--primary-colour); background: rgb(13 178 178 / 10%);}
 .autocomplete{position: relative;}
 .autocomplete ul{position: absolute; margin: 0px; padding: 0px; list-style: none; width: 100%;  z-index: 1;border: 1px solid #ddd;border-bottom-left-radius:8px; border-bottom-right-radius: 8px; border-top: none;}
 .autocomplete ul li{background: #fff; padding: 8px 30px;  color: #000;  cursor: pointer;}

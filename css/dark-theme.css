@@ -136,7 +136,7 @@ hr{border-color: var(--border-colour);}
 .dark-theme .forgot-password, .dark-theme .close-icon{background: var(--dark-secondary);}
 .dark-theme .forgot-password input, .dark-theme .profile-edit-dp i{background: var(--dark-theme);}
 .dark-theme .profile-edit .form-group select{background: var(--dark-secondary); color: var(--white);}
-.dark-theme .profile-edit-dp img{border-color: var(--dark-theme); background: var(--dark-theme);}
+.dark-theme .profile-edit-dp img{ background: var(--dark-theme);}
 .dark-theme .delete-n{background: var(--grey);}
 .dark-theme .select-class-popup, .dark-theme .price-pop{background: var(--dark-secondary);}
 .dark-theme .price-popup-radio.highlight::before{background: var(--primary-colour); color: var(--white);}

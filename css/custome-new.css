@@ -846,11 +846,12 @@ display: inline-block; cursor: pointer;}
 .empty-timeline button{width: 100%; max-width: 400px; margin-top: 20px;}
 .dropdown-item:focus, .dropdown-item:hover{background: none;}
 .recorded-details-img img{height: 210px;}
-.profile-edit{padding-top: 120px; padding-bottom: 80px; position: relative;}
-.profile-edit-dp{position: absolute; left: 50%; top: 40px; transform: translate(-50%, -50%);}
-.profile-edit-dp img{border-radius: 50%; border: 4px solid var(--white); width: 130px; height: 130px; object-fit: cover; background: var(--white);}
-.profile-edit-dp i{width: 35px; height: 35px; background: var(--white); line-height: 35px; text-align: center; position: absolute;
-left: 50%; top: 50%; transform: translate(-50%, 80%); border-radius: 50%; cursor: pointer; color: var(--primary-colour);}
+.profile-edit{padding-top: 60px; padding-bottom: 80px; position: relative;}
+.profile-edit-dp{position: relative; text-align: center; margin-bottom: 30px;}
+.profile-edit-dp img{border-radius: 50%; border: 1px solid var(--primary-colour); width: 200px; height: 200px; object-fit: cover; background: var(--white);}
+.profile-edit-dp i{width: 60px; height: 60px; background: var(--white); line-height: 60px; text-align: center; position: absolute;
+left: 50%; top: 50%; transform: translate(60%, 60%); border-radius: 50%; cursor: pointer; color: var(--primary-colour);
+font-size: 24px; border: 1px solid var(--primary-colour);}
 .dp-upload{display: none;}
 .profile-edit .form-group{position: relative; margin-bottom: 25px;}
 .profile-edit .form-group .verified{ position: absolute; left: 25px; top: 50%; transform: translate(-50%, 10%); font-size: 24px;
@@ -878,6 +879,10 @@ font-size: 18px; font-weight: 700; color: var(--white);}
 .error-message-box h3{margin-bottom: 30px;}
 .subject-details-subskill{border-bottom: 1px solid var(--primary-colour); margin-bottom: 10px;}
 .panel-body .subject-details-subskill:last-child{border: none; margin: 0px;}
+.edit-gender label{display: block;}
+.edit-gender .welcome-radio .checkmark img{max-width: 80px;}
+.edit-gender .welcome-radio .checkmark{width: 90px; height: 90px; line-height: 90px;}
+.edit-gender .welcome-radio{width: 90px; height: 90px; margin: 4px;}
 
 :root {
     --primary-colour: #0DB2B2;

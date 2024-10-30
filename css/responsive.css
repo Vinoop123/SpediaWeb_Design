@@ -400,7 +400,11 @@
     .profile-edit{padding-bottom: 30px; padding-top: 30px;}
     .profile-edit-dp img{width: 150px; height: 150px;}
     .profile-edit-dp i{width: 45px; height: 45px; line-height: 45px; font-size: 18px;} 
-    
+    .liveclass-feedbakpop{max-width: 350px;}
+    .liveclass-feedbakpop i{left: 5px; top: 5px;}
+    .liveclass-feedbakpop h4{margin-bottom: 15px;}
+    .liveclass-feedbakpop p{font-size: 15px;}
+    .liveclass-feedbakpop  .rating-video > label::before{font-size: 24px;}
 
 
 }

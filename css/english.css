@@ -159,6 +159,7 @@
 .english-language .delete-btn{left: auto; right: 0px;}
 .english-language .profile-edit .form-group .verified{left: auto; right: 0px;}
 .english-language .select-class-popup{text-align: left !important;}
+.english-language .stories{justify-content: start;}
 
 
 @media (max-width: 840px) {

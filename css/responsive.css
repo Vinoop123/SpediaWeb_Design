@@ -30,7 +30,7 @@
     .sign-buttton .register-btn{margin-left: 14px;}
     .live-class-details-img img{height: 400px;}
     .validation-pop-content img{max-width: 120px;}
-    .validation-pop-content{padding-right: 140px; padding-bottom: 0px;}
+    .validation-pop-content{ padding-bottom: 0px;}
     .validation-pop-content h4{font-size: 28px; margin-bottom: 10px;}
 }
 
@@ -62,6 +62,7 @@
     .privateclass-carousel .request-box button{ min-width: 70px; transform: inherit; top: inherit; bottom: 8px; left: 8px;}
     .request-box{min-height: 120px;}
     .request-box .file{ margin: 0px; position: absolute; right: 8px; bottom: 8px;}
+    .validation-pop button{margin-top: 40px;}
 }
 
 /* small mobile :320px. */

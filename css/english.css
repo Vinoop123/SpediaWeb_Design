@@ -107,7 +107,7 @@
 .english-language .quiz-time-wrong{text-align: right;}
 .english-language .quiz-question, .english-language .quiz-answer-box, .english-language .answer-options button{text-align: left;}
 .english-language .quiz-submit-area h5{left: auto; right: 15px;}
-.english-language .validation-pop-content{padding-left: 300px; padding-right: 20px;}
+.english-language .validation-pop-content{padding-left: 200px; padding-right: 20px;}
 .english-language .validation-pop-content img{right: auto; left: 0px;}
 .english-language .quiz-back-btn{right: auto; left: 15%; transform: rotateY(180deg);}
 .english-language .answer-options button.highlight::after, 

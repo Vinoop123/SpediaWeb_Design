@@ -654,7 +654,7 @@ conic-gradient(#0DB2B2 0, #0DB2B2 18.3%, #75C091 0, #75C091 43.8%, #0DB2B2 0, #0
 .video-stats{padding: 15px;/*border: 1px solid #E5E5EA;*/ border-radius: 8px; position: relative; float: right; width: 100%; margin-bottom: 25px; box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.05);}
 .stats-icon{display: inline-block; width: 80px; height: 80px; border-radius: 4px; background: rgba(52, 199, 89, 0.1); text-align: center; line-height: 72px; float: right; opacity: 1 !important; overflow: hidden;}
 .stats-icon img{ width: 80px; height: 80px; object-fit: cover;}
-.stats-subject{display: inline-block; padding-right: 20px; width: 84%; position: relative;}
+.stats-subject{display: inline-block; padding-right: 20px; width: 82%; position: relative;}
 .stats-subject h5{color:#1a1a1a; margin-bottom: 20px; font-size: 16px;}
 .stats-subject .progress, .stats-subject .progress-bar{border-radius: 30px;}
 .stats-subject .progress-bar{background: var(--primary-colour);}
@@ -1300,7 +1300,7 @@ font-weight: 700; background: var(--primary-colour); color: var(--white);}
     .strength-box h5{font-size: 16px;}
     .student-grade h5{font-size: 14px;}
     .student-grade h6{font-size: 18px;}
-    .stats-subject{width: 75%;}
+    .stats-subject{width: 73%;}
     .register .nav-tabs li{font-size:16px; min-width: 130px;}
     .live-class-strip{width: 50px;}
     .student-video-subject{margin: 3px;}
@@ -1508,7 +1508,7 @@ font-weight: 700; background: var(--primary-colour); color: var(--white);}
     .student-grade h6{font-size: 14px;}
     .total-practice h6, .total-practice h4{font-size: 14px;}
     /* .total-practice h6 span, .total-practice h6 i{padding: 0px 5px;} */
-    .stats-subject{width: 75%;}
+    .stats-subject{width: 73%;}
     .rs-pad0{padding: 0px !important;}
     .timeline-box{padding: 10px; margin-bottom: 15px;}
     .timeline-box h6{font-size: 13px; margin: 0px; line-height: 18px;}

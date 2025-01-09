@@ -140,6 +140,7 @@ hr{border-color: var(--border-colour);}
 .dark-theme .delete-n{background: var(--grey);}
 .dark-theme .select-class-popup, .dark-theme .price-pop{background: var(--dark-secondary);}
 .dark-theme .price-popup-radio.highlight::before{background: var(--primary-colour); color: var(--white);}
+.dark-theme .video-subscribe-pop{background: var(--dark-secondary);}
 
 
 @media (max-width: 840px) {

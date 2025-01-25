@@ -16,6 +16,38 @@
   <link rel="stylesheet" type="text/css" href="css/custome-new.css">
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
+
+  <style>
+    .widget-visible{position: absolute !important; cursor: grab;}
+    #widget {
+      width: 150px;
+      height: 150px;
+      background-color: #4CAF50;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      cursor: grab;
+      border-radius: 8px;
+    }
+
+      /* Draggable wrapper styles */
+      #tawk-container {
+      position: fixed; /* Allows positioning relative to the viewport */
+      bottom: 10px;
+      right: 10px;
+      width: 350px; /* Default Tawk.to iframe size */
+      height: 520px;
+      cursor: grab;
+      z-index: 9999;
+    }
+
+
+  </style>
+
 </head>
 
 
@@ -34,7 +66,21 @@
     </div>
   </section>
   
-   
+
+  <div id="widget">Drag Me!</div>
+
+  <div id="widgetMove">
+
+  <div id="chatWindow" class="hidden" > <iframe src="https://tawk.to/chat/5f0d915b5b59f94722bab0b5/1ihq4pdsa"></iframe></div>
+ 
+  <div class="chat-icon">
+    <div class="chat-icon-img">
+    <img src="images/new-icons/chat-user.svg" class="chat-open-ico" id="openChat">
+    <img src="images/new-icons/remove.svg" class="chat-close-ico" id="closeChat">
+    </div>
+   </div>
+   </div>
+  
 
   <section id="survey-form" class="survey-form">
     <h4> املأ النموذج </h4>
@@ -94,6 +140,52 @@
         });
 
 </script>
+
+
+
+
+
+<script>
+
+$(document).ready(function () {
+    // Click event for opening the chat window
+    $("#openChat").click(function () {
+        $("#chatWindow").slideDown(500);
+        $(".chat-icon-img").addClass('chat-close');
+    });
+
+    // Click event for closing the chat window
+    $("#closeChat").click(function () {
+        $("#chatWindow").slideUp(500);
+        $(".chat-icon-img").removeClass('chat-close');
+    });
+  
+});
+
+  const widget2 = document.getElementById('widgetMove');
+
+  let offsetX = 0, offsetY = 0, isDragging = false;
+
+  widget2.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    offsetX = e.clientX - widget2.offsetLeft;
+    offsetY = e.clientY - widget2.offsetTop;
+    widget2.style.cursor = 'grabbing';
+  });
+
+  document.addEventListener('mousemove', (e) => {
+    if (isDragging) {
+      widget2.style.left = `${e.clientX - offsetX}px`;
+      widget2.style.top = `${e.clientY - offsetY}px`;
+    }
+  });
+
+  document.addEventListener('mouseup', () => {
+    isDragging = false;
+    widget2.style.cursor = 'grab';
+  });
+</script>
+
 
 </body>
 </html>

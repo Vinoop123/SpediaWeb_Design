@@ -63,6 +63,7 @@
     .request-box{min-height: 120px;}
     .request-box .file{ margin: 0px; position: absolute; right: 8px; bottom: 8px;}
     .validation-pop button{margin-top: 40px;}
+    #widgetMove{left: 95%;}
 }
 
 /* small mobile :320px. */
@@ -406,6 +407,7 @@
     .liveclass-feedbakpop h4{margin-bottom: 15px;}
     .liveclass-feedbakpop p{font-size: 15px;}
     .liveclass-feedbakpop  .rating-video > label::before{font-size: 24px;}
+    #widgetMove{left: 90%;}
 
 
 }

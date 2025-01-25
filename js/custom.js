@@ -370,3 +370,41 @@ $(document).ready(function(){
 
 
 
+  $(document).ready(function () {
+    // Click event for opening the chat window
+    $("#openChat").click(function () {
+        $("#chatWindow").slideDown(500);
+        $(".chat-icon-img").addClass('chat-close');
+    });
+
+    // Click event for closing the chat window
+    $("#closeChat").click(function () {
+        $("#chatWindow").slideUp(500);
+        $(".chat-icon-img").removeClass('chat-close');
+    });
+  
+});
+
+  const widget2 = document.getElementById('widgetMove');
+
+  let offsetX = 0, offsetY = 0, isDragging = false;
+
+  widget2.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    offsetX = e.clientX - widget2.offsetLeft;
+    offsetY = e.clientY - widget2.offsetTop;
+    widget2.style.cursor = 'grabbing';
+  });
+
+  document.addEventListener('mousemove', (e) => {
+    if (isDragging) {
+      widget2.style.left = `${e.clientX - offsetX}px`;
+      widget2.style.top = `${e.clientY - offsetY}px`;
+    }
+  });
+
+  document.addEventListener('mouseup', () => {
+    isDragging = false;
+    widget2.style.cursor = 'grab';
+  });
+

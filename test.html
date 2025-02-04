@@ -18,7 +18,7 @@
 
 
   <style>
-    .widget-visible{position: absolute !important; cursor: grab;}
+    .widget-visible{display:  none !important; opacity: 0 !important;}
     #widget {
       width: 150px;
       height: 150px;
@@ -44,6 +44,8 @@
       cursor: grab;
       z-index: 9999;
     }
+
+    iframe #tawk-chatinput-container{ border: 1px solid #efefef; margin: 10px; border-radius: 30px;}
 
 
   </style>
@@ -71,7 +73,7 @@
 
   <div id="widgetMove">
 
-  <div id="chatWindow" class="hidden" > <iframe src="https://tawk.to/chat/5f0d915b5b59f94722bab0b5/1ihq4pdsa"></iframe></div>
+  <div id="chatWindow" class="hidden" > <iframe id="myIframe" src="chat-widget.html"></iframe></div>
  
   <div class="chat-icon">
     <div class="chat-icon-img">
@@ -80,6 +82,9 @@
     </div>
    </div>
    </div>
+
+
+
   
 
   <section id="survey-form" class="survey-form">
@@ -143,9 +148,26 @@
 
 
 
+  <script>
+  
+  const iframe = document.getElementById("myIframe");
 
+iframe.onload = function () {
+  const css = `
+    body { background-color: lightgray !important; font-family: Arial, sans-serif; }
+    h1 { color: red !important; }
+  `;
+
+  const style = document.createElement("style");
+  style.innerHTML = css;
+
+  const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+  iframeDoc.head.appendChild(style);
+};
+  </script>
 
 <script>
+  
 
 $(document).ready(function () {
     // Click event for opening the chat window

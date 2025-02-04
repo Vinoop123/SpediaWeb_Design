@@ -53,7 +53,7 @@ hr{border-color: var(--border-colour);}
 .dark-theme .ask-spedia select, .dark-theme .ask-spedia input, .dark-theme .ask-spedia textarea
 {background: var(--dark-secondary); color: var(--grey);}
 .dark-theme .topic-box.not-read .topic-box-time, .dark-theme .topic-box.not-read h5, .dark-theme .topic-box.not-read h6,
-.topic-box.not-read p, .dark-theme .topic-box.not-read .topic-box-subject strong, .dark-theme .cart-page h6,
+.dark-theme .topic-box.not-read p, .dark-theme .topic-box.not-read .topic-box-subject strong, .dark-theme .cart-page h6,
 .dark-theme .live-class-details h3 small{color: var(--white);}
 .dark-theme .bookmark-content p, .dark-theme .card-details .form-group i, .dark-theme .strength-box i{color: var(--primary-colour);}
 .dark-theme .my-cart input, .dark-theme .card-details input{background: var(--dark-secondary); color: var(--grey);}

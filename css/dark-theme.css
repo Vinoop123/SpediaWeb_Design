@@ -141,6 +141,7 @@ hr{border-color: var(--border-colour);}
 .dark-theme .select-class-popup, .dark-theme .price-pop{background: var(--dark-secondary);}
 .dark-theme .price-popup-radio.highlight::before{background: var(--primary-colour); color: var(--white);}
 .dark-theme .video-subscribe-pop{background: var(--dark-secondary);}
+.dark-theme .request-private-box{background: #022930;}
 
 
 @media (max-width: 840px) {

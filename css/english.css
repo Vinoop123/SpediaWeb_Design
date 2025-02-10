@@ -28,7 +28,6 @@
 .english-language .switches-container input:nth-of-type(2):checked~.switch-wrapper {transform: translateX(100%);}
 .english-language .sidebar li{padding-right: 0px;padding-left: 50px;}
 .english-language .menu-icon{right: auto; left: 0px; line-height: 40px;}
-.english-language .request-private h1, .english-language .request-private-box button{margin-right: 0px; margin-left: 60px;}
 .english-language .show-all, .english-language .liveClassnotification i{left: auto; right: 15px;}
 .english-language .live-course-box-img .subscribed-icon, .english-language .prerecorded-box-img .subscribed-icon{left: auto; right: 10px;}
 .english-language .story-close-icon{left: auto; right: 10px;}
@@ -160,6 +159,9 @@
 .english-language .profile-edit .form-group .verified{left: auto; right: 0px;}
 .english-language .select-class-popup{text-align: left !important;}
 .english-language .stories{justify-content: start;}
+.english-language .pl-0{padding-left: 15px !important; padding-right: 0px !important;}
+.english-language .request-private-content{padding-right: 0px; padding-left: 50px;}
+.english-language .request-private h1{font-size: 22px;}
 
 
 @media (max-width: 840px) {
@@ -174,7 +176,7 @@
   .liveclass-category.owl-carousel .owl-stage{padding-left: 0px !important;}
   .english-language .video-continue-box{padding-left: 110px; padding-right: 45px;}
   .english-language .profile-point{padding-right: 5px;}
-  .english-language .request-private h1, .english-language .request-private-box button{margin-left: 10px;}
+  .english-language .request-private h1{font-size: 16px;}
   .english-language .checkout-radio{margin-right: 8px;}
   .english-language .back-btn{left: 15px; top: 5px;}
   .english-language  .video-play-list ul li { padding-right: 60px; padding-left: 60px;}
@@ -204,6 +206,8 @@
   .english-language .panel-title > a{padding-left: 10px; padding-right: 40px;}
   .english-language .delete-btn{right: 10px;} 
   .english-language .validation-pop-content{padding-left: 210px !important;}
+  .english-language .request-private-content{padding-left: 18px;}
+  .english-language .request-private-box button{min-width: 180px;}
 }
 
 

@@ -48,7 +48,6 @@
     .ad-banner-overlay p{font-size: 12px; margin-bottom: 8px;}
     .bt-secondary{font-size: 14px;}
     .sidebar{height: 94vh;}
-    .request-private h1, .request-private-box button{margin-right: 40px;}
     .quiz-number{width: 30px; height: 30px; line-height: 28px; font-size: 12px;}
     .rs-none{display: none;}
     .ds-none{display: inline-block;}
@@ -64,6 +63,7 @@
     .request-box .file{ margin: 0px; position: absolute; right: 8px; bottom: 8px;}
     .validation-pop button{margin-top: 40px;}
     #widgetMove{left: 95%;}
+    .request-private-box{padding: 25px 0px;}
 }
 
 /* small mobile :320px. */
@@ -80,7 +80,7 @@
     .ad-banner img{height: 230px;}
     .ad-banner-overlay{ width: 60%; left: 5%;}
     .request-private, .live-class, .prerecorded, .my-subscribed-courses, .live-class-details, .video-library-subscribed{padding: 15px 0px;}
-    .request-private h1{max-width: 100%; font-size: 14px; margin-bottom: 6px; line-height:24px; margin-right: 10px;}
+    .request-private h1{max-width: 100%; font-size: 16px; line-height:24px; margin-bottom: 10px;}
     footer{padding: 30px 0px;}
     .inner-heading .nav-tabs li a{min-width: 150px; margin: 15px 5px; padding: 8px;}
     .ad-two{margin: 30px 0px; margin-bottom: 5px;}
@@ -135,8 +135,7 @@
     .notification button{ top: -12px;}
     .notification button.markread{float: right;}
     .notification-box{margin: 15px; margin-top: 0px; padding: 10px;}
-    .request-private-box button{margin-right:10px; min-width: 110px; padding: 5px; font-size: 13px; height: 33px;}
-    .request-private-box img{height: 100px;}
+    .request-private-box button{ min-width: 150px;  height: 38px; font-size: 12px;}
     .pvt-icon2, .pvt-icon{width: 100px;}
     .quiz-radio{margin-bottom: 10px;}
     .ques-img, .ques-que{width: 100%;}
@@ -408,6 +407,9 @@
     .liveclass-feedbakpop p{font-size: 15px;}
     .liveclass-feedbakpop  .rating-video > label::before{font-size: 24px;}
     #widgetMove{left: 90%;}
+    .request-private-content{padding-right: 18px;}
+    .request-private-content h6{font-size: 14px; margin-bottom: 10px;}
+    .request-private-box{padding: 15px 0px;}
 
 
 }

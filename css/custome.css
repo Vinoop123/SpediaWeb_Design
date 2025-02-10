@@ -764,7 +764,7 @@ conic-gradient(#0DB2B2 0, #0DB2B2 18.3%, #75C091 0, #75C091 43.8%, #0DB2B2 0, #0
 /* select{box-shadow:none !important; outline:none; -moz-appearance: none !important; -webkit-appearance: none;
     background-image:url(../images/icons/expand_more-24px.svg) no-repeat center right;}
 .reserve-class select{background:url(../images/icons/expand_more-24px.svg) #f4f4f4 no-repeat center left;} */
-.request-private{padding: 60px 0px 30px;}
+.request-private{padding: 30px 0px 30px;}
 .request-box{border: 1px solid #E5E5EA; padding: 15px; border-radius: 8px; direction: ltr;  position: relative; margin-bottom: 30px;}
 .request-box p{margin:0px; font-size: 14px; color: var(--secondary-colour);}
 .request-box h5{color: #1a1a1a;}

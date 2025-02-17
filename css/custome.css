@@ -54,10 +54,10 @@ border-right: 2px solid #ededed;}
 .subject-content h5{color: #1A1A1A; line-height: 25px; font-size: 18px; margin: 0px; margin-bottom: 6px;}
 .subject-content img, .subject-content svg{margin-bottom: 10px; max-width: 33%;}
 .subject-bgm:hover{opacity: 0.3;}
-.math{background:#fffae6;}
+/* .math{background:#fffae6;}
 .math:hover{background:rgba(255, 250, 230, 0.8);}
 .arabic{background: #f7eefc;}
-.arabic:hover{background: rgba(247, 238, 252, 0.8);}
+.arabic:hover{background: rgba(247, 238, 252, 0.8);} */
 .english{background:#fff4e6;}
 .english:hover{background:rgba(255, 244, 230, 0.8);}
 .course{padding: 30px 0px 70px;}

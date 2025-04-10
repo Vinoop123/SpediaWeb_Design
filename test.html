@@ -15,6 +15,7 @@
   <link rel="stylesheet" type="text/css" href="css/custome.css">
   <link rel="stylesheet" type="text/css" href="css/custome-new.css">
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/dark-theme.css">
 
 
   <style>
@@ -56,13 +57,16 @@
 <body>
  
   <section class="pad-40">
-    <div class="container">
+    <div class="container"> 
       <div class="row">
         <div class="col-lg-3 mb-2">
           <button class="survey-form_open btn-primary"> Survey Form</button>
         </div>
         <div class="col-lg-3 mb-2">
           <button class="notificationEnable_open btn-secondary"> Notification Enabled Popup</button>
+        </div>
+        <div class="col-lg-3 mb-2">
+          <button class="btn btn-danger district-pop_open"> District Popup</button>
         </div>
       </div>
     </div>
@@ -126,6 +130,24 @@
      <button class="btn-primary notificationEnable_close"> فعلهم الحين </button>
      <h5 class="notificationEnable_close"> فعلهم بعدين </h5>
   </section>
+
+  <section id="district-pop" class="district-popup">
+    <div class="district-close district-pop_close"> <i class="fas fa-times"></i></div>
+    <div class="district-title">
+      <h5> يرجى تحديث المنطقة التعليمية </h5>
+    </div>
+    <div class="district-content">
+      <img src="images/boy-location.png">
+      <div class="form-group">
+        <label> المنطقة التعليمية </label>
+        <select>
+          <option> --الاختيارات-- </option>
+          <option> Kuwait </option>
+        </select>
+      </div>
+    </div>
+    <button class="btn-primary district-pop_close"> موافق </button>
+ </section>
   
   <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -137,7 +159,7 @@
 
 <script>
     $(document).ready(function() {
-            $('#survey-form, #notificationEnable').popup({ pagecontainer: '.container', transition: 'all 0.3s', scrolllock:true, blur: false });
+            $('#survey-form, #notificationEnable, #district-pop').popup({ pagecontainer: '.container', transition: 'all 0.3s', scrolllock:true, blur: false });
             $('.survey-true button').click(function() {
                 $('.survey-true button').removeClass('highlight')
                 $(this).addClass('highlight');

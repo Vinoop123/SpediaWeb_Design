@@ -770,7 +770,7 @@ margin: 0px 5px;}
 font-size: 16px;}
 .new-login label{margin-bottom: 15px; font-size: 18px;}
 .new-login .form-group{margin-bottom: 30px; position: relative;}
-.btn-primary{width: 100%; height: 60px; border-radius: 6px; font-size: 18px; font-weight: 700; color: var(--white); background: var(--primary-colour);
+.btn-primary{width: 100%; height: 50px; border-radius: 6px; font-size: 18px; font-weight: 700; color: var(--white); background: var(--primary-colour);
 border: none; box-shadow: none; outline: none;}
 .btn-primary:hover, .btn-primary:focus{ background: var(--secondary-colour); box-shadow: none;}
 .btn-secondary{width: 100%; height: 60px; border-radius: 6px; font-size: 18px; font-weight: 700; color: var(--secondary-colour); background: none;
@@ -909,13 +909,22 @@ width: 300px; height: 450px;  box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 40px; bord
 #widgetMove{position: fixed; cursor: grab; left: 97%; top: 95%; z-index: 999999;}
 .request-private-content{padding-right: 50px;}
 .request-private-content h6{margin-bottom: 15px;}
-
+.district-popup{width: 100%; max-width: 380px; border-radius: 10px; padding: 20px; background: var(--white); text-align: right !important;
+position: relative; overflow: hidden;}
+.district-title h5{font-size: 18px; color: var(--primary-colour); text-align: center !important;}
+.district-title{border-bottom: 1px solid var(--light-grey); padding-bottom: 15px;}
+.district-close{position: absolute; left: 15px; top: 15px; color: var(--dark2); cursor: pointer;}
+.district-content{padding-top: 20px;}
+.district-content img{ max-height: 150px; display: block; margin: 0 auto; margin-bottom: 20px;}
+.district-content select{width: 100%; height: 50px; border-radius: 6px; border: 1px solid var(--light-grey); padding: 10px; outline: none;}
+.district-content label{margin-bottom: 15px;} 
 
 :root {
     --primary-colour: #0DAFAF;
     --white: #fff;
     --secondary-colour:#1B5967;
     --dark:#000;
+    --dark2:#28303F;
     --light-dark:#ddd;
     --light-grey:#E1EBEC;
     --green: #4CD964;

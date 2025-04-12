@@ -496,15 +496,15 @@ top: -48px; left: 0px; cursor: pointer;}
 #story-pop_background{opacity: 0.80 !important;}
 .story-view{position: fixed; left: 0; top: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.90); z-index: 444444; height: 100vh; display: none;}
 .story-flow{overflow: hidden;}
-.story-content{width: 100%; max-width: 500px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.story-content{width: 100%; max-width: 400px; position: absolute; left: 50%; transform: translate(-50%, 10%); height: 100%; max-height: 90vh;}
 .story-dp{color: var(--white);  margin-bottom: 15px; position: relative; padding-right: 70px;}
-.story-dp p{margin: 0px;}
+.story-dp p{margin: 0px;} 
 .notification-day{  margin-bottom: 20px;}
 .story-close-icon{position: absolute; left: 10px; top: 10px; }
 .story-close-icon i{width: 50px; height: 50px; line-height: 50px; text-align: center; background: #232323; border-radius: 50%; color: var(--white);
 cursor: pointer; font-size: 20px;}
 .story-carousel .disabled{ display: none;}
-.story-carousel video, .story-carousel img{width: 100%; height: 500px; object-fit: cover;}
+.story-carousel video, .story-carousel img{width: 100%; height: 100%; object-fit: cover;}
 .story-carousel .owl-dots{display: flex;}
 .story-carousel .owl-dots .owl-dot{ -ms-flex-preferred-size: 0;  flex-basis: 0;  -ms-flex-positive: 1;  flex-grow: 1;  min-width: 0; max-width: 100%;
 border-radius: 0; width: inherit; height: 4px; border-radius: 4px;}
@@ -918,6 +918,7 @@ position: relative; overflow: hidden;}
 .district-content img{ max-height: 150px; display: block; margin: 0 auto; margin-bottom: 20px;}
 .district-content select{width: 100%; height: 50px; border-radius: 6px; border: 1px solid var(--light-grey); padding: 10px; outline: none;}
 .district-content label{margin-bottom: 15px;} 
+.story-carousel .owl-stage-outer{ width: 100%; max-width: 400px; height: 100%; max-height: 90vh; overflow: hidden; background: #0F1217;}
 
 :root {
     --primary-colour: #0DAFAF;

@@ -145,7 +145,12 @@ hr{border-color: var(--border-colour);}
 .dark-theme .district-title{border-color: var(--border-colour);}
 .dark-theme .district-close{color: var(--border-colour);}
 .dark-theme .district-content select{border-color: var(--border-colour); background: var(--dark-secondary); color: var(--white);}
- 
+.dark-theme .select-class-title i{background: #202631; color: #94A0A0;}
+.dark-theme .chat-welcome-message{color: #94A0A0; background: rgba(13, 175, 175, 0.10);}
+.dark-theme .ai-side{background: #202631;}
+.dark-theme .btn-second{border-color: #202631; background: #141920; color: #94A0A0;}
+.dark-theme .chat-date{color: #94A0A0;}
+.dark-theme .chat-typing input{border-color: #202631;}
 
 @media (max-width: 840px) {
 

@@ -410,6 +410,17 @@
     .request-private-content{padding-right: 18px;}
     .request-private-content h6{font-size: 14px; margin-bottom: 10px;}
     .request-private-box{padding: 15px 0px;}
+    .chat-welcome-message{padding: 10px 15px; margin-bottom: 15px;}
+    .chat-welcome-message h4{font-size: 16px;}
+    .ai-side{padding: 8px 10px;}
+    .ai-side p, .reply-side p{font-size: 16px; line-height: 26px;}
+    .select-grade-box{margin: 15px 0px; gap: 8px;}
+    .btn{height: 41px;}
+    .btn-second{font-size: 14px;  padding: 5px 14px;}
+    .reply-side-box{margin-top: 15px;}
+    .reply-side{margin-bottom: 15px; padding: 8px 10px;}
+    .chat-date{font-size: 14px;}
+    .chat-typing input{width: 73%; font-size: 15px;}
 
 
 }

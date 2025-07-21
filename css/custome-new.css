@@ -919,6 +919,34 @@ position: relative; overflow: hidden;}
 .district-content select{width: 100%; height: 50px; border-radius: 6px; border: 1px solid var(--light-grey); padding: 10px; outline: none;}
 .district-content label{margin-bottom: 15px;} 
 .story-carousel .owl-stage-outer{ width: 100%; max-width: 400px; height: 100%; max-height: 90vh; overflow: hidden; background: #0F1217;}
+.select-class-title { display: flex; gap: 24px; align-items: center;  margin-bottom: 40px;}
+.ps-relative{position: relative;}
+.select-class-title i { width: 40px;  height: 40px;  display: flex;  justify-content: center;  align-items: center;  border-radius: 50%;
+background: #EFEFEF; color: #7886AF;}
+.select-class-title h2 { font-weight: 900; margin: 0px;}
+.pt-50{padding-top: 50px;}
+.chat-welcome-message{ background: #E8FFFF; color: #7886AF; padding: 20px; text-align: center; margin-bottom: 30px; }
+.chat-welcome-message h4{margin: 0px;}
+.ai-side{background: #EFEFEF; padding: 16px; border-radius: 20px; border-top-left-radius: 0px; width: 100%; max-width: 900px;}
+.ai-side p{font-size: 20px; margin: 0px; line-height: 32px;}
+.select-grade-box{ display: flex;flex-wrap: wrap; gap: 16px; align-items: center; margin-top: 25px; margin-bottom: 25px;}
+.btn{ height: 56px; border-radius: 30px;}
+.btn-second { border: 1px solid #7886AF; border-radius: 30px; height: 54px; background: #fff; color: #7886AF;
+font-size: 16px;padding: 5px 24px;font-weight: 600;}
+.btn-second:hover, .btn-second.active { border-color: #0DAFAF;  color: #0DAFAF; }
+.chat-date{color: #7886AF; font-size: 18px; display: block;}
+.reply-side-box{width: 100%; display: flex; justify-content: end; margin-top: 30px; flex-wrap: wrap;}
+.reply-side{ background: #0DAFAF; padding: 16px; border-radius: 20px; border-top-right-radius: 0px; width: 100%; max-width: 900px; display: flex;
+justify-content: end; margin-bottom: 20px; }
+.reply-side p{font-size: 20px; margin: 0px; line-height: 32px; color: #fff;}
+.reply-side-box .chat-date{display: flex; justify-content: end; width: 100%;}
+.chat-typing{position: fixed; bottom: 30px; width: 100%; max-width: 1110px; z-index: 2; display: flex; gap: 16px;}
+.chat-typing input{width: 94%; border-radius: 30px; border: 1px solid #EFEFEF; padding: 10px 20px; height: 56px; background: #fff;
+font-size: 18px;}
+.send-button{width: 56px; height: 56px; border-radius: 50%; border: 2px solid rgba(255, 255, 255, 0.11);
+background: linear-gradient(to bottom, #0DAFAF, #67DEDE);}
+
+
 
 :root {
     --primary-colour: #0DAFAF;

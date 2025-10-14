@@ -945,7 +945,13 @@ justify-content: end; margin-bottom: 20px; }
 font-size: 18px;}
 .send-button{width: 56px; height: 56px; border-radius: 50%; border: 2px solid rgba(255, 255, 255, 0.11);
 background: linear-gradient(to bottom, #0DAFAF, #67DEDE);}
-
+.dp-tabs{padding: 0px; border-bottom: 1px solid #E3E3E3; margin-bottom: 20px;}
+.dp-tabs .nav-link, .dp-tabs .nav-link.active{background: none; border: none;}
+.dp-tabs .nav-link{padding: 0px 20px 15px 20px; font-size: 22px; color: var(--black);}
+.dp-tabs li.active .nav-link{border-bottom: 1px solid var(--primary-colour); color: var(--primary-colour); font-weight: 700;}
+.input{margin-bottom: 20px;}
+.verification-input { display: flex; align-items: center; gap: 16px;}
+.verification-input input { width: calc(100%/4); text-align: center;}
 
 
 :root {

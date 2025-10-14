@@ -59,15 +59,37 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
-                    <h1> تسجيل الدخول </h1>
-                    <div class="form-group">
-                        <label> اسم المستخدم </label>
-                        <input type="text" placeholder="ex: spedy">
-                    </div>
-                    <div class="form-group">
-                        <label> كلمة السر </label>
-                        <input type="password" id="password-field" placeholder="ex: a6543210">
-                        <span toggle="#password-field" class="fa fa-fw field-icon toggle-password fa-eye" onclick="togglePassword()"></span>
+                    <h1>  تسجيل دخول او جديد برقم الجوال </h1>
+                    <ul class="nav nav-tabs dp-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" data-toggle="tab" data-target="#mobile" type="button" role="tab" aria-selected="false" tabindex="-1"> رقم الجوال </button>
+                        </li>
+                        <li class="nav-item active" role="presentation">
+                            <button class="nav-link" data-toggle="tab" data-target="#user" type="button" role="tab" aria-selected="true"> اسم المستخدم </button>
+                        </li>
+                    </ul>
+                    <div class="tab-modal-content">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane" id="mobile" role="tabpanel">
+                                <form class="input">
+                                    <label> رقم الجوال </label>
+                                    <div class="form-item">
+                                        <input id="phone" name="phone" type="tel" placeholder="ex: 56571747">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane active" id="user" role="tabpanel">
+                                <div class="form-group">
+                                    <label> اسم المستخدم </label>
+                                    <input type="text" placeholder="ex: spedy">
+                                </div>
+                                <div class="form-group">
+                                    <label> كلمة السر </label>
+                                    <input type="password" id="password-field" placeholder="ex: a6543210">
+                                    <span toggle="#password-field" class="fa fa-fw field-icon toggle-password fa-eye" onclick="togglePassword()"></span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <a href="index.html"> <button class="btn-primary"> الدخول </button></a>
                     <a href="create-account.html"> <button class="btn-secondary"> تسجيل جديد </button></a>

@@ -60,7 +60,7 @@
     max-height: 430px;
     width: 330px;
     direction: ltr;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     -webkit-overflow-scrolling: touch; left: 0; }
     .iti__country-list--dropup {
       bottom: 100%;

@@ -61,7 +61,7 @@
     width: 330px;
     direction: ltr;
     overflow-y: scroll;
-    -webkit-overflow-scrolling: touch; }
+    -webkit-overflow-scrolling: touch; left: 0; }
     .iti__country-list--dropup {
       bottom: 100%;
       margin-bottom: -1px; }
@@ -89,14 +89,14 @@
   .iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel] {
     padding-right: 10px;
     padding-left: 0px !important;
-    height: 60px; float: left; width: 77%;
+    height: 60px; width: 77%;
     border-radius: 6px; border: 1px solid #f4f4f4;
     margin-left: 0; direction: ltr; text-align: right;}
 /*.iti--separate-dial-code input[type=tel]:focus{border: 2px solid #1258ff;     -webkit-box-shadow: 0 0 0 3px rgba(66,153,225,.2);
     box-shadow: 0 0 0 3px rgba(66,153,225,.2);}*/
   .iti--allow-dropdown .iti__flag-container, .iti--separate-dial-code .iti__flag-container {
     right: auto;
-    /*left: 0; */}
+    left: 0;}
   .iti--allow-dropdown .iti__flag-container:hover {
     cursor: pointer; }
   .iti--allow-dropdown input[disabled] + .iti__flag-container:hover,

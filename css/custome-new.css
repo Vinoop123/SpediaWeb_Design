@@ -30,10 +30,10 @@ color: var(--white); border-radius: 6px; font-weight: 700; box-shadow:7px 7px 20
 .request-private h1{ margin-bottom: 15px; line-height: 40px; font-size: 24px; color: var(--primary-colour);}
 /* .request-private img{ width: 100%; } */
 .live-class{padding: 20px 0px; background: rgba(13, 178, 178, 0); }
-.live-course-box, .prerecorded-box{background: var(--white); border-radius: 8px; box-shadow:7px 7px 7px 0px rgba(50, 50, 50, 0.06);}
-.live-course-box-img, .prerecorded-box-img{border-radius: 8px; overflow: hidden; position: relative;}
-.live-course-box-img img{height: 180px; object-fit: cover; width: 100%; transition: all 0.3s ease-in;}
-.live-course-box:hover .live-course-box-img img{transform:scale(1.5);}
+.live-course-box, .prerecorded-box{background: var(--white); border-radius: 8px; box-shadow:7px 7px 7px 0px rgba(50, 50, 50, 0.06); padding: 10px;}
+.live-course-box-img, .prerecorded-box-img{border-radius: 8px; position: relative;}
+.live-course-box-img img{object-fit: cover; max-width: 180px; transition: all 0.3s ease-in; margin: 0 auto;}
+.live-course-box:hover .live-course-box-img img{transform:scale(1.2);}
 .live-course-box-content, .prerecorded-box-content{padding: 15px;}
 .live-course-box-content h5, .prerecorded-box-content h5{font-size: 15px; color: #000; font-weight: 700; line-height: 24px;}
 .live-course-box-content h5:hover, .prerecorded-box-content h5:hover{color: var(--primary-colour);}
@@ -52,10 +52,10 @@ width: 40px; line-height: 42px;}
 .owl-nav .owl-next { left: auto; right: -17px;}
 .prerecorded{padding: 20px 0px; }
 .prerecorded-box{margin-bottom: 30px;}
-.prerecorded-box, .prerecorded-box-img{border-radius: 6px;}
+.prerecorded-box {border-radius: 6px; padding: 10px; text-align: center;}
 .prerecorded-box-content p{margin: 0px;}
-.prerecorded-box-img img{height: 150px; object-fit: cover; width: 100%; transition: all 0.3s ease-in; border-radius: 6px;}
-.prerecorded-box:hover .prerecorded-box-img img{transform:scale(1.5);}
+.prerecorded-box-img img{ object-fit: cover; max-width: 180px; margin: 0 auto; transition: all 0.3s ease-in; border-radius: 6px;}
+.prerecorded-box:hover .prerecorded-box-img img{transform:scale(1.2);}
 .prerecorded-box-content p img{margin-top: -4px;}
 footer{background: #1D4F57; text-align: center;}
 footer img{filter: brightness(0) invert(1); margin-bottom: 20px;}

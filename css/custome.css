@@ -1035,9 +1035,9 @@ filter: brightness(0) invert(1);}
 .form-control:focus{box-shadow: none; outline: none; border-color: #ddd;}
 .timeline-filter button{background:#0DB2B2; color:#fff; font-weight: 700; width: 100%; border:none; border-radius: 30px; margin-top: 10px; padding: 12px 20px; font-size: 16px; box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.2);}
 .timeline-filter button:hover{background:#1D4F57;}
-.cart-price-radio{position: relative; width:80px; height: 40px; display: inline-block; opacity: 1 !important; margin-top: 10px; cursor: pointer; direction: ltr; text-align: center; margin-bottom: 0px;}
+.cart-price-radio{position: relative; width:160px; height: 40px; display: inline-block; opacity: 1 !important; margin-top: 10px; cursor: pointer; direction: ltr; text-align: center; margin-bottom: 0px;}
 .cart-price-radio input {position: absolute;opacity: 0; cursor: pointer;}
-.cart-price-radio .checkmark {position: absolute;top: 0;left: 0; height: 40px;width: 80px; border:1px solid #bfbfbf; border-radius: 5px;  padding: 5px;}
+.cart-price-radio .checkmark {position: absolute;top: 0;left: 0; height: 40px;width: 100%; border:1px solid #bfbfbf; border-radius: 5px;  padding: 5px;}
 .cart-price-radio:hover input ~ .checkmark {border:1px solid var(--primary-colour);}
 .cart-price-radio input:checked ~ .checkmark {border-color: var(--primary-colour);}
 .cart-price-radio h6{color:#979797; font-size:14px; margin: 0px; font-weight: 700;}
@@ -1255,6 +1255,7 @@ font-weight: 700; background: var(--primary-colour); color: var(--white);}
     -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 20px rgb(0 0 0 / 15%);}
 .profile-point{ background: #0DB2B2; border: 1px solid #0DB2B2; padding: 2px; color: #fff; border-radius: 30px; padding-left: 10px; display: inline-block;}
 .profile-point strong{font-weight: 700; font-size: 16px;}
+.my-cart .alert{margin-top: 5px;}
 
 @media screen and (min-width: 1024px) and (max-width:1150px){
     .my-cart input, .my-cart .offer p{font-size: 12px;}
@@ -1572,6 +1573,7 @@ font-weight: 700; background: var(--primary-colour); color: var(--white);}
     .course-details ul li{max-width: 290px;}
     .course-details ul li span{left: -30px;}
     .topic-box-time{position: relative; left: 0px; margin-top: 8px;}
+    .cart-price-radio{width: 100%;}
     
 }
 

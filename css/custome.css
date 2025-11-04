@@ -405,7 +405,6 @@ position: absolute; left: 0px; top: 0px;}
 .my-cart h6{margin-bottom:15px; font-size:18px;}
 .my-cart h1{font-weight: 700; margin-bottom: 20px; font-size: 20px;}
 .my-cart h1 strong{color:#0DB2B2;}
-.my-cart h1 span{float: left;}
 .my-cart button{background:#0DB2B2; width:100%; color:#fff;letter-spacing: 0.32px; padding: 10px; font-weight: 700; border:none; height: 50px; border-radius:8px; font-size:15px;}
 .my-cart button:hover{background:#1B615F;}
 .next-btn{width: 20% !important; border-radius:5px !important;}
@@ -1045,7 +1044,7 @@ filter: brightness(0) invert(1);}
 .cart-price-radio input:checked ~ .checkmark h6, .cart-price-radio:hover input ~ .checkmark h6 {color: var(--primary-colour) !important; font-weight: 700;}
 .cart-price-radio h6 span{font-size: 12px; font-weight: 300;}
 .cart-page strong{color: #FF3B30; font-size: 12px;}
-.my-cart h6 span{float: left;}
+.my-cart h6 span{ margin-right: 10px;}
 .my-cart .form-group{margin-bottom: 40px;}
 .my-cart .register-terms p{font-size: 16px; font-weight: 700; color: #000;}
 .my-cart .register-terms p span{color: var(--primary-colour);}

@@ -61,7 +61,7 @@
 .english-language .select-grade .form-group, .english-language .my-cart h6, .english-language .my-cart h1{text-align: left !important;}
 .english-language .my-cart .offer{left: auto; right: 27%;}
 .english-language .my-cart .form-group i{left: auto; right: 23%;}
-.english-language .my-cart h6 span, .english-language .my-cart h1 span{float: right;}
+.english-language .my-cart h6 span, .english-language .my-cart h1 span{ margin-left: 10px; margin-right: 0px;}
 .english-language .cart-item-price{left: auto; right: 8px;}
 .english-language .timeline-filter{text-align: left !important;}
 .english-language .timeline-filter i{left: auto; right: 20px;}

@@ -313,7 +313,7 @@ border-radius: 30px;}
 .welcome{ padding: 50px 0px 80px;}
 .welcome h1{text-align: center; margin-bottom: 30px;}
 .welcome h5{text-align: center; margin-bottom: 40px;}
-.profile-point img{width: 44px; height: 44px; border: 2px solid var(--white); border-radius: 50%;}
+.profile-point img{width: 44px; height: 44px; border: 2px solid var(--white); border-radius: 50%; object-fit: cover;}
 .panel-body h5 img{max-width: 24px; background: #E1EBEC; padding: 3px; border-radius: 50%; position: absolute; left: 0px; top: 4px;}
 .quiz-icon2{position: absolute; left: 80px; right: auto; height: 20px;}
 .book2{position: absolute; left: 55px; right: auto; height: 16px; top: 11px;}
@@ -953,6 +953,8 @@ background: linear-gradient(to bottom, #0DAFAF, #67DEDE);}
 .verification-input { display: flex; align-items: center; gap: 16px;}
 .verification-input input { width: calc(100%/4); text-align: center;}
 .video-library .prerecorded-box{text-align: inherit;}
+.grid{display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;}
+.grid .prerecorded-box{box-shadow: none; border: 1px solid var(--light-dark); margin: 0px;}
 
 :root {
     --primary-colour: #0DAFAF;

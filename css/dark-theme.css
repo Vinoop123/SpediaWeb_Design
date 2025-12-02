@@ -152,6 +152,7 @@ hr{border-color: var(--border-colour);}
 .dark-theme .chat-date{color: #94A0A0;}
 .dark-theme .chat-typing input{border-color: #202631;}
 .dark-theme .dp-tabs{border-color: var(--dark-secondary);}
+.dark-theme .grid .prerecorded-box{border-color: var(--dark-secondary);}
 
 @media (max-width: 840px) {
 
